@@ -1,5 +1,6 @@
 import { ref } from "vue";
-import { getSchools, type ApiSchoolsParams } from "@/api/schools";
+import { querySchools } from "@/api/schools/schools";
+import { type ApiSchoolsParams } from "@/api/schools/schools.types";
 
 export function useSchools() {
   const schools = ref([]);
@@ -11,7 +12,7 @@ export function useSchools() {
     error.value = null;
 
     try {
-      schools.value = await getSchools(params);
+      schools.value = await querySchools(params);
     } catch (err) {
       error.value = err;
     } finally {

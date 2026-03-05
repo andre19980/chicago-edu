@@ -1,20 +1,20 @@
 <script setup lang="ts">
-import { onBeforeMount } from 'vue';
+import { onMounted } from 'vue';
 import TheWelcome from '../components/TheWelcome.vue'
 import { useSchools } from '@/composables/useSchools';
 
 const { fetchSchools, schools } = useSchools();
 
-onBeforeMount(() => {
-  fetchSchools();
+onMounted(() => {
+  fetchSchools({ fields: ["school_id", "short_name", 'school_type', 'zip'] });
 });
-
-console.log(schools.value);
 
 </script>
 
 <template>
   <main>
     <TheWelcome />
+    <p>{{ schools.length }} schools found.</p>
+    {{ schools }}
   </main>
 </template>
