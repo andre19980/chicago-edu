@@ -1,7 +1,7 @@
 export interface ApiSchoolsParams {
   fields: string[];
-  pageNumber?: number;
-  pageSize?: number;
+  pageNumber: number;
+  pageSize: number;
 }
 
 export interface SchoolData {
@@ -120,14 +120,14 @@ export interface SchoolData {
   schoolSurveySchoolCommunity: string
   schoolSurveyParentTeacher: string
   schoolSurveyQualityOf: string
-  studentAttendanceYear1: number
-  studentAttendanceYear2: number
-  studentAttendanceAvgPct: number
-  teacherAttendanceYear1: number
-  teacherAttendanceYear2: number
+  studentAttendanceYear1: string
+  studentAttendanceYear2: string
+  studentAttendanceAvgPct: string
+  teacherAttendanceYear1: string
+  teacherAttendanceYear2: string
   teacherAttendanceAvgPct: number
-  oneYearDropoutRateYear: number
-  oneYearDropoutRateYear1: number
+  oneYearDropoutRateYear: string
+  oneYearDropoutRateYear1: string
   oneYearDropoutRateAvg: number
   otherMetricsYear1: number
   otherMetricsYear2: number
@@ -135,9 +135,9 @@ export interface SchoolData {
   freshmenOnTrackCpsPct: number
   freshmenOnTrackSchool1: number
   freshmenOnTrackCpsPct1: number
-  graduation4YearSchool: number
+  graduation4YearSchool: string
   graduation4YearCpsPct: number
-  graduation4YearSchool1: number
+  graduation4YearSchool1: string
   graduation4YearCpsPct1: number
   graduation5YearSchool: number
   graduation5YearCpsPct: number
