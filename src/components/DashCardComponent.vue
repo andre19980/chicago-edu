@@ -12,7 +12,7 @@ const { value, label, icon, hasInfo = false } = defineProps<{
 
 <template>
   <div class="bg-white w-full h-32 rounded-sm shadow-sm flex flex-col p-4">
-      <div class="flex items-center text-gray-700">
+    <div class="flex items-center text-gray-700">
       <component :is="icon" class="mr-2 shrink-0 hidden md:block" />
       <p class="uppercase text-sm">{{ label }}</p>
 

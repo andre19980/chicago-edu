@@ -2,6 +2,28 @@ import { ref, computed, onMounted } from "vue";
 import { querySchools } from "@/api/schools/schools";
 import { type ApiSchoolsParams, type SchoolData } from "@/api/schools/schools.types";
 
+const SCHOOL_TYPES_LABELS: Record<string, string> = {
+  "Neighborhood": "Escola de Bairro",
+  "Charter": "Charter",
+  "Citywide-Option": "Opção Municipal",
+  "Magnet": "Escola Magnet",
+  "Regional gifted center": "Centro de Talentos Regional",
+  "Small": "Escola Pequena",
+  "Contract": "Escola de Contrato",
+  "Career academy": "Academia de Carreira",
+  "Special Education": "Educação Especial",
+  "Military academy": "Academia Militar",
+  "Classical": "Clássica",
+  "Virtual": "Virtual",
+  "Selective enrollment": "Inscrição Seletiva",
+};
+
+const SCHOOL_CATEGORIES_LABELS: Record<string, string> = {
+  ES: "Elementary School",
+  MS: "Middle School",
+  HS: "High School",
+};
+
 export function useDashboardView() {
   const schools = ref([]);
   const isLoading = ref(false);
@@ -35,6 +57,7 @@ export function useDashboardView() {
         "one_year_dropout_rate_year_1",
         "graduation_4_year_school",
         "graduation_4_year_school_1",
+        "blue_ribbon_award_year",
       ],
       pageSize: 5000,
       pageNumber: 1
@@ -50,13 +73,24 @@ export function useDashboardView() {
     
     schools.value.forEach((school: SchoolData) => {
       const category = school.primaryCategory;
+      const labelCategory = SCHOOL_CATEGORIES_LABELS[category];
 
-      if (category) {
-        distribution[category] = (distribution[category] || 0) + 1;
+      if (labelCategory) {
+        distribution[labelCategory] = (distribution[labelCategory] || 0) + 1;
       }
     });
 
-    return distribution;
+    const data = {
+      labels: Object.keys(distribution),
+      datasets: [
+        {
+          backgroundColor: ['#41B883', '#E46651', '#00D8FF'],
+          data: Object.values(distribution)
+        }
+      ]
+    };
+
+    return data;
   });
 
   const schoolTypesDistribution = computed(() => {
@@ -64,13 +98,39 @@ export function useDashboardView() {
 
     schools.value.forEach((school: SchoolData) => {
       const type = school.schoolType;
+      const labelType = SCHOOL_TYPES_LABELS[type];
 
-      if (type) {
-        distribution[type] = (distribution[type] || 0) + 1;
+      if (labelType) {
+        distribution[labelType] = (distribution[labelType] || 0) + 1;
       }
     });
 
-    return distribution;
+    const data = {
+      labels: Object.keys(distribution),
+      datasets: [
+        {
+          label: '',
+          backgroundColor: [
+            '#4E79A7',
+            '#F28E2B',
+            '#E15759',
+            '#76B7B2',
+            '#59A14F',
+            '#EDC948',
+            '#B07AA1',
+            '#FF9DA7',
+            '#9C755F',
+            '#BAB0AC',
+            '#2F6B8A',
+            '#F4A261',
+            '#8AB17D',
+          ],
+          data: Object.values(distribution)
+        }
+      ]
+    };
+
+    return data;
   });
 
   const studentAttendanceAvgPct = computed(() => {
