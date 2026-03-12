@@ -20,7 +20,7 @@ import IconDesc from "@/components/icons/IconDesc.vue";
 import { type SchoolTable } from "@/types/Schools";
 
 import { formatUSPhoneNumber } from "@/utils/formatters/formatters";
-import { SCHOOL_TYPES_LABELS } from "@/utils/mappers/schools";
+import { SchoolTypesLabels } from "@/utils/mappers/schools";
 
 const props = defineProps<{
   data: SchoolTable[]
@@ -49,7 +49,7 @@ const columns = [
     header: () => "Tipo de Escola",
     footer: props => props.column.id,
     enableSorting: false,
-    cell: data => SCHOOL_TYPES_LABELS[data.getValue()]
+    cell: data => SchoolTypesLabels[data.getValue()]
   }),
   columnHelper.accessor("primaryCategory", {
     header: () => "Categoria",

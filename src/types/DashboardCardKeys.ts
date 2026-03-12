@@ -1,11 +1,3 @@
-export type DashboardCardKey = 
-  "schoolCategories"
-  | "schoolTypes"
-  | "blueRibbonAward"
-  | "chronicTruancy"
-  | "mobilityRate"
-
-
 export enum DashboardCardKeys {
   schoolCategories = "schoolCategories",
   schoolTypes = "schoolTypes",

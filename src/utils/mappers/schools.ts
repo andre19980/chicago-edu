@@ -1,6 +1,6 @@
-import { type DashboardCardKey, DashboardCardKeys } from "@/types/DashboardCardKeys";
+import { DashboardCardKeys } from "@/types/DashboardCardKeys";
 
-export const SCHOOL_TYPES_LABELS: Record<string, string> = {
+export const SchoolTypesLabels: Record<string, string> = {
   "Neighborhood": "Escola de Bairro",
   "Charter": "Charter",
   "Citywide-Option": "Opção Municipal",
@@ -16,7 +16,7 @@ export const SCHOOL_TYPES_LABELS: Record<string, string> = {
   "Selective enrollment": "Inscrição Seletiva",
 };
 
-export const SCHOOL_CATEGORIES_LABELS: Record<string, string> = {
+export const SchoolCategoriesLabels: Record<string, string> = {
   ES: "Elementary School",
   MS: "Middle School",
   HS: "High School",

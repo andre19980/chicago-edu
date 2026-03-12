@@ -1,17 +1,16 @@
 <script setup lang="ts">
 import type { Component } from "vue";
 import IconInfo from "@/components/icons/IconInfo.vue";
-import type { DashboardCardKey } from "@/types/DashboardCardKeys";
 
 const { value, label, icon, cardKey } = defineProps<{
   label: string;
   value: number | string;
   icon: Component | string;
-  cardKey?: DashboardCardKey;
+  cardKey?: string;
 }>();
 
 const emit = defineEmits<{
-  (e: 'clickInfo', key?: DashboardCardKey): void
+  (e: 'clickInfo', key?: string): void
 }>()
 </script>
 

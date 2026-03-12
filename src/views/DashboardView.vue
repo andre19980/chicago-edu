@@ -8,7 +8,6 @@ import IconTrendingUp from "@/components/icons/IconTrendingUp.vue";
 import IconTrendingDown from "@/components/icons/IconTrendingDown.vue";
 import DashCardChart from "@/components/cards/DashCardChart.vue";
 import DashCardBigIcon from "@/components/cards/DashCardBigIcon.vue";
-import BlueRibbonSrc from "@/assets/blue-ribbon.png";
 import IconPersonTransfer from "@/components/icons/IconPersonTransfer.vue";
 import IconPersonOut from "@/components/icons/IconPersonOut.vue";
 import ModalComponent from "@/components/modals/ModalComponent.vue";
@@ -17,6 +16,8 @@ import { useDashboardView } from "@/composables/useDashboardView";
 import { useDashboardModal } from "@/composables/useDashboardModal";
 
 import { DashboardCardKeys } from "@/types/DashboardCardKeys";
+
+import BlueRibbonSrc from "@/assets/blue-ribbon.png";
 
 const {
   numberOfSchools,
@@ -78,7 +79,7 @@ const {
       <DashCardBigIcon
         :value="blueRibbonAwardCount" 
         label="Número de escolas vencedoras do Blue Ribbon" 
-        :icon="BlueRibbonSrc" 
+        :icon="BlueRibbonSrc"
         :cardKey="DashboardCardKeys.blueRibbonAward"
         @click-info="openModal"
       />

@@ -1,7 +1,7 @@
 import { ref, computed, onMounted } from "vue";
 import { querySchools } from "@/api/schools/schools";
 import { type ApiSchoolsParams, type SchoolData } from "@/api/schools/schools.types";
-import { SCHOOL_CATEGORIES_LABELS, SCHOOL_TYPES_LABELS } from "@/utils/mappers/schools";
+import { SchoolCategoriesLabels, SchoolTypesLabels } from "@/utils/mappers/schools";
 
 export function useDashboardView() {
   const schools = ref([]);
@@ -54,7 +54,7 @@ export function useDashboardView() {
     
     schools.value.forEach((school: SchoolData) => {
       const category = school.primaryCategory;
-      const labelCategory = SCHOOL_CATEGORIES_LABELS[category];
+      const labelCategory = SchoolCategoriesLabels[category];
 
       if (labelCategory) {
         distribution[labelCategory] = (distribution[labelCategory] || 0) + 1;
@@ -79,7 +79,7 @@ export function useDashboardView() {
 
     schools.value.forEach((school: SchoolData) => {
       const type = school.schoolType;
-      const labelType = SCHOOL_TYPES_LABELS[type];
+      const labelType = SchoolTypesLabels[type];
 
       if (labelType) {
         distribution[labelType] = (distribution[labelType] || 0) + 1;
