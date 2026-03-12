@@ -1,7 +1,7 @@
 <template>
   <aside :class="[
     'flex flex-col min-h-full overflow-hidden bg-primary text-white transition-all delay-150 duration-300 ease-in fixed z-50 md:static md:z-0',
-    isOpen ? 'w-(--sidebar-width)' : 'w-20']"
+    isOpen ? 'min-w-(--sidebar-width) w-(--sidebar-width)' : 'min-w-20 w-20']"
   >
     <!-- Logo -->
     <div class="flex w-fit p-4">

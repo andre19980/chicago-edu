@@ -58,6 +58,8 @@ export function useDashboardView() {
         "graduation_4_year_school",
         "graduation_4_year_school_1",
         "blue_ribbon_award_year",
+        "chronic_truancy_pct",
+        "mobility_rate_pct",
       ],
       pageSize: 5000,
       pageNumber: 1
@@ -150,7 +152,7 @@ export function useDashboardView() {
       }
     })
     
-    return (sumAttendanceAvgPct / validSchoolsCount).toFixed(2);
+    return `${(sumAttendanceAvgPct / validSchoolsCount).toFixed(2)}%`;
   });
 
   const teacherAttendanceAvgPct = computed(() => {
@@ -170,7 +172,7 @@ export function useDashboardView() {
       }
     })
     
-    return (sumAttendanceAvgPct / validSchoolsCount).toFixed(2);
+    return `${(sumAttendanceAvgPct / validSchoolsCount).toFixed(2)}%`;
   });
 
   const oneYearDropoutRateAvg = computed(() => {
@@ -190,7 +192,7 @@ export function useDashboardView() {
       }
     })
 
-    return (sumDropoutRate / validSchoolsCount).toFixed(2);
+    return `${(sumDropoutRate / validSchoolsCount).toFixed(2)}%`;
   });
 
   const graduation4YearAvg = computed(() => {
@@ -210,7 +212,47 @@ export function useDashboardView() {
       }
     })
 
-    return (sumGraduation4Year / validSchoolsCount).toFixed(2);
+    return `${(sumGraduation4Year / validSchoolsCount).toFixed(2)}%`;
+  });
+
+  const blueRibbonAwardCount = computed(() => {
+    let count = 0;
+
+    schools.value.forEach((school: SchoolData) => {
+      if (school.blueRibbonAwardYear) {
+        count++;
+      }
+    });
+
+    return count;
+  });
+
+  const mobilityRateAvg = computed(() => {
+    let sumMobilityRate = 0;
+    let validSchoolsCount = 0;
+
+    schools.value.forEach((school: SchoolData) => {
+      if (school.mobilityRatePct) {
+        sumMobilityRate += parseFloat(school.mobilityRatePct);
+        validSchoolsCount++;
+      }
+    });
+
+    return `${(sumMobilityRate / validSchoolsCount).toFixed(2)}%`;
+  });
+
+  const chronicTruancyAvg = computed(() => {
+    let sumChronicTruancy = 0;
+    let validSchoolsCount = 0;
+
+    schools.value.forEach((school: SchoolData) => {
+      if (school.chronicTruancyPct) {
+        sumChronicTruancy += parseFloat(school.chronicTruancyPct);
+        validSchoolsCount++;
+      }
+    });
+
+    return `${(sumChronicTruancy / validSchoolsCount).toFixed(2)}%`;
   });
 
   return {
@@ -224,5 +266,8 @@ export function useDashboardView() {
     teacherAttendanceAvgPct,
     oneYearDropoutRateAvg,
     graduation4YearAvg,
+    blueRibbonAwardCount,
+    mobilityRateAvg,
+    chronicTruancyAvg,
   };
 }

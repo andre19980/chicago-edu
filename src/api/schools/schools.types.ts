@@ -154,8 +154,8 @@ export interface SchoolData {
   progressTowardGraduation: number
   progressTowardGraduation1: number
   stateSchoolReportCard: string
-  mobilityRatePct: number
-  chronicTruancyPct: number
+  mobilityRatePct: string
+  chronicTruancyPct: string
   emptyProgressReportMessage: string
   schoolSurveyRating: string
   supportiveSchoolAward: string

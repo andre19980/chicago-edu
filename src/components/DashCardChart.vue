@@ -1,10 +1,15 @@
 <script setup lang="ts">
 import IconInfo from "@/components/icons/IconInfo.vue";
+import type { DashboardCardKey } from "@/types/DashboardCardKeys";
 
-const { label } = defineProps<{
+const { label, cardKey } = defineProps<{
   label: string;
+  cardKey?: DashboardCardKey;
 }>();
 
+const emit = defineEmits<{
+  (e: 'clickInfo', key?: string): void
+}>()
 </script>
 
 <template>
@@ -12,7 +17,7 @@ const { label } = defineProps<{
     <div class="flex w-full items-center justify-between text-gray-700">
       <p class="uppercase text-sm mb-2">{{ label }}</p>
 
-      <button class="ml-auto hover:cursor-pointer">
+      <button class="ml-auto hover:cursor-pointer" @click="emit('clickInfo', cardKey)">
         <IconInfo />
       </button>
     </div>
