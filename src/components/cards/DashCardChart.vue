@@ -8,7 +8,7 @@ const { label, cardKey } = defineProps<{
 }>();
 
 const emit = defineEmits<{
-  (e: 'clickInfo', key?: string): void
+  (e: 'clickInfo', key?: DashboardCardKey): void
 }>()
 </script>
 

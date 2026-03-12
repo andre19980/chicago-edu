@@ -1,13 +1,17 @@
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 import { querySchools } from "@/api/schools/schools";
 import { type ApiSchoolsParams } from "@/api/schools/schools.types";
+import camelcaseKeys from "camelcase-keys";
+
+import schoolsMocked from "@/assets/schools.json";
+import type { SchoolTable } from "@/types/Schools";
 
 export function useSchools() {
-  const schools = ref([]);
+  const schools = ref<SchoolTable[]>(camelcaseKeys(schoolsMocked) as SchoolTable[]);
   const isLoading = ref(false);
   const error = ref<unknown>(null);
 
-  const fetchSchools = async (params?: ApiSchoolsParams) => {
+  const getSchools = async (params?: ApiSchoolsParams) => {
     isLoading.value = true;
     error.value = null;
 
@@ -24,6 +28,6 @@ export function useSchools() {
     schools,
     isLoading,
     error,
-    fetchSchools
+    getSchools
   };
 }

@@ -8,9 +8,9 @@ const sidebarConfig = [
     route: '/',
   },
   {
-    name: 'Tables',
+    name: 'Escolas',
     iconComponent: IconTable,
-    route: '/about',
+    route: '/schools',
   },
 ];
 

@@ -1,28 +1,7 @@
 import { ref, computed, onMounted } from "vue";
 import { querySchools } from "@/api/schools/schools";
 import { type ApiSchoolsParams, type SchoolData } from "@/api/schools/schools.types";
-
-const SCHOOL_TYPES_LABELS: Record<string, string> = {
-  "Neighborhood": "Escola de Bairro",
-  "Charter": "Charter",
-  "Citywide-Option": "Opção Municipal",
-  "Magnet": "Escola Magnet",
-  "Regional gifted center": "Centro de Talentos Regional",
-  "Small": "Escola Pequena",
-  "Contract": "Escola de Contrato",
-  "Career academy": "Academia de Carreira",
-  "Special Education": "Educação Especial",
-  "Military academy": "Academia Militar",
-  "Classical": "Clássica",
-  "Virtual": "Virtual",
-  "Selective enrollment": "Inscrição Seletiva",
-};
-
-const SCHOOL_CATEGORIES_LABELS: Record<string, string> = {
-  ES: "Elementary School",
-  MS: "Middle School",
-  HS: "High School",
-};
+import { SCHOOL_CATEGORIES_LABELS, SCHOOL_TYPES_LABELS } from "@/utils/mappers/schools";
 
 export function useDashboardView() {
   const schools = ref([]);

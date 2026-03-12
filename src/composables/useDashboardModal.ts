@@ -1,11 +1,12 @@
 import { ref, computed } from "vue";
-import { DashboardInfoModalContents, type DashboardCardKey } from "@/types/DashboardCardKeys";
+import { DashboardInfoModalContents } from "@/utils/mappers/schools";
+import type { DashboardCardKey } from "@/types/DashboardCardKeys";
 
 export function useDashboardModal() {
   const isModalOpen = ref(false);
-  const cardKey = ref<string | undefined>();
+  const cardKey = ref<DashboardCardKey | undefined>();
 
-  const openModal = (key?: string) => {
+  const openModal = (key?: DashboardCardKey) => {
     cardKey.value = key
     isModalOpen.value = true;
   };

@@ -1,0 +1,6515 @@
+[
+    {
+        "school_id": "610053",
+        "short_name": "MARQUETTE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735359260",
+        "website": {
+            "url": "https://marquettemustangs.org/"
+        }
+    },
+    {
+        "school_id": "610051",
+        "short_name": "NORTHWEST",
+        "school_type": "Neighborhood",
+        "primary_category": "MS",
+        "phone": "7735343250",
+        "website": {
+            "url": "https://northwest.cps.edu"
+        }
+    },
+    {
+        "school_id": "400097",
+        "short_name": "NOBLE - BULLS HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7735347599",
+        "website": {
+            "url": "https://nobleschools.org/bulls"
+        }
+    },
+    {
+        "school_id": "609845",
+        "short_name": "CARVER G",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735355674",
+        "website": {
+            "url": "https://gwcarver.cps.edu"
+        }
+    },
+    {
+        "school_id": "400077",
+        "short_name": "U OF C - WOODLAWN HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7737528101",
+        "website": {
+            "url": "https://www.uchicagocharter.org"
+        }
+    },
+    {
+        "school_id": "610339",
+        "short_name": "STAGG",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735353565",
+        "website": {
+            "url": "https://staggsoe.org"
+        }
+    },
+    {
+        "school_id": "610281",
+        "short_name": "POWELL",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735356650",
+        "website": {
+            "url": "https://powell.cps.edu"
+        }
+    },
+    {
+        "school_id": "609774",
+        "short_name": "ALCOTT ES",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735345460",
+        "website": {
+            "url": "https://alcottelementary.net"
+        }
+    },
+    {
+        "school_id": "610565",
+        "short_name": "EXCEL ENGLEWOOD HS",
+        "school_type": "Citywide-Option",
+        "primary_category": "HS",
+        "phone": "7736756654",
+        "website": {
+            "url": "https://sesischools.com/locations/excel-academy-of-englewood"
+        }
+    },
+    {
+        "school_id": "609734",
+        "short_name": "TAFT HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735341000",
+        "website": {
+            "url": "https://tafthighschool.org"
+        }
+    },
+    {
+        "school_id": "609698",
+        "short_name": "BOGAN HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735352180",
+        "website": {
+            "url": "https://boganhs.org"
+        }
+    },
+    {
+        "school_id": "609876",
+        "short_name": "DAVIS N",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735354540",
+        "website": {
+            "url": "http://nathansdavis.cps.edu"
+        }
+    },
+    {
+        "school_id": "609817",
+        "short_name": "BUDLONG",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735342591",
+        "website": {
+            "url": "https://budlong.cps.edu"
+        }
+    },
+    {
+        "school_id": "610155",
+        "short_name": "SAUGANASH",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735343470",
+        "website": {
+            "url": "http://sauganash.cps.edu"
+        }
+    },
+    {
+        "school_id": "610145",
+        "short_name": "REINBERG",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735343465",
+        "website": {
+            "url": "https://reinberg.cps.edu"
+        }
+    },
+    {
+        "school_id": "609737",
+        "short_name": "VON STEUBEN HS",
+        "school_type": "Magnet",
+        "primary_category": "HS",
+        "phone": "7735345100",
+        "website": {
+            "url": "http://www.vonsteuben.org"
+        }
+    },
+    {
+        "school_id": "400079",
+        "short_name": "ACERO - ZIZUMBO",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7735793470",
+        "website": {
+            "url": "http://dz.aceroschools.org"
+        }
+    },
+    {
+        "school_id": "610082",
+        "short_name": "MOUNT GREENWOOD",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352786",
+        "website": {
+            "url": "https://mtgreenwood.cps.edu"
+        }
+    },
+    {
+        "school_id": "610084",
+        "short_name": "KELLER",
+        "school_type": "Regional gifted center",
+        "primary_category": "ES",
+        "phone": "7735352636",
+        "website": {
+            "url": "https://keller.cps.edu"
+        }
+    },
+    {
+        "school_id": "609898",
+        "short_name": "EBERHART",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735359190",
+        "website": {
+            "url": "http://eberhart.cps.edu"
+        }
+    },
+    {
+        "school_id": "610268",
+        "short_name": "ASHE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735353550",
+        "website": {
+            "url": "https://ashe.cps.edu"
+        }
+    },
+    {
+        "school_id": "610139",
+        "short_name": "PULLMAN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735355395",
+        "website": {
+            "url": "https://pullmanschool.org"
+        }
+    },
+    {
+        "school_id": "609836",
+        "short_name": "CANTY",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735341238",
+        "website": {
+            "url": "https://www.cantyschool.org"
+        }
+    },
+    {
+        "school_id": "610002",
+        "short_name": "HOYNE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735356425",
+        "website": {
+            "url": "https://thomashoyne.org"
+        }
+    },
+    {
+        "school_id": "400175",
+        "short_name": "EXCEL SOUTH SHORE HS",
+        "school_type": "Citywide-Option",
+        "primary_category": "HS",
+        "phone": "7739027800",
+        "website": {
+            "url": "https://sesischools.com/locations/excel-academy-of-south-shore"
+        }
+    },
+    {
+        "school_id": "400075",
+        "short_name": "U OF C - DONOGHUE",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7732855301",
+        "website": {
+            "url": "https://www.uchicagocharter.org"
+        }
+    },
+    {
+        "school_id": "610235",
+        "short_name": "YOUNG ES",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735346200",
+        "website": {
+            "url": "https://www.EFYOUNGES.COM"
+        }
+    },
+    {
+        "school_id": "610197",
+        "short_name": "TALCOTT",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735347130",
+        "website": {
+            "url": "https://talcottfama.org"
+        }
+    },
+    {
+        "school_id": "610191",
+        "short_name": "STONE",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735342045",
+        "website": {
+            "url": "http://stoneacademy.net/"
+        }
+    },
+    {
+        "school_id": "610362",
+        "short_name": "EVERS",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352565",
+        "website": {
+            "url": "https://www.evers.cps.edu"
+        }
+    },
+    {
+        "school_id": "609987",
+        "short_name": "HENDRICKS",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735351696",
+        "website": {
+            "url": "https://hendricksacademy.org"
+        }
+    },
+    {
+        "school_id": "610172",
+        "short_name": "SHERMAN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735351757",
+        "website": {
+            "url": "https://sherman.cps.edu"
+        }
+    },
+    {
+        "school_id": "610230",
+        "short_name": "WILDWOOD",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735341188",
+        "website": {
+            "url": "https://wildwoodIB.org"
+        }
+    },
+    {
+        "school_id": "609950",
+        "short_name": "ORTIZ DE DOMINGUEZ",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735341600",
+        "website": {
+            "url": "https://ortizdedominguez.cps.edu"
+        }
+    },
+    {
+        "school_id": "610092",
+        "short_name": "NASH",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735346125",
+        "website": {
+            "url": "https://nashelementary.org"
+        }
+    },
+    {
+        "school_id": "609795",
+        "short_name": "CLARK ES",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735346225",
+        "website": {
+            "url": "https://georgerogersclarkes.org"
+        }
+    },
+    {
+        "school_id": "610239",
+        "short_name": "DALEY",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735359091",
+        "website": {
+            "url": "https://rjdaley.org"
+        }
+    },
+    {
+        "school_id": "610524",
+        "short_name": "ALCOTT HS",
+        "school_type": "Small",
+        "primary_category": "HS",
+        "phone": "7735345970",
+        "website": {
+            "url": "https://www.alcottcollegeprep.org/"
+        }
+    },
+    {
+        "school_id": "610221",
+        "short_name": "WEBSTER",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735346925",
+        "website": {
+            "url": "https://www.cps.edu/webster"
+        }
+    },
+    {
+        "school_id": "609907",
+        "short_name": "ERICSON",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735346660",
+        "website": {
+            "url": "http://ericson.cps.edu"
+        }
+    },
+    {
+        "school_id": "609951",
+        "short_name": "ARIEL",
+        "school_type": "Small",
+        "primary_category": "ES",
+        "phone": "7735351996",
+        "website": {
+            "url": "https://arielcommunityacademy.cps.edu"
+        }
+    },
+    {
+        "school_id": "610091",
+        "short_name": "BROWN R",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735355385",
+        "website": {
+            "url": "https://www.brownacademyeagles.org"
+        }
+    },
+    {
+        "school_id": "610152",
+        "short_name": "RUGGLES",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735353085",
+        "website": {
+            "url": "https://ruggleselementary.org"
+        }
+    },
+    {
+        "school_id": "400022",
+        "short_name": "CHIARTS HS",
+        "school_type": "Contract",
+        "primary_category": "HS",
+        "phone": "7735349710",
+        "website": {
+            "url": "https://chiarts.org"
+        }
+    },
+    {
+        "school_id": "400047",
+        "short_name": "LEARN - CAMPBELL",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7738260370",
+        "website": {
+            "url": "http://www.learncharter.org"
+        }
+    },
+    {
+        "school_id": "610133",
+        "short_name": "WARD L",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735346440",
+        "website": {
+            "url": "http://lwardstem.cps.edu"
+        }
+    },
+    {
+        "school_id": "610570",
+        "short_name": "OMBUDSMAN - SOUTH HS",
+        "school_type": "Citywide-Option",
+        "primary_category": "HS",
+        "phone": "7734985085",
+        "website": {
+            "url": "https://chicago.ombudsman.com"
+        }
+    },
+    {
+        "school_id": "400133",
+        "short_name": "YCCS - INNOVATIONS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "3129999360",
+        "website": {
+            "url": "https://www.innovationshs.org"
+        }
+    },
+    {
+        "school_id": "610036",
+        "short_name": "LEWIS",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735343060",
+        "website": {
+            "url": "https://lewisschoolofexcellence.org"
+        }
+    },
+    {
+        "school_id": "610300",
+        "short_name": "WESTCOTT",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735353090",
+        "website": {
+            "url": "https://westcott.cps.edu"
+        }
+    },
+    {
+        "school_id": "610218",
+        "short_name": "WARREN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735356625",
+        "website": {
+            "url": "https://warrencps.org"
+        }
+    },
+    {
+        "school_id": "400162",
+        "short_name": "INTRINSIC HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7088872735",
+        "website": {
+            "url": "https://intrinsicschools.org"
+        }
+    },
+    {
+        "school_id": "400176",
+        "short_name": "EXCEL SOUTHWEST HS",
+        "school_type": "Citywide-Option",
+        "primary_category": "HS",
+        "phone": "7734240721",
+        "website": {
+            "url": "https://sesischools.com/locations/excel-academy-of-southwest"
+        }
+    },
+    {
+        "school_id": "609834",
+        "short_name": "LITTLE VILLAGE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735341880",
+        "website": {
+            "url": "https://lva.cps.edu"
+        }
+    },
+    {
+        "school_id": "609896",
+        "short_name": "DRUMMOND",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735344120",
+        "website": {
+            "url": "http://drummondschool.org"
+        }
+    },
+    {
+        "school_id": "610005",
+        "short_name": "HUGHES C",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735341762",
+        "website": {
+            "url": "https://cehughes.cps.edu"
+        }
+    },
+    {
+        "school_id": "609835",
+        "short_name": "CAMERON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735344290",
+        "website": {
+            "url": "https://www.cameronmsa.com/"
+        }
+    },
+    {
+        "school_id": "609820",
+        "short_name": "BURLEY",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735345475",
+        "website": {
+            "url": "https://burley.cps.edu"
+        }
+    },
+    {
+        "school_id": "609928",
+        "short_name": "FARMER",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735351687",
+        "website": {
+            "url": "http://fuller.cps.edu/"
+        }
+    },
+    {
+        "school_id": "609792",
+        "short_name": "BATEMAN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735345055",
+        "website": {
+            "url": "http://bateman.cps.edu"
+        }
+    },
+    {
+        "school_id": "400179",
+        "short_name": "NOBLE - MANSUETO HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7733498200",
+        "website": {
+            "url": "https://nobleschools.org/mansueto"
+        }
+    },
+    {
+        "school_id": "609819",
+        "short_name": "BURKE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735351325",
+        "website": {
+            "url": "http://burke.cps.edu"
+        }
+    },
+    {
+        "school_id": "609808",
+        "short_name": "HALEY",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735355340",
+        "website": {
+            "url": "https://www.alexhaleyacademy.com"
+        }
+    },
+    {
+        "school_id": "400153",
+        "short_name": "ACERO - BRIGHTON PARK",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "3124555434",
+        "website": {
+            "url": "http://bp.aceroschools.org"
+        }
+    },
+    {
+        "school_id": "400058",
+        "short_name": "NLCP - CHRISTIANA HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7735421490",
+        "website": {
+            "url": "https://www.nlcphs.org"
+        }
+    },
+    {
+        "school_id": "400083",
+        "short_name": "ACERO - PAZ",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7738901054",
+        "website": {
+            "url": "http://op.aceroschools.org"
+        }
+    },
+    {
+        "school_id": "610076",
+        "short_name": "MOOS",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735344340",
+        "website": {
+            "url": "https://mooselementary.org"
+        }
+    },
+    {
+        "school_id": "400080",
+        "short_name": "ACERO - TORRES",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7735793475",
+        "website": {
+            "url": "http://ot.aceroschools.org"
+        }
+    },
+    {
+        "school_id": "400163",
+        "short_name": "KIPP - BLOOM",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7739388565",
+        "website": {
+            "url": "https://www.kippchicago.org"
+        }
+    },
+    {
+        "school_id": "610589",
+        "short_name": "SOR JUANA",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735358280",
+        "website": {
+            "url": "https://sorjuana.cps.edu"
+        }
+    },
+    {
+        "school_id": "609679",
+        "short_name": "PROSSER HS",
+        "school_type": "Career academy",
+        "primary_category": "HS",
+        "phone": "7735343200",
+        "website": {
+            "url": "https://prosseracademy.org"
+        },
+        "blue_ribbon_award_year": "2021"
+    },
+    {
+        "school_id": "609863",
+        "short_name": "GINSBURG",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735344350",
+        "website": {
+            "url": "http://columbus.cps.edu"
+        }
+    },
+    {
+        "school_id": "610345",
+        "short_name": "WOODSON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735351280",
+        "website": {
+            "url": "https://www.gowoodson.com"
+        }
+    },
+    {
+        "school_id": "610342",
+        "short_name": "SABIN",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735344490",
+        "website": {
+            "url": "https://sabin.cps.edu"
+        }
+    },
+    {
+        "school_id": "400161",
+        "short_name": "CHICAGO COLLEGIATE",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7735369098",
+        "website": {
+            "url": "https://chicagocollegiate.org"
+        }
+    },
+    {
+        "school_id": "610013",
+        "short_name": "PILSEN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735347675",
+        "website": {
+            "url": "https://pilsenacademy.org"
+        }
+    },
+    {
+        "school_id": "609901",
+        "short_name": "EDGEBROOK",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735341194",
+        "website": {
+            "url": "https://edgebrookschool.org"
+        }
+    },
+    {
+        "school_id": "609812",
+        "short_name": "BROWN W",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735347250",
+        "website": {
+            "url": "https://wbrownstem.org"
+        }
+    },
+    {
+        "school_id": "610532",
+        "short_name": "HERNANDEZ",
+        "school_type": "Neighborhood",
+        "primary_category": "MS",
+        "phone": "7735358850",
+        "website": {
+            "url": "https://hernanms.enschool.org/splash/"
+        }
+    },
+    {
+        "school_id": "609991",
+        "short_name": "HERZL",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735341480",
+        "website": {
+            "url": "https://www.herzlschoolofexcellence.org"
+        }
+    },
+    {
+        "school_id": "610070",
+        "short_name": "MCPHERSON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735342625",
+        "website": {
+            "url": "https://mcphersonib.org"
+        }
+    },
+    {
+        "school_id": "610250",
+        "short_name": "SALAZAR",
+        "school_type": "Small",
+        "primary_category": "ES",
+        "phone": "7735348310",
+        "website": {
+            "url": "https://salazar.cps.edu"
+        }
+    },
+    {
+        "school_id": "400061",
+        "short_name": "PERSPECTIVES - LEADERSHIP HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7733586100",
+        "website": {
+            "url": "http://www.pcsedu.org"
+        }
+    },
+    {
+        "school_id": "610090",
+        "short_name": "MURRAY",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735350585",
+        "website": {
+            "url": "https://murray.cps.edu"
+        }
+    },
+    {
+        "school_id": "610298",
+        "short_name": "LENART",
+        "school_type": "Regional gifted center",
+        "primary_category": "ES",
+        "phone": "7735350040",
+        "website": {
+            "url": "https://lenart.cps.edu"
+        },
+        "blue_ribbon_award_year": "2020"
+    },
+    {
+        "school_id": "610136",
+        "short_name": "PRESCOTT",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735345505",
+        "website": {
+            "url": "https://prescottparents.com"
+        },
+        "blue_ribbon_award_year": "2019"
+    },
+    {
+        "school_id": "400159",
+        "short_name": "CHRISTOPHER HOUSE",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7739227542",
+        "website": {
+            "url": "https://christopherhouse.org"
+        }
+    },
+    {
+        "school_id": "400030",
+        "short_name": "CICS - WEST BELDEN",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7736379430",
+        "website": {
+            "url": "https://www.cicswestbelden.org"
+        }
+    },
+    {
+        "school_id": "610146",
+        "short_name": "REVERE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735350618",
+        "website": {
+            "url": "https://wearerevere.org"
+        }
+    },
+    {
+        "school_id": "400111",
+        "short_name": "LEARN - PERKINS",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7734881634",
+        "website": {
+            "url": "http://www.learncharter.org"
+        }
+    },
+    {
+        "school_id": "610366",
+        "short_name": "WACKER",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352821",
+        "website": {
+            "url": "https://wackerwildcats.org"
+        }
+    },
+    {
+        "school_id": "610047",
+        "short_name": "MADISON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735350551",
+        "website": {
+            "url": "https://madison.cps.edu"
+        }
+    },
+    {
+        "school_id": "609782",
+        "short_name": "AUDUBON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735345470",
+        "website": {
+            "url": "https://audubonelementary.org"
+        },
+        "blue_ribbon_award_year": "2011"
+    },
+    {
+        "school_id": "400117",
+        "short_name": "NOBLE - HANSBERRY HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7737293400",
+        "website": {
+            "url": "https://nobleschools.org/hansberry"
+        }
+    },
+    {
+        "school_id": "400105",
+        "short_name": "URBAN PREP - BRONZEVILLE HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7736243444",
+        "website": {
+            "url": "https://urbanprep.org"
+        }
+    },
+    {
+        "school_id": "400059",
+        "short_name": "NLCP - COLLINS HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7735426766",
+        "website": {
+            "url": "https://www.nlcphs.org"
+        }
+    },
+    {
+        "school_id": "400091",
+        "short_name": "CHICAGO TECH HS",
+        "school_type": "Contract",
+        "primary_category": "HS",
+        "phone": "7735347755",
+        "website": {
+            "url": "https://chitech.org"
+        }
+    },
+    {
+        "school_id": "610011",
+        "short_name": "JAMIESON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735342395",
+        "website": {
+            "url": "https://jamieson.cps.edu"
+        }
+    },
+    {
+        "school_id": "610184",
+        "short_name": "SPRY ES",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735341700",
+        "website": {
+            "url": "http://spry.cps.edu"
+        }
+    },
+    {
+        "school_id": "400145",
+        "short_name": "YCCS - YOUTH CONNECTION",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "3122254668",
+        "website": {
+            "url": "https://yccs.us/campuses"
+        }
+    },
+    {
+        "school_id": "610033",
+        "short_name": "LASALLE",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735348470",
+        "website": {
+            "url": "https://www.lasallechicago.com"
+        },
+        "blue_ribbon_award_year": "2015"
+    },
+    {
+        "school_id": "400131",
+        "short_name": "YCCS - CAMPOS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7733428022",
+        "website": {
+            "url": "https://pachs-chicago.org"
+        }
+    },
+    {
+        "school_id": "400167",
+        "short_name": "HORIZON - SOUTHWEST",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7734983355",
+        "website": {
+            "url": "https://www.hsaswchicago.org"
+        }
+    },
+    {
+        "school_id": "609828",
+        "short_name": "BURR",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735344090",
+        "website": {
+            "url": "https://burrschool.org"
+        }
+    },
+    {
+        "school_id": "610573",
+        "short_name": "SAFE ACHIEVE HS",
+        "school_type": "Citywide-Option",
+        "primary_category": "HS",
+        "phone": "7739022487",
+        "website": {
+            "url": "https://sesischools.com/locations/safe-achieve-academy-of-chicago"
+        }
+    },
+    {
+        "school_id": "610201",
+        "short_name": "THORP O",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735343640",
+        "website": {
+            "url": "https://oathorpacademy.org"
+        }
+    },
+    {
+        "school_id": "609793",
+        "short_name": "NICHOLSON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735353285",
+        "website": {
+            "url": "https://www.nicholsonstemacademy.org"
+        }
+    },
+    {
+        "school_id": "609996",
+        "short_name": "HOLDEN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735357200",
+        "website": {
+            "url": "https://holdenschool.org"
+        }
+    },
+    {
+        "school_id": "610569",
+        "short_name": "OMBUDSMAN - NORTHWEST HS",
+        "school_type": "Citywide-Option",
+        "primary_category": "HS",
+        "phone": "7086697828",
+        "website": {
+            "url": "https://chicago.ombudsman.com/northwest/"
+        }
+    },
+    {
+        "school_id": "609849",
+        "short_name": "CASSELL",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352640",
+        "website": {
+            "url": "https://cassell.cps.edu"
+        }
+    },
+    {
+        "school_id": "610558",
+        "short_name": "GOODE HS",
+        "school_type": "Citywide-Option",
+        "primary_category": "HS",
+        "phone": "7735357875",
+        "website": {
+            "url": "https://GoodeSTEMAcademy.org"
+        }
+    },
+    {
+        "school_id": "609716",
+        "short_name": "KELVYN PARK HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735344200",
+        "website": {
+            "url": "https://kphermosa.org"
+        }
+    },
+    {
+        "school_id": "609744",
+        "short_name": "NORTHSIDE LEARNING HS",
+        "school_type": "Special Education",
+        "primary_category": "HS",
+        "phone": "7735345180",
+        "website": {
+            "url": "https://www.northsidelearningcenter.org"
+        }
+    },
+    {
+        "school_id": "610237",
+        "short_name": "BEETHOVEN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735351480",
+        "website": {
+            "url": "https://www.beethovenelementarycps.org/"
+        }
+    },
+    {
+        "school_id": "610003",
+        "short_name": "CUFFE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735358250",
+        "website": {
+            "url": "https://cuffeacademy.org"
+        }
+    },
+    {
+        "school_id": "610106",
+        "short_name": "PICCOLO",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735344425",
+        "website": {
+            "url": "https://piccoloschoolofexcellence.org"
+        }
+    },
+    {
+        "school_id": "400039",
+        "short_name": "ERIE",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7734867161",
+        "website": {
+            "url": "http://www.eriecharterschool.org"
+        }
+    },
+    {
+        "school_id": "609810",
+        "short_name": "BRIDGE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735343718",
+        "website": {
+            "url": "https://bridge.cps.edu"
+        }
+    },
+    {
+        "school_id": "610402",
+        "short_name": "DEVRY HS",
+        "school_type": "Magnet",
+        "primary_category": "HS",
+        "phone": "7736972216",
+        "website": {
+            "url": "https://devry.cps.edu"
+        }
+    },
+    {
+        "school_id": "400120",
+        "short_name": "ACERO - CLEMENTE",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "3124555425",
+        "website": {
+            "url": "http://rc.aceroschools.org"
+        }
+    },
+    {
+        "school_id": "610088",
+        "short_name": "MOZART",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735344160",
+        "website": {
+            "url": "https://mozartmustangs.org"
+        }
+    },
+    {
+        "school_id": "610244",
+        "short_name": "CLARK HS",
+        "school_type": "Magnet",
+        "primary_category": "HS",
+        "phone": "7735346250",
+        "website": {
+            "url": "https://micheleclark.org"
+        }
+    },
+    {
+        "school_id": "609705",
+        "short_name": "FENGER HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735355430",
+        "website": {
+            "url": "https://fengerhighschool.org"
+        }
+    },
+    {
+        "school_id": "400062",
+        "short_name": "PERSPECTIVES - TECH HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7733586120",
+        "website": {
+            "url": "https://www.pcsedu.org"
+        }
+    },
+    {
+        "school_id": "610037",
+        "short_name": "LIBBY",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735359050",
+        "website": {
+            "url": "https://libby.cps.edu"
+        }
+    },
+    {
+        "school_id": "610316",
+        "short_name": "EARHART",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735356416",
+        "website": {
+            "url": "http://earhart.cps.edu"
+        }
+    },
+    {
+        "school_id": "610293",
+        "short_name": "MELODY",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735346850",
+        "website": {
+            "url": "https://melodystem.org"
+        }
+    },
+    {
+        "school_id": "610304",
+        "short_name": "PHOENIX MILITARY HS",
+        "school_type": "Military academy",
+        "primary_category": "HS",
+        "phone": "7735347275",
+        "website": {
+            "url": "https://phoenixmilitary.org"
+        }
+    },
+    {
+        "school_id": "609769",
+        "short_name": "GRAHAM HS",
+        "school_type": "Special Education",
+        "primary_category": "HS",
+        "phone": "7735349257",
+        "website": {
+            "url": "https://raygrahamtrainingcenterhs.com"
+        }
+    },
+    {
+        "school_id": "609766",
+        "short_name": "VAUGHN HS",
+        "school_type": "Special Education",
+        "primary_category": "HS",
+        "phone": "7735343600",
+        "website": {
+            "url": "https://vaughnhs.org"
+        }
+    },
+    {
+        "school_id": "610170",
+        "short_name": "COLUMBIA EXPLORERS",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735354050",
+        "website": {
+            "url": "https://columbiaexplorers.org"
+        }
+    },
+    {
+        "school_id": "609997",
+        "short_name": "HOLMES",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735359025",
+        "website": {
+            "url": "http://owholmes.cps.edu"
+        }
+    },
+    {
+        "school_id": "610123",
+        "short_name": "PENN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735341665",
+        "website": {
+            "url": "https://penn.cps.edu"
+        }
+    },
+    {
+        "school_id": "609712",
+        "short_name": "HIRSCH HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735353100",
+        "website": {
+            "url": "https://hirschmetrohs.org"
+        }
+    },
+    {
+        "school_id": "400149",
+        "short_name": "ACERO - SOTO HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "3124555446",
+        "website": {
+            "url": "http://vs.aceroschools.org"
+        }
+    },
+    {
+        "school_id": "400068",
+        "short_name": "PLATO",
+        "school_type": "Contract",
+        "primary_category": "ES",
+        "phone": "7734133090",
+        "website": {
+            "url": "http://www.platolearningacademy.org"
+        }
+    },
+    {
+        "school_id": "610095",
+        "short_name": "NEWBERRY",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735348000",
+        "website": {
+            "url": "http://www.newberryacademy.org"
+        }
+    },
+    {
+        "school_id": "610599",
+        "short_name": "CATALPA",
+        "primary_category": "ES",
+        "phone": "7735348380",
+        "website": {
+            "url": "https://catalpa.cps.edu"
+        }
+    },
+    {
+        "school_id": "610029",
+        "short_name": "LOZANO",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735344750",
+        "website": {
+            "url": "https://lozano1501.org"
+        }
+    },
+    {
+        "school_id": "610026",
+        "short_name": "KINZIE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352425",
+        "website": {
+            "url": "http://kinzie.cps.edu"
+        }
+    },
+    {
+        "school_id": "400051",
+        "short_name": "NOBLE - NOBLE HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7738621449",
+        "website": {
+            "url": "https://nobleschools.org/noblestreet"
+        }
+    },
+    {
+        "school_id": "610269",
+        "short_name": "MCCUTCHEON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735342680",
+        "website": {
+            "url": "https://mccutcheon.cps.edu"
+        }
+    },
+    {
+        "school_id": "610017",
+        "short_name": "SAUCEDO",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735341770",
+        "website": {
+            "url": "https://saucedosteammagnetacademy.cps.edu"
+        }
+    },
+    {
+        "school_id": "609979",
+        "short_name": "HEALY",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735349190",
+        "website": {
+            "url": "http://healy.cps.edu/"
+        }
+    },
+    {
+        "school_id": "610081",
+        "short_name": "SHERIDAN",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735349120",
+        "website": {
+            "url": "http://sheridan.cps.edu"
+        }
+    },
+    {
+        "school_id": "610389",
+        "short_name": "ORR HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735346500",
+        "website": {
+            "url": "https://orracademy.org"
+        }
+    },
+    {
+        "school_id": "610290",
+        "short_name": "MAYS",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735353892",
+        "website": {
+            "url": "https://maysacademy.com"
+        }
+    },
+    {
+        "school_id": "609922",
+        "short_name": "BELMONT-CRAGIN",
+        "school_type": "Small",
+        "primary_category": "ES",
+        "phone": "7735342900",
+        "website": {
+            "url": "https://belmontcragin.cps.edu"
+        }
+    },
+    {
+        "school_id": "609799",
+        "short_name": "BELL",
+        "school_type": "Regional gifted center",
+        "primary_category": "ES",
+        "phone": "7735345150",
+        "website": {
+            "url": "http://bell.cps.edu"
+        }
+    },
+    {
+        "school_id": "610147",
+        "short_name": "ROGERS",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735342125",
+        "website": {
+            "url": "https://philiprogersschool.org"
+        }
+    },
+    {
+        "school_id": "610279",
+        "short_name": "TANNER",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735353870",
+        "website": {
+            "url": "https://tannerschool.org"
+        }
+    },
+    {
+        "school_id": "610167",
+        "short_name": "SEWARD",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735354890",
+        "website": {
+            "url": "https://seward.cps.edu"
+        }
+    },
+    {
+        "school_id": "610199",
+        "short_name": "COLEMON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735353975",
+        "website": {
+            "url": "https://colemon.cps.edu"
+        }
+    },
+    {
+        "school_id": "610078",
+        "short_name": "INTER-AMERICAN",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735345490",
+        "website": {
+            "url": "https://iamschicago.com"
+        }
+    },
+    {
+        "school_id": "610054",
+        "short_name": "MARSH",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735356430",
+        "website": {
+            "url": "https://jlmarsh.org"
+        }
+    },
+    {
+        "school_id": "610323",
+        "short_name": "BOWEN HS",
+        "school_type": "Small",
+        "primary_category": "HS",
+        "phone": "7735357650",
+        "website": {
+            "url": "https://bowen.cps.edu"
+        }
+    },
+    {
+        "school_id": "610087",
+        "short_name": "BLAIR",
+        "school_type": "Special Education",
+        "primary_category": "ES",
+        "phone": "7735352076",
+        "website": {
+            "url": "https://blair.cps.edu/"
+        }
+    },
+    {
+        "school_id": "400139",
+        "short_name": "YCCS - SULLIVAN",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7739788680",
+        "website": {
+            "url": "https://cps.edu/sullivanhouse"
+        }
+    },
+    {
+        "school_id": "610390",
+        "short_name": "RICKOVER MILITARY HS",
+        "school_type": "Military academy",
+        "primary_category": "HS",
+        "phone": "7735342890",
+        "website": {
+            "url": "http://www.rickovernaval.org"
+        }
+    },
+    {
+        "school_id": "610542",
+        "short_name": "WEST RIDGE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735348250",
+        "website": {
+            "url": "https://westridgeelementary.org"
+        }
+    },
+    {
+        "school_id": "610595",
+        "short_name": "FISHER",
+        "primary_category": "ES",
+        "phone": "7735346050",
+        "website": {
+            "url": "https://fisherearlylearning.org"
+        }
+    },
+    {
+        "school_id": "610108",
+        "short_name": "OTOOLE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735359040",
+        "website": {
+            "url": "https://otoolelions.org"
+        }
+    },
+    {
+        "school_id": "400011",
+        "short_name": "LOCKE A",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7732657232",
+        "website": {
+            "url": "https://www.alainlocke.org"
+        }
+    },
+    {
+        "school_id": "610513",
+        "short_name": "AIR FORCE HS",
+        "school_type": "Military academy",
+        "primary_category": "HS",
+        "phone": "7735351590",
+        "website": {
+            "url": "https://afahs.org"
+        }
+    },
+    {
+        "school_id": "610089",
+        "short_name": "MURPHY",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735345223",
+        "website": {
+            "url": "http://www.murphy.cps.edu/"
+        }
+    },
+    {
+        "school_id": "610305",
+        "short_name": "LELAND",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735346340",
+        "website": {
+            "url": "https://leland.cps.edu"
+        },
+        "blue_ribbon_award_year": "2004"
+    },
+    {
+        "school_id": "609851",
+        "short_name": "CHALMERS",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735341720",
+        "website": {
+            "url": "https://chalmerssoe.org"
+        }
+    },
+    {
+        "school_id": "610057",
+        "short_name": "FAIRFIELD",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735359500",
+        "website": {
+            "url": "https://fairfieldacademy.org"
+        }
+    },
+    {
+        "school_id": "609813",
+        "short_name": "BROWNELL",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735353030",
+        "website": {
+            "url": "https://brownellcps.org"
+        }
+    },
+    {
+        "school_id": "609789",
+        "short_name": "BARRY",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735343455",
+        "website": {
+            "url": "https://barry.cps.edu"
+        }
+    },
+    {
+        "school_id": "609958",
+        "short_name": "GUNSAULUS",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735357215",
+        "website": {
+            "url": "https://gunsaulus.org"
+        }
+    },
+    {
+        "school_id": "610568",
+        "short_name": "PATHWAYS - AVONDALE HS",
+        "school_type": "Citywide-Option",
+        "primary_category": "HS",
+        "phone": "7735885007",
+        "website": {
+            "url": "https://pathwaysineducation.org"
+        }
+    },
+    {
+        "school_id": "609921",
+        "short_name": "TELPOCHCALLI",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735341402",
+        "website": {
+            "url": "http://www.telpochcalli.cps.edu"
+        }
+    },
+    {
+        "school_id": "610363",
+        "short_name": "DISNEY",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735345840",
+        "website": {
+            "url": "https://disney.cps.edu"
+        }
+    },
+    {
+        "school_id": "609887",
+        "short_name": "DIXON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735353834",
+        "website": {
+            "url": "http://www.dixoneagles.org"
+        }
+    },
+    {
+        "school_id": "609884",
+        "short_name": "DEVER",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735343090",
+        "website": {
+            "url": "https://dever.cps.edu/"
+        }
+    },
+    {
+        "school_id": "400060",
+        "short_name": "PASSAGES",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7734333530",
+        "website": {
+            "url": "https://mytrellus.org/passages-charter-school"
+        }
+    },
+    {
+        "school_id": "609727",
+        "short_name": "PHILLIPS HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735351603",
+        "website": {
+            "url": "https://phillipshs.org"
+        }
+    },
+    {
+        "school_id": "610171",
+        "short_name": "MIRELES",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735356360",
+        "website": {
+            "url": "http://mireleselementary.org"
+        }
+    },
+    {
+        "school_id": "610096",
+        "short_name": "NIGHTINGALE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735359270",
+        "website": {
+            "url": "http://nightingale.cps.edu"
+        }
+    },
+    {
+        "school_id": "610369",
+        "short_name": "JACKSON M",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735353341",
+        "website": {
+            "url": "http://www.mjacksoncps.com/"
+        }
+    },
+    {
+        "school_id": "610355",
+        "short_name": "COURTENAY",
+        "school_type": "Small",
+        "primary_category": "ES",
+        "phone": "7735345790",
+        "website": {
+            "url": "http://courtenay.cps.edu"
+        }
+    },
+    {
+        "school_id": "609830",
+        "short_name": "BRUNSON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735346025",
+        "website": {
+            "url": "https://brunsonbulldogs.org"
+        }
+    },
+    {
+        "school_id": "400169",
+        "short_name": "NOBLE - ITW SPEER HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7736227484",
+        "website": {
+            "url": "https://nobleschools.org/speer"
+        }
+    },
+    {
+        "school_id": "610052",
+        "short_name": "MANN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735356640",
+        "website": {
+            "url": "http://mann.cps.edu"
+        }
+    },
+    {
+        "school_id": "609893",
+        "short_name": "DORE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352080",
+        "website": {
+            "url": "https://www.dorebulldogschicago.org"
+        }
+    },
+    {
+        "school_id": "610592",
+        "short_name": "ENGLEWOOD STEM HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735353685",
+        "website": {
+            "url": "https://englewoodstemhs.cps.edu"
+        }
+    },
+    {
+        "school_id": "400123",
+        "short_name": "YCCS - SCHOLASTIC ACHIEVEMENT",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7739211315",
+        "website": {
+            "url": "http://asaschool.org"
+        }
+    },
+    {
+        "school_id": "610194",
+        "short_name": "SUMNER",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735346730",
+        "website": {
+            "url": "https://sumnermsca.org"
+        }
+    },
+    {
+        "school_id": "610098",
+        "short_name": "NOBEL",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735344365",
+        "website": {
+            "url": "http://nobel.cps.edu/"
+        }
+    },
+    {
+        "school_id": "609903",
+        "short_name": "EDWARDS",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735354875",
+        "website": {
+            "url": "https://edwardsib.org"
+        }
+    },
+    {
+        "school_id": "610557",
+        "short_name": "PATHWAYS - ASHBURN HS",
+        "school_type": "Citywide-Option",
+        "primary_category": "HS",
+        "phone": "7734346300",
+        "website": {
+            "url": "https://pathwaysineducation.org"
+        }
+    },
+    {
+        "school_id": "610182",
+        "short_name": "SOLOMON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735345226",
+        "website": {
+            "url": "https://solomon.cps.edu"
+        },
+        "blue_ribbon_award_year": "2017"
+    },
+    {
+        "school_id": "610515",
+        "short_name": "DISNEY II ES",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735343750",
+        "website": {
+            "url": "https://disneyiimagnet.org"
+        }
+    },
+    {
+        "school_id": "609854",
+        "short_name": "CHOPIN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735344080",
+        "website": {
+            "url": "https://chopin.cps.edu"
+        }
+    },
+    {
+        "school_id": "609674",
+        "short_name": "CHICAGO VOCATIONAL HS",
+        "school_type": "Career academy",
+        "primary_category": "HS",
+        "phone": "7735356100",
+        "website": {
+            "url": "https://chicagovocational.org"
+        }
+    },
+    {
+        "school_id": "609894",
+        "short_name": "DRAKE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735349129",
+        "website": {
+            "url": "https://drake.cps.edu"
+        }
+    },
+    {
+        "school_id": "609872",
+        "short_name": "PEREZ",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735347650",
+        "website": {
+            "url": "https://perezelementary.org/"
+        }
+    },
+    {
+        "school_id": "609942",
+        "short_name": "GOETHE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735344135",
+        "website": {
+            "url": "https://goethe.cps.edu"
+        }
+    },
+    {
+        "school_id": "609870",
+        "short_name": "CORKERY",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735341650",
+        "website": {
+            "url": "https://corkery.cps.edu"
+        }
+    },
+    {
+        "school_id": "610121",
+        "short_name": "IRVING",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735347295",
+        "website": {
+            "url": "https://irving.cps.edu"
+        }
+    },
+    {
+        "school_id": "610383",
+        "short_name": "SOCIAL JUSTICE HS",
+        "school_type": "Small",
+        "primary_category": "HS",
+        "phone": "7735354300",
+        "website": {
+            "url": "http://sj.lvlhs.org"
+        }
+    },
+    {
+        "school_id": "400112",
+        "short_name": "ACERO - IDAR",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "3124555450",
+        "website": {
+            "url": "http://ji.aceroschools.org"
+        }
+    },
+    {
+        "school_id": "609949",
+        "short_name": "GRAY",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735343520",
+        "website": {
+            "url": "https://gray.cps.edu"
+        }
+    },
+    {
+        "school_id": "610188",
+        "short_name": "DUNNE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735355517",
+        "website": {
+            "url": "https://www.dunnestemacademy.org"
+        }
+    },
+    {
+        "school_id": "400147",
+        "short_name": "CHICAGO EXCEL HS",
+        "school_type": "Citywide-Option",
+        "primary_category": "HS",
+        "phone": "7736298379",
+        "website": {
+            "url": "https://sesischools.com/locations/excel-academy-of-roseland"
+        }
+    },
+    {
+        "school_id": "609796",
+        "short_name": "BEAUBIEN",
+        "school_type": "Regional gifted center",
+        "primary_category": "ES",
+        "phone": "7735343500",
+        "website": {
+            "url": "http://www.beaubienelementary.org"
+        }
+    },
+    {
+        "school_id": "610217",
+        "short_name": "WARD J",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735349050",
+        "website": {
+            "url": "https://www.jameswardschool.com"
+        }
+    },
+    {
+        "school_id": "610590",
+        "short_name": "BRONZEVILLE CLASSICAL",
+        "school_type": "Classical",
+        "primary_category": "ES",
+        "phone": "7735358085",
+        "website": {
+            "url": "https://bronzevilleclassical.cps.edu"
+        }
+    },
+    {
+        "school_id": "400101",
+        "short_name": "ACERO - CISNEROS",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7733768830",
+        "website": {
+            "url": "http://sc.aceroschools.org"
+        }
+    },
+    {
+        "school_id": "400172",
+        "short_name": "ASPIRA - BUSINESS & FINANCE HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7732431820",
+        "website": {
+            "url": "https://abfhs.aspirail.org"
+        }
+    },
+    {
+        "school_id": "609842",
+        "short_name": "CARSON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735359222",
+        "website": {
+            "url": "https://carson.cps.edu"
+        }
+    },
+    {
+        "school_id": "610394",
+        "short_name": "UPLIFT HS",
+        "school_type": "Small",
+        "primary_category": "HS",
+        "phone": "7735342875",
+        "website": {
+            "url": "https://uplifths.cps.edu"
+        }
+    },
+    {
+        "school_id": "610174",
+        "short_name": "SHIELDS",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735357285",
+        "website": {
+            "url": "http://shields.cps.edu"
+        }
+    },
+    {
+        "school_id": "610274",
+        "short_name": "JOHNSON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735341829",
+        "website": {
+            "url": "https://cps.edu/johnson"
+        }
+    },
+    {
+        "school_id": "610209",
+        "short_name": "VOLTA",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735345080",
+        "website": {
+            "url": "https://volta.cps.edu"
+        }
+    },
+    {
+        "school_id": "609762",
+        "short_name": "JULIAN HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735355170",
+        "website": {
+            "url": "https://pljulianhs.net"
+        }
+    },
+    {
+        "school_id": "609818",
+        "short_name": "BURBANK",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735343000",
+        "website": {
+            "url": "https://burbank.cps.edu"
+        }
+    },
+    {
+        "school_id": "610340",
+        "short_name": "CHICAGO ACADEMY HS",
+        "school_type": "Small",
+        "primary_category": "HS",
+        "phone": "7735340146",
+        "website": {
+            "url": "https://chicagoacademyhs.org"
+        }
+    },
+    {
+        "school_id": "610530",
+        "short_name": "SOUTH SHORE ES",
+        "school_type": "Small",
+        "primary_category": "ES",
+        "phone": "7735358340",
+        "website": {
+            "url": "https://southshorefinearts.org"
+        }
+    },
+    {
+        "school_id": "610063",
+        "short_name": "MCCORMICK",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735357252",
+        "website": {
+            "url": "https://mccormick.cps.edu"
+        }
+    },
+    {
+        "school_id": "609804",
+        "short_name": "MOSAIC",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735342160",
+        "website": {
+            "url": "http://mosaic.cps.edu"
+        }
+    },
+    {
+        "school_id": "609780",
+        "short_name": "MARINE LEADERSHIP AT AMES HS",
+        "school_type": "Military academy",
+        "primary_category": "HS",
+        "phone": "7735344970",
+        "website": {
+            "url": "https://mla.cps.edu"
+        }
+    },
+    {
+        "school_id": "610571",
+        "short_name": "OMBUDSMAN - WEST HS",
+        "school_type": "Citywide-Option",
+        "primary_category": "HS",
+        "phone": "3122431550",
+        "website": {
+            "url": "https://chicago.ombudsman.com"
+        }
+    },
+    {
+        "school_id": "610325",
+        "short_name": "AVONDALE-LOGANDALE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735345350",
+        "website": {
+            "url": "http://avondalelogandaleschool.org/"
+        }
+    },
+    {
+        "school_id": "610163",
+        "short_name": "STOCK",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735341215",
+        "website": {
+            "url": "https://www.stock.cps.edu"
+        }
+    },
+    {
+        "school_id": "609837",
+        "short_name": "CARNEGIE",
+        "school_type": "Regional gifted center",
+        "primary_category": "ES",
+        "phone": "7735350530",
+        "website": {
+            "url": "https://carnegie.cps.edu"
+        }
+    },
+    {
+        "school_id": "609937",
+        "short_name": "GARVY",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735341185",
+        "website": {
+            "url": "https://garvyschool.org"
+        }
+    },
+    {
+        "school_id": "400125",
+        "short_name": "YCCS - ASPIRA PANTOJA",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7732520970",
+        "website": {
+            "url": "https://aap.aspirail.org"
+        }
+    },
+    {
+        "school_id": "400144",
+        "short_name": "YCCS - WEST",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7732610994",
+        "website": {
+            "url": "https://yccs.us/campuses"
+        }
+    },
+    {
+        "school_id": "610032",
+        "short_name": "GREEN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352575",
+        "website": {
+            "url": "https://wendellgreenschool.com"
+        }
+    },
+    {
+        "school_id": "400157",
+        "short_name": "NOBLE - BAKER HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7735356460",
+        "website": {
+            "url": "https://nobleschools.org/baker"
+        }
+    },
+    {
+        "school_id": "610010",
+        "short_name": "JAHN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735345500",
+        "website": {
+            "url": "https://www.jahnschool.com"
+        }
+    },
+    {
+        "school_id": "610128",
+        "short_name": "GARVEY",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352763",
+        "website": {
+            "url": "https://garvey.cps.edu"
+        }
+    },
+    {
+        "school_id": "610313",
+        "short_name": "DE DIEGO",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735344451",
+        "website": {
+            "url": "http://josedediego.cps.edu"
+        }
+    },
+    {
+        "school_id": "610597",
+        "short_name": "VIRTUAL ACADEMY HS",
+        "school_type": "Virtual",
+        "primary_category": "HS",
+        "phone": "7735532020",
+        "website": {
+            "url": "https://virtualacademy.cps.edu"
+        }
+    },
+    {
+        "school_id": "609741",
+        "short_name": "HUBBARD HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735352200",
+        "website": {
+            "url": "https://www.hubbardhighschool.org"
+        }
+    },
+    {
+        "school_id": "400143",
+        "short_name": "YCCS - WEST TOWN",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "3125639044",
+        "website": {
+            "url": "https://westtownacademy.org"
+        }
+    },
+    {
+        "school_id": "610396",
+        "short_name": "TARKINGTON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735354700",
+        "website": {
+            "url": "https://tarkington.cps.edu"
+        }
+    },
+    {
+        "school_id": "609975",
+        "short_name": "HAY",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735346000",
+        "website": {
+            "url": "https://johnhayacademy.org"
+        }
+    },
+    {
+        "school_id": "610135",
+        "short_name": "PORTAGE PARK",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735343576",
+        "website": {
+            "url": "https://portageparkschool.org"
+        }
+    },
+    {
+        "school_id": "609773",
+        "short_name": "TUBMAN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735345725",
+        "website": {
+            "url": "https://tubmanelementarycps.org/"
+        }
+    },
+    {
+        "school_id": "400034",
+        "short_name": "CICS - NORTHTOWN HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7734783655",
+        "website": {
+            "url": "https://cicsnorthtown.org"
+        }
+    },
+    {
+        "school_id": "610066",
+        "short_name": "MCDADE",
+        "school_type": "Classical",
+        "primary_category": "ES",
+        "phone": "7735353669",
+        "website": {
+            "url": "https://mcdadeclassical.org"
+        }
+    },
+    {
+        "school_id": "610122",
+        "short_name": "PEIRCE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735342440",
+        "website": {
+            "url": "http://peirce.cps.edu"
+        }
+    },
+    {
+        "school_id": "610202",
+        "short_name": "TILTON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735346746",
+        "website": {
+            "url": "https://tiltonstem.com"
+        }
+    },
+    {
+        "school_id": "400119",
+        "short_name": "LEGAL PREP HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7739227800",
+        "website": {
+            "url": "https://www.legalprep.org"
+        }
+    },
+    {
+        "school_id": "610254",
+        "short_name": "DVORAK",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735341690",
+        "website": {
+            "url": "https://dvorakausl.org"
+        }
+    },
+    {
+        "school_id": "610030",
+        "short_name": "KOZMINSKI",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735350980",
+        "website": {
+            "url": "https://kozminski.cps.edu"
+        }
+    },
+    {
+        "school_id": "610125",
+        "short_name": "RUIZ",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735354825",
+        "website": {
+            "url": "https://ruizelementaryschool.org"
+        }
+    },
+    {
+        "school_id": "609930",
+        "short_name": "FUNSTON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735344125",
+        "website": {
+            "url": "https://funston.cps.edu"
+        }
+    },
+    {
+        "school_id": "400121",
+        "short_name": "ACERO - DE LA CRUZ",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "3124555440",
+        "website": {
+            "url": "http://jc.aceroschools.org"
+        }
+    },
+    {
+        "school_id": "609756",
+        "short_name": "CURIE HS",
+        "school_type": "Magnet",
+        "primary_category": "HS",
+        "phone": "7735352100",
+        "website": {
+            "url": "https://www.curiehs.org"
+        }
+    },
+    {
+        "school_id": "400071",
+        "short_name": "PROVIDENCE ENGLEWOOD",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7734340202",
+        "website": {
+            "url": "https://providenceenglewood.org"
+        }
+    },
+    {
+        "school_id": "610173",
+        "short_name": "SHERWOOD",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735350829",
+        "website": {
+            "url": "https://sherwood.cps.edu"
+        }
+    },
+    {
+        "school_id": "609790",
+        "short_name": "BARTON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735353260",
+        "website": {
+            "url": "https://bartonschoolchicago.org"
+        }
+    },
+    {
+        "school_id": "609682",
+        "short_name": "RICHARDS HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735354945",
+        "website": {
+            "url": "https://richards.cps.edu"
+        }
+    },
+    {
+        "school_id": "610177",
+        "short_name": "SKINNER",
+        "school_type": "Classical",
+        "primary_category": "ES",
+        "phone": "7735347790",
+        "website": {
+            "url": "https://www.skinnerwest.cps.edu"
+        },
+        "blue_ribbon_award_year": "2013"
+    },
+    {
+        "school_id": "610223",
+        "short_name": "WENTWORTH",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735353394",
+        "website": {
+            "url": "https://wentworthschool.org"
+        }
+    },
+    {
+        "school_id": "610060",
+        "short_name": "CHICAGO WORLD LANGUAGE ACADEMY",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735347000",
+        "website": {
+            "url": "https://www.chicagoworldlanguageacademy.cps.edu"
+        },
+        "blue_ribbon_award_year": "2010"
+    },
+    {
+        "school_id": "609947",
+        "short_name": "GRAHAM ES",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735351308",
+        "website": {
+            "url": "https://cps.edu/graham-es"
+        }
+    },
+    {
+        "school_id": "609723",
+        "short_name": "MARSHALL HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735346455",
+        "website": {
+            "url": "http://marshallmetro.cps.edu"
+        }
+    },
+    {
+        "school_id": "400150",
+        "short_name": "YCCS - CHATHAM",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7736511500",
+        "website": {
+            "url": "https://www.chathamacademyhs.org"
+        }
+    },
+    {
+        "school_id": "609745",
+        "short_name": "SOUTHSIDE HS",
+        "school_type": "Special Education",
+        "primary_category": "HS",
+        "phone": "7735359100",
+        "website": {
+            "url": "https://southsideacademycps.org"
+        }
+    },
+    {
+        "school_id": "610137",
+        "short_name": "PRUSSING",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735343460",
+        "website": {
+            "url": "http://prussing.cps.edu"
+        }
+    },
+    {
+        "school_id": "400028",
+        "short_name": "CICS - PRAIRIE",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7739280480",
+        "website": {
+            "url": "https://www.cicsprairie.org"
+        }
+    },
+    {
+        "school_id": "609805",
+        "short_name": "JOPLIN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735353425",
+        "website": {
+            "url": "https://scottjoplinschool.org"
+        }
+    },
+    {
+        "school_id": "610572",
+        "short_name": "SAFE ACHIEVE ES",
+        "school_type": "Citywide-Option",
+        "primary_category": "ES",
+        "phone": "7739022487",
+        "website": {
+            "url": "https://sesischools.com/locations/safe-achieve-academy-of-chicago"
+        }
+    },
+    {
+        "school_id": "609926",
+        "short_name": "FRANKLIN",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735348510",
+        "website": {
+            "url": "https://franklinfineartscenter.net"
+        }
+    },
+    {
+        "school_id": "400098",
+        "short_name": "NOBLE - MUCHIN HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "3124454680",
+        "website": {
+            "url": "https://nobleschools.org/muchin"
+        }
+    },
+    {
+        "school_id": "609927",
+        "short_name": "FOSTER PARK",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352725",
+        "website": {
+            "url": "https://fosterpark.cps.edu"
+        }
+    },
+    {
+        "school_id": "610353",
+        "short_name": "CALMECA",
+        "school_type": "Small",
+        "primary_category": "ES",
+        "phone": "7735357000",
+        "website": {
+            "url": "https://www.calmecaacademy.com"
+        }
+    },
+    {
+        "school_id": "400130",
+        "short_name": "YCCS - YOUTH DEVELOPMENT",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7732242273",
+        "website": {
+            "url": "https://www.cydihs.org"
+        }
+    },
+    {
+        "school_id": "609783",
+        "short_name": "JEFFERSON HS",
+        "school_type": "Citywide-Option",
+        "primary_category": "HS",
+        "phone": "3124337110",
+        "website": {
+            "url": "https://jefferson.cps.edu"
+        }
+    },
+    {
+        "school_id": "610048",
+        "short_name": "MANIERRE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735348456",
+        "website": {
+            "url": "https://manierreferguson.org"
+        }
+    },
+    {
+        "school_id": "609865",
+        "short_name": "JORDAN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735342220",
+        "website": {
+            "url": "https://jordan.cps.edu"
+        }
+    },
+    {
+        "school_id": "609800",
+        "short_name": "BENNETT",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735355460",
+        "website": {
+            "url": "https://bennettschool.org"
+        }
+    },
+    {
+        "school_id": "609902",
+        "short_name": "METCALFE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735355590",
+        "website": {
+            "url": "https://metcalfe.cps.edu"
+        }
+    },
+    {
+        "school_id": "610219",
+        "short_name": "WASHINGTON G ES",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735355010",
+        "website": {
+            "url": "https://gwashington.cps.edu"
+        }
+    },
+    {
+        "school_id": "610107",
+        "short_name": "OTIS",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735347665",
+        "website": {
+            "url": "https://otis.cps.edu"
+        }
+    },
+    {
+        "school_id": "400044",
+        "short_name": "KIPP - ASCEND",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7735214399",
+        "website": {
+            "url": "https://www.kippchicago.org"
+        }
+    },
+    {
+        "school_id": "610357",
+        "short_name": "SPRY HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735341997",
+        "website": {
+            "url": "http://spry.cps.edu"
+        }
+    },
+    {
+        "school_id": "610220",
+        "short_name": "WATERS",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735345090",
+        "website": {
+            "url": "http://www.waterselementary.org"
+        }
+    },
+    {
+        "school_id": "609981",
+        "short_name": "HEARST",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352376",
+        "website": {
+            "url": "https://www.hearst.cps.edu"
+        }
+    },
+    {
+        "school_id": "609983",
+        "short_name": "HEDGES",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735357360",
+        "website": {
+            "url": "https://hedgescps.org"
+        }
+    },
+    {
+        "school_id": "610246",
+        "short_name": "BEASLEY",
+        "school_type": "Regional gifted center",
+        "primary_category": "ES",
+        "phone": "7735351230",
+        "website": {
+            "url": "https://beasleyac.org/"
+        }
+    },
+    {
+        "school_id": "610541",
+        "short_name": "LORCA",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735340950",
+        "website": {
+            "url": "https://lorca.cps.edu"
+        }
+    },
+    {
+        "school_id": "610350",
+        "short_name": "BLACK",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735356390",
+        "website": {
+            "url": "https://blackmagnet.org"
+        },
+        "blue_ribbon_award_year": "2008"
+    },
+    {
+        "school_id": "610295",
+        "short_name": "HIGGINS",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735355625",
+        "website": {
+            "url": "https://higginsacademy.cps.edu"
+        }
+    },
+    {
+        "school_id": "400032",
+        "short_name": "CICS - ELLISON HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7734784434",
+        "website": {
+            "url": "https://cicsellison.org"
+        }
+    },
+    {
+        "school_id": "610180",
+        "short_name": "SMYTH",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735347180",
+        "website": {
+            "url": "http://smyth.cps.edu"
+        }
+    },
+    {
+        "school_id": "609704",
+        "short_name": "FARRAGUT HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735341300",
+        "website": {
+            "url": "https://fcaib.org"
+        }
+    },
+    {
+        "school_id": "610143",
+        "short_name": "REAVIS",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735351060",
+        "website": {
+            "url": "http://www.reaviselementaryschool.org/"
+        }
+    },
+    {
+        "school_id": "610276",
+        "short_name": "MOLLISON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735351804",
+        "website": {
+            "url": "https://www.mollisonelementary.org"
+        }
+    },
+    {
+        "school_id": "609857",
+        "short_name": "CLEVELAND",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735345130",
+        "website": {
+            "url": "https://clevelandschool.org"
+        }
+    },
+    {
+        "school_id": "610564",
+        "short_name": "DISNEY II HS",
+        "school_type": "Magnet",
+        "primary_category": "HS",
+        "phone": "7735345010",
+        "website": {
+            "url": "https://disneyiimagnet.org"
+        },
+        "blue_ribbon_award_year": "2021"
+    },
+    {
+        "school_id": "610520",
+        "short_name": "LASALLE II",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735340490",
+        "website": {
+            "url": "http://www.lasalle2school.com"
+        }
+    },
+    {
+        "school_id": "609852",
+        "short_name": "CHAPPELL",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735342390",
+        "website": {
+            "url": "https://chappellelementaryschool.org"
+        }
+    },
+    {
+        "school_id": "610593",
+        "short_name": "OMBUDSMAN - ROSELAND HS",
+        "school_type": "Citywide-Option",
+        "primary_category": "HS",
+        "phone": "7739416674",
+        "website": {
+            "url": "https://chicago.ombudsman.com/"
+        }
+    },
+    {
+        "school_id": "400035",
+        "short_name": "CHICAGO MATH & SCIENCE HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7737618960",
+        "website": {
+            "url": "https://www.cmsaonline.net"
+        }
+    },
+    {
+        "school_id": "610228",
+        "short_name": "WHITTIER",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735354590",
+        "website": {
+            "url": "http://whittierschool.org"
+        }
+    },
+    {
+        "school_id": "609720",
+        "short_name": "LANE TECH HS",
+        "school_type": "Selective enrollment",
+        "primary_category": "HS",
+        "phone": "7735345400",
+        "website": {
+            "url": "https://lanetech.org"
+        },
+        "blue_ribbon_award_year": "2012"
+    },
+    {
+        "school_id": "610392",
+        "short_name": "WORLD LANGUAGE HS",
+        "school_type": "Small",
+        "primary_category": "HS",
+        "phone": "7735354334",
+        "website": {
+            "url": "https://wl.lvlhs.org"
+        }
+    },
+    {
+        "school_id": "610518",
+        "short_name": "AUSTIN CCA HS",
+        "school_type": "Small",
+        "primary_category": "HS",
+        "phone": "7735340660",
+        "website": {
+            "url": "https://accachicago.cps.edu"
+        }
+    },
+    {
+        "school_id": "610319",
+        "short_name": "EVERGREEN",
+        "school_type": "Neighborhood",
+        "primary_category": "MS",
+        "phone": "7735354836",
+        "website": {
+            "url": "https://evergreenacademyms.com"
+        }
+    },
+    {
+        "school_id": "609945",
+        "short_name": "GOUDY",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735342480",
+        "website": {
+            "url": "https://goudy.cps.edu"
+        }
+    },
+    {
+        "school_id": "610021",
+        "short_name": "CASALS",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735344444",
+        "website": {
+            "url": "https://www.casalssoe.org/"
+        }
+    },
+    {
+        "school_id": "609861",
+        "short_name": "CLISSOLD",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352560",
+        "website": {
+            "url": "http://www.clissold-school.org"
+        }
+    },
+    {
+        "school_id": "400089",
+        "short_name": "ACERO - MARQUEZ",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7733212200",
+        "website": {
+            "url": "http://dm.aceroschools.org"
+        }
+    },
+    {
+        "school_id": "610100",
+        "short_name": "WEST PARK",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735344940",
+        "website": {
+            "url": "https://westparkcps.org"
+        }
+    },
+    {
+        "school_id": "609680",
+        "short_name": "PAYTON HS",
+        "school_type": "Selective enrollment",
+        "primary_category": "HS",
+        "phone": "7735340034",
+        "website": {
+            "url": "https://wpcp.org"
+        },
+        "blue_ribbon_award_year": "2021"
+    },
+    {
+        "school_id": "609786",
+        "short_name": "AVALON PARK",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735356615",
+        "website": {
+            "url": "https://avalonparkarts.org/"
+        }
+    },
+    {
+        "school_id": "609848",
+        "short_name": "ALDRIDGE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735355614",
+        "website": {
+            "url": "https://aldridge.cps.edu"
+        }
+    },
+    {
+        "school_id": "610249",
+        "short_name": "TALMAN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735357850",
+        "website": {
+            "url": "https://talman.cps.edu"
+        }
+    },
+    {
+        "school_id": "609772",
+        "short_name": "ADDAMS",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735356210",
+        "website": {
+            "url": "https://addamses.enschool.org/"
+        }
+    },
+    {
+        "school_id": "400023",
+        "short_name": "CICS - AVALON/SOUTH SHORE",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7737210858",
+        "website": {
+            "url": "https://www.regenerationschools.org/cics-avalon"
+        }
+    },
+    {
+        "school_id": "610521",
+        "short_name": "DAVIS M",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735359120",
+        "website": {
+            "url": "https://milesdavismagnet.org"
+        }
+    },
+    {
+        "school_id": "609713",
+        "short_name": "HYDE PARK HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735350880",
+        "website": {
+            "url": "https://hydeparkcps.org"
+        }
+    },
+    {
+        "school_id": "609917",
+        "short_name": "FERNWOOD",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352700",
+        "website": {
+            "url": "http://www.fernwoodelementary.org/"
+        }
+    },
+    {
+        "school_id": "610131",
+        "short_name": "PLAMONDON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735341789",
+        "website": {
+            "url": "https://sites.google.com/cps.edu/plamondonpantherforparents/home"
+        }
+    },
+    {
+        "school_id": "609920",
+        "short_name": "KANOON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735341736",
+        "website": {
+            "url": "https://kanoonmagnet.com"
+        }
+    },
+    {
+        "school_id": "400085",
+        "short_name": "ACERO - GARCIA HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7735793480",
+        "website": {
+            "url": "http://hg.aceroschools.org"
+        }
+    },
+    {
+        "school_id": "400033",
+        "short_name": "CICS - LONGWOOD",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7732385330",
+        "website": {
+            "url": "https://cicsloomislongwood.org"
+        }
+    },
+    {
+        "school_id": "400092",
+        "short_name": "CICS - BOND",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7734681300",
+        "website": {
+            "url": "https://cicslloydbond.org"
+        }
+    },
+    {
+        "school_id": "610175",
+        "short_name": "SHOESMITH",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735351764",
+        "website": {
+            "url": "http://shoesmith.cps.edu"
+        }
+    },
+    {
+        "school_id": "610229",
+        "short_name": "PRITZKER",
+        "school_type": "Regional gifted center",
+        "primary_category": "ES",
+        "phone": "7735344415",
+        "website": {
+            "url": "http://www.pritzkerschool.org"
+        }
+    },
+    {
+        "school_id": "610104",
+        "short_name": "ONAHAN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735341180",
+        "website": {
+            "url": "https://onahanschool.org"
+        }
+    },
+    {
+        "school_id": "610380",
+        "short_name": "WILLIAMS HS",
+        "school_type": "Small",
+        "primary_category": "HS",
+        "phone": "7735351120",
+        "website": {
+            "url": "https://dhwprepmed.org"
+        }
+    },
+    {
+        "school_id": "609777",
+        "short_name": "ARMOUR",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735354530",
+        "website": {
+            "url": "https://armourelementary.org"
+        }
+    },
+    {
+        "school_id": "609709",
+        "short_name": "GAGE PARK HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735359230",
+        "website": {
+            "url": "https://gageparkhs.org"
+        }
+    },
+    {
+        "school_id": "400013",
+        "short_name": "ASPIRA - EARLY COLLEGE HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7732431626",
+        "website": {
+            "url": "https://aec.aspirail.org"
+        }
+    },
+    {
+        "school_id": "609971",
+        "short_name": "HARVARD",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735353045",
+        "website": {
+            "url": "https://harvardcougars.org"
+        }
+    },
+    {
+        "school_id": "610504",
+        "short_name": "THOMAS",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735354088",
+        "website": {
+            "url": "http://thomas.cps.edu/"
+        }
+    },
+    {
+        "school_id": "609963",
+        "short_name": "HAMILTON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735345484",
+        "website": {
+            "url": "https://hamiltoncps.org"
+        }
+    },
+    {
+        "school_id": "400026",
+        "short_name": "CICS - LOOMIS",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7734298955",
+        "website": {
+            "url": "https://www.cicsloomislongwood.org"
+        }
+    },
+    {
+        "school_id": "400106",
+        "short_name": "NOBLE - JOHNSON HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "3123481888",
+        "website": {
+            "url": "https://nobleschools.org/johnson"
+        }
+    },
+    {
+        "school_id": "609964",
+        "short_name": "HAMLINE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735354565",
+        "website": {
+            "url": "https://hamlinehawks.org"
+        }
+    },
+    {
+        "school_id": "610086",
+        "short_name": "MOUNT VERNON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352825",
+        "website": {
+            "url": "https://mtvernon.cps.edu"
+        }
+    },
+    {
+        "school_id": "609760",
+        "short_name": "CARVER MILITARY HS",
+        "school_type": "Military academy",
+        "primary_category": "HS",
+        "phone": "7735355250",
+        "website": {
+            "url": "https://carvermilitary.org"
+        }
+    },
+    {
+        "school_id": "609978",
+        "short_name": "SMITH",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735355689",
+        "website": {
+            "url": "https://wendellsmith.cps.edu"
+        }
+    },
+    {
+        "school_id": "610381",
+        "short_name": "BRONZEVILLE HS",
+        "school_type": "Small",
+        "primary_category": "HS",
+        "phone": "7735351150",
+        "website": {
+            "url": "https://bronzevillescholastic.org"
+        }
+    },
+    {
+        "school_id": "609885",
+        "short_name": "DEWEY",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735351666",
+        "website": {
+            "url": "https://sites.google.com/cps.edu/dewey-soe/home"
+        }
+    },
+    {
+        "school_id": "609929",
+        "short_name": "FULTON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735359000",
+        "website": {
+            "url": "https://FultonFalcons.org"
+        }
+    },
+    {
+        "school_id": "610523",
+        "short_name": "EDISON PARK",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735340960",
+        "website": {
+            "url": "https://edisonparkelementary.org"
+        }
+    },
+    {
+        "school_id": "610299",
+        "short_name": "KING ES",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735353875",
+        "website": {
+            "url": "https://kingacademy.cps.edu"
+        }
+    },
+    {
+        "school_id": "609719",
+        "short_name": "LAKE VIEW HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735345440",
+        "website": {
+            "url": "https://www.lakeviewhs.com"
+        }
+    },
+    {
+        "school_id": "400116",
+        "short_name": "MONTESSORI ENGLEWOOD",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7735359255",
+        "website": {
+            "url": "https://www.tmsoe.org"
+        }
+    },
+    {
+        "school_id": "400081",
+        "short_name": "ACERO - DE LAS CASAS",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "3124323224",
+        "website": {
+            "url": "http://bc.aceroschools.org"
+        }
+    },
+    {
+        "school_id": "609874",
+        "short_name": "DIRKSEN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735341090",
+        "website": {
+            "url": "http://dirksen.cps.edu"
+        }
+    },
+    {
+        "school_id": "610207",
+        "short_name": "VANDERPOEL",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735352690",
+        "website": {
+            "url": "http://www.vhaelementary.org/"
+        }
+    },
+    {
+        "school_id": "610074",
+        "short_name": "LOGAN SQUARE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735344155",
+        "website": {
+            "url": "https://jamesmonroeschool.org"
+        }
+    },
+    {
+        "school_id": "609976",
+        "short_name": "HAYT",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735342040",
+        "website": {
+            "url": "https://hayt.cps.edu"
+        }
+    },
+    {
+        "school_id": "610385",
+        "short_name": "MULTICULTURAL ARTS HS",
+        "school_type": "Small",
+        "primary_category": "HS",
+        "phone": "7735354242",
+        "website": {
+            "url": "https://multiculturalartshs.org/"
+        }
+    },
+    {
+        "school_id": "610257",
+        "short_name": "MORTON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735346791",
+        "website": {
+            "url": "https://mortonschool.org"
+        }
+    },
+    {
+        "school_id": "610256",
+        "short_name": "ROBINSON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735351777",
+        "website": {
+            "url": "https://robinsoncps.org"
+        }
+    },
+    {
+        "school_id": "400124",
+        "short_name": "YCCS - MCKINLEY",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "3129495010",
+        "website": {
+            "url": "https://yccs.us/campuses"
+        }
+    },
+    {
+        "school_id": "610208",
+        "short_name": "LAVIZZO",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735355300",
+        "website": {
+            "url": "https://lavizzo.cps.edu"
+        }
+    },
+    {
+        "school_id": "610368",
+        "short_name": "HUGHES L",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735355075",
+        "website": {
+            "url": "http://lhughes.cps.edu"
+        }
+    },
+    {
+        "school_id": "610142",
+        "short_name": "RAY",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735350970",
+        "website": {
+            "url": "http://ray.cps.edu"
+        }
+    },
+    {
+        "school_id": "610000",
+        "short_name": "HOWE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735346060",
+        "website": {
+            "url": "https://howejets.org"
+        }
+    },
+    {
+        "school_id": "610059",
+        "short_name": "MAYER",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735345535",
+        "website": {
+            "url": "http://mayermagnet.org/"
+        }
+    },
+    {
+        "school_id": "610178",
+        "short_name": "SCHMID",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735356235",
+        "website": {
+            "url": "https://schmidchargers.org"
+        }
+    },
+    {
+        "school_id": "609959",
+        "short_name": "HAINES",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735349200",
+        "website": {
+            "url": "http://haines.cps.edu"
+        }
+    },
+    {
+        "school_id": "400086",
+        "short_name": "URBAN PREP - ENGLEWOOD HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7735359724",
+        "website": {
+            "url": "https://urbanprep.org"
+        }
+    },
+    {
+        "school_id": "610193",
+        "short_name": "NEW SULLIVAN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735356585",
+        "website": {
+            "url": "https://newsullivan.cps.edu"
+        }
+    },
+    {
+        "school_id": "609935",
+        "short_name": "GALLISTEL",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735356540",
+        "website": {
+            "url": "http://gallistel.cps.edu/"
+        }
+    },
+    {
+        "school_id": "609764",
+        "short_name": "JUAREZ HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735347030",
+        "website": {
+            "url": "https://benitojuarez.net"
+        }
+    },
+    {
+        "school_id": "609995",
+        "short_name": "HITCH",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735341189",
+        "website": {
+            "url": "https://hitch.cps.edu"
+        }
+    },
+    {
+        "school_id": "610062",
+        "short_name": "MIÑOSO",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735351732",
+        "website": {
+            "url": "https://www.minosoacademy.org/"
+        }
+    },
+    {
+        "school_id": "609692",
+        "short_name": "SIMEON HS",
+        "school_type": "Career academy",
+        "primary_category": "HS",
+        "phone": "7735353200",
+        "website": {
+            "url": "https://simeonca.org"
+        }
+    },
+    {
+        "school_id": "609938",
+        "short_name": "GARY",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735341455",
+        "website": {
+            "url": "https://gary.cps.edu"
+        }
+    },
+    {
+        "school_id": "610120",
+        "short_name": "PECK",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352450",
+        "website": {
+            "url": "https://peckelementary.org"
+        }
+    },
+    {
+        "school_id": "400128",
+        "short_name": "YCCS - CCA ACADEMY",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7737622272",
+        "website": {
+            "url": "https://ccaacademy.org"
+        }
+    },
+    {
+        "school_id": "400025",
+        "short_name": "CICS - BUCKTOWN",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7736453321",
+        "website": {
+            "url": "https://www.cicsbucktown.org"
+        }
+    },
+    {
+        "school_id": "400129",
+        "short_name": "YCCS - PROGRESSIVE LEADERSHIP",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7733633837",
+        "website": {
+            "url": "https://www.pla-yccs.org"
+        }
+    },
+    {
+        "school_id": "400027",
+        "short_name": "CICS - IRVING PARK",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7734335000",
+        "website": {
+            "url": "https://www.cicsirvingpark.org"
+        }
+    },
+    {
+        "school_id": "400135",
+        "short_name": "YCCS - LATINO YOUTH",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7736482130",
+        "website": {
+            "url": "http://www.lyhs.org"
+        }
+    },
+    {
+        "school_id": "609753",
+        "short_name": "CHICAGO AGRICULTURE HS",
+        "school_type": "Magnet",
+        "primary_category": "HS",
+        "phone": "7735352500",
+        "website": {
+            "url": "https://chicagoagr.org"
+        }
+    },
+    {
+        "school_id": "609952",
+        "short_name": "GREENE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735354560",
+        "website": {
+            "url": "https://greene.cps.edu"
+        }
+    },
+    {
+        "school_id": "610198",
+        "short_name": "TAYLOR",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735356240",
+        "website": {
+            "url": "http://taylor.cps.edu/"
+        }
+    },
+    {
+        "school_id": "610539",
+        "short_name": "CAMRAS",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735342960",
+        "website": {
+            "url": "http://camras.cps.edu/"
+        }
+    },
+    {
+        "school_id": "609733",
+        "short_name": "SULLIVAN HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735342000",
+        "website": {
+            "url": "https://sullivanhs.org"
+        }
+    },
+    {
+        "school_id": "400056",
+        "short_name": "NOBLE - ROWE CLARK HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7732422212",
+        "website": {
+            "url": "https://nobleschools.org/rowe-clark"
+        }
+    },
+    {
+        "school_id": "610153",
+        "short_name": "RYDER",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735353843",
+        "website": {
+            "url": "https://ryderschool.org"
+        }
+    },
+    {
+        "school_id": "609738",
+        "short_name": "LINCOLN PARK HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735348130",
+        "website": {
+            "url": "https://www.lincolnparkhs.org"
+        }
+    },
+    {
+        "school_id": "610200",
+        "short_name": "THORP J",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735356250",
+        "website": {
+            "url": "https://jnthorp.org"
+        }
+    },
+    {
+        "school_id": "400054",
+        "short_name": "NOBLE - PRITZKER HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7733942848",
+        "website": {
+            "url": "https://nobleschools.org/pritzker"
+        }
+    },
+    {
+        "school_id": "610291",
+        "short_name": "LEE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352255",
+        "website": {
+            "url": "https://leelions.org"
+        }
+    },
+    {
+        "school_id": "609732",
+        "short_name": "STEINMETZ HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735343030",
+        "website": {
+            "url": "https://steinmetzcp.org"
+        }
+    },
+    {
+        "school_id": "610067",
+        "short_name": "MCKAY",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735359340",
+        "website": {
+            "url": "https://mckayschool.org"
+        }
+    },
+    {
+        "school_id": "610073",
+        "short_name": "MITCHELL",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735347655",
+        "website": {
+            "url": "https://mitchellschool.org"
+        }
+    },
+    {
+        "school_id": "400021",
+        "short_name": "CATALYST - CIRCLE ROCK",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7739455025",
+        "website": {
+            "url": "https://catalystschools.org/circle-rock"
+        }
+    },
+    {
+        "school_id": "609803",
+        "short_name": "BLAINE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735345750",
+        "website": {
+            "url": "https://blaine.cps.edu"
+        }
+    },
+    {
+        "school_id": "609749",
+        "short_name": "NORTHSIDE PREP HS",
+        "school_type": "Selective enrollment",
+        "primary_category": "HS",
+        "phone": "7735343954",
+        "website": {
+            "url": "https://northsideprep.org"
+        },
+        "blue_ribbon_award_year": "2020"
+    },
+    {
+        "school_id": "609807",
+        "short_name": "HAMPTON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735354030",
+        "website": {
+            "url": "https://hamptoncps.org"
+        }
+    },
+    {
+        "school_id": "610499",
+        "short_name": "COLLINS STEAM HS",
+        "school_type": "Small",
+        "primary_category": "HS",
+        "phone": "7735341840",
+        "website": {
+            "url": "https://collinsacademy.org"
+        }
+    },
+    {
+        "school_id": "609811",
+        "short_name": "BRIGHT",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735356215",
+        "website": {
+            "url": "https://orvillebright.org"
+        }
+    },
+    {
+        "school_id": "610027",
+        "short_name": "KIPLING",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735353151",
+        "website": {
+            "url": "https://www.kiplingchicago.org"
+        }
+    },
+    {
+        "school_id": "609725",
+        "short_name": "MORGAN PARK HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735352550",
+        "website": {
+            "url": "https://morganparkcps.org"
+        }
+    },
+    {
+        "school_id": "609864",
+        "short_name": "COOK",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735353315",
+        "website": {
+            "url": "https://cookelementary.org"
+        }
+    },
+    {
+        "school_id": "609761",
+        "short_name": "CORLISS HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735355115",
+        "website": {
+            "url": "https://newcorlisshs.org"
+        }
+    },
+    {
+        "school_id": "609967",
+        "short_name": "FINKL",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735355850",
+        "website": {
+            "url": "https://finklacademy.org"
+        }
+    },
+    {
+        "school_id": "609798",
+        "short_name": "BELDING",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735343590",
+        "website": {
+            "url": "https://beldingelementary.com"
+        }
+    },
+    {
+        "school_id": "610315",
+        "short_name": "WHITE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735355672",
+        "website": {
+            "url": "https://whitecareeracademy.org"
+        }
+    },
+    {
+        "school_id": "609969",
+        "short_name": "HARTE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735350870",
+        "website": {
+            "url": "http://www.harte.cps.edu"
+        }
+    },
+    {
+        "school_id": "610503",
+        "short_name": "FRAZIER PROSPECTIVE",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735346880",
+        "website": {
+            "url": "http://fraziermagnet.cps.edu/"
+        },
+        "blue_ribbon_award_year": "2013"
+    },
+    {
+        "school_id": "400165",
+        "short_name": "LEARN - MIDDLE",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7735844300",
+        "website": {
+            "url": "http://www.learncharter.org"
+        }
+    },
+    {
+        "school_id": "610284",
+        "short_name": "NEW FIELD",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735342760",
+        "website": {
+            "url": "https://newfield.cps.edu"
+        }
+    },
+    {
+        "school_id": "400141",
+        "short_name": "YCCS - TRUMAN",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7739074840",
+        "website": {
+            "url": "https://yccs.us/campuses"
+        }
+    },
+    {
+        "school_id": "400126",
+        "short_name": "YCCS - ASSOCIATION HOUSE",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7737727170",
+        "website": {
+            "url": "https://associationhouse.org"
+        }
+    },
+    {
+        "school_id": "609815",
+        "short_name": "BOUCHET",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735350501",
+        "website": {
+            "url": "https://bouchet-brynmawr.cps.edu"
+        }
+    },
+    {
+        "school_id": "610117",
+        "short_name": "PASTEUR",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352270",
+        "website": {
+            "url": "http://pasteur.cps.edu"
+        }
+    },
+    {
+        "school_id": "609678",
+        "short_name": "JONES HS",
+        "school_type": "Selective enrollment",
+        "primary_category": "HS",
+        "phone": "7735348600",
+        "website": {
+            "url": "https://www.jonescollegeprep.org"
+        },
+        "blue_ribbon_award_year": "2020"
+    },
+    {
+        "school_id": "609856",
+        "short_name": "CLAY",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735355600",
+        "website": {
+            "url": "http://clay.cps.edu"
+        }
+    },
+    {
+        "school_id": "609972",
+        "short_name": "HAUGAN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735345040",
+        "website": {
+            "url": "http://haugan.cps.edu"
+        }
+    },
+    {
+        "school_id": "609891",
+        "short_name": "DOOLITTLE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735351040",
+        "website": {
+            "url": "https://doolittleelementary.org"
+        }
+    },
+    {
+        "school_id": "609961",
+        "short_name": "NINOS HEROES",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735356694",
+        "website": {
+            "url": "https://ninosheroes.org"
+        }
+    },
+    {
+        "school_id": "609990",
+        "short_name": "SOUTH LOOP",
+        "school_type": "Regional gifted center",
+        "primary_category": "ES",
+        "phone": "7735348690",
+        "website": {
+            "url": "https://southloopschool.org"
+        }
+    },
+    {
+        "school_id": "609944",
+        "short_name": "GRISSOM",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735355380",
+        "website": {
+            "url": "https://grissom.cps.edu"
+        }
+    },
+    {
+        "school_id": "609832",
+        "short_name": "BYRNE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352170",
+        "website": {
+            "url": "https://byrnecps.org"
+        }
+    },
+    {
+        "school_id": "609993",
+        "short_name": "LARA",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735354389",
+        "website": {
+            "url": "https://lara.cps.edu"
+        }
+    },
+    {
+        "school_id": "610238",
+        "short_name": "BOND",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735353480",
+        "website": {
+            "url": "https://bondelementary.org"
+        }
+    },
+    {
+        "school_id": "609933",
+        "short_name": "GALE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735342100",
+        "website": {
+            "url": "https://gale.cps.edu"
+        }
+    },
+    {
+        "school_id": "610183",
+        "short_name": "SPENCER",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735346150",
+        "website": {
+            "url": "https://spencertech.cps.edu"
+        }
+    },
+    {
+        "school_id": "610099",
+        "short_name": "NORWOOD PARK",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735341198",
+        "website": {
+            "url": "http://norwoodpark.cps.edu"
+        }
+    },
+    {
+        "school_id": "609908",
+        "short_name": "ESMOND",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352650",
+        "website": {
+            "url": "https://esmond.cps.edu"
+        }
+    },
+    {
+        "school_id": "400084",
+        "short_name": "ACERO - TAMAYO",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7734346355",
+        "website": {
+            "url": "http://rt.aceroschools.org"
+        }
+    },
+    {
+        "school_id": "610242",
+        "short_name": "BRENNEMANN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735345766",
+        "website": {
+            "url": "https://www.josephbrennemann.org"
+        }
+    },
+    {
+        "school_id": "610041",
+        "short_name": "LOCKE J",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735343300",
+        "website": {
+            "url": "https://lockeschool.org"
+        }
+    },
+    {
+        "school_id": "610329",
+        "short_name": "OROZCO",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735347215",
+        "website": {
+            "url": "http://orozco.cps.edu"
+        }
+    },
+    {
+        "school_id": "610056",
+        "short_name": "MASON",
+        "school_type": "Small",
+        "primary_category": "ES",
+        "phone": "7735341530",
+        "website": {
+            "url": "https://www.masonelementary.org"
+        }
+    },
+    {
+        "school_id": "610109",
+        "short_name": "OWEN",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735359330",
+        "website": {
+            "url": "https://owenscholasticacademy.org"
+        }
+    },
+    {
+        "school_id": "609710",
+        "short_name": "HARLAN HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735355400",
+        "website": {
+            "url": "https://www.harlanfalcons.org"
+        }
+    },
+    {
+        "school_id": "610312",
+        "short_name": "MCDOWELL",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735356404",
+        "website": {
+            "url": "https://www.memcdowellelementaryschool.com"
+        }
+    },
+    {
+        "school_id": "610044",
+        "short_name": "LOWELL",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735344300",
+        "website": {
+            "url": "https://lowell.cps.edu"
+        }
+    },
+    {
+        "school_id": "610391",
+        "short_name": "LINDBLOM HS",
+        "school_type": "Selective enrollment",
+        "primary_category": "HS",
+        "phone": "7735359300",
+        "website": {
+            "url": "https://lindblomeagles.org"
+        }
+    },
+    {
+        "school_id": "609867",
+        "short_name": "COOPER",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735347205",
+        "website": {
+            "url": "http://cooper.cps.edu"
+        }
+    },
+    {
+        "school_id": "609724",
+        "short_name": "MATHER HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735342350",
+        "website": {
+            "url": "https://matherhs.org"
+        }
+    },
+    {
+        "school_id": "609875",
+        "short_name": "DARWIN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735344110",
+        "website": {
+            "url": "https://www.darwin.cps.edu"
+        }
+    },
+    {
+        "school_id": "610354",
+        "short_name": "NORTH RIVER",
+        "school_type": "Small",
+        "primary_category": "ES",
+        "phone": "7735340590",
+        "website": {
+            "url": "https://northriveres.org"
+        }
+    },
+    {
+        "school_id": "609788",
+        "short_name": "BARNARD",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352625",
+        "website": {
+            "url": "https://barnard.cps.edu"
+        }
+    },
+    {
+        "school_id": "610022",
+        "short_name": "KILMER",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735342115",
+        "website": {
+            "url": "https://kilmerelementary.org"
+        }
+    },
+    {
+        "school_id": "610115",
+        "short_name": "PARK MANOR",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735353070",
+        "website": {
+            "url": "https://www.parkmanor.cps.edu"
+        }
+    },
+    {
+        "school_id": "609853",
+        "short_name": "CHASE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735344185",
+        "website": {
+            "url": "https://chase.cps.edu"
+        }
+    },
+    {
+        "school_id": "400173",
+        "short_name": "PATHWAYS - BRIGHTON PARK HS",
+        "school_type": "Citywide-Option",
+        "primary_category": "HS",
+        "phone": "7735791220",
+        "website": {
+            "url": "https://pathwaysineducation.org"
+        }
+    },
+    {
+        "school_id": "610083",
+        "short_name": "BEARD",
+        "school_type": "Special Education",
+        "primary_category": "ES",
+        "phone": "7735341228",
+        "website": {
+            "url": "https://beard.cps.edu"
+        }
+    },
+    {
+        "school_id": "610102",
+        "short_name": "OGLESBY",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735353060",
+        "website": {
+            "url": "https://oglesby.cps.edu"
+        }
+    },
+    {
+        "school_id": "609759",
+        "short_name": "CLEMENTE HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735344000",
+        "website": {
+            "url": "https://www.rccachicago.org"
+        }
+    },
+    {
+        "school_id": "400127",
+        "short_name": "YCCS - AUSTIN CAREER",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7736266988",
+        "website": {
+            "url": "https://austincareer.org/"
+        }
+    },
+    {
+        "school_id": "609726",
+        "short_name": "BROOKS HS",
+        "school_type": "Selective enrollment",
+        "primary_category": "HS",
+        "phone": "7735359930",
+        "website": {
+            "url": "https://www.brookscollegeprep.org"
+        },
+        "blue_ribbon_award_year": "2018"
+    },
+    {
+        "school_id": "609869",
+        "short_name": "LANGFORD",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735359180",
+        "website": {
+            "url": "https://langfordacademy.org"
+        }
+    },
+    {
+        "school_id": "610212",
+        "short_name": "ALBANY PARK",
+        "school_type": "Neighborhood",
+        "primary_category": "MS",
+        "phone": "7735345108",
+        "website": {
+            "url": "https://albanypark.cps.edu"
+        }
+    },
+    {
+        "school_id": "400096",
+        "short_name": "ROWE",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "3126808309",
+        "website": {
+            "url": "https://www.roweelementaryschool.org"
+        }
+    },
+    {
+        "school_id": "610116",
+        "short_name": "PARKSIDE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735350940",
+        "website": {
+            "url": "https://parksideacademy.org"
+        }
+    },
+    {
+        "school_id": "610179",
+        "short_name": "SMYSER",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735343711",
+        "website": {
+            "url": "https://smyser.org"
+        }
+    },
+    {
+        "school_id": "609829",
+        "short_name": "BURROUGHS",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735357226",
+        "website": {
+            "url": "http://burroughs.cps.edu"
+        }
+    },
+    {
+        "school_id": "610559",
+        "short_name": "SHIELDS MIDDLE",
+        "school_type": "Neighborhood",
+        "primary_category": "MS",
+        "phone": "7735357115",
+        "website": {
+            "url": "http://shieldsmiddle.cps.edu/"
+        }
+    },
+    {
+        "school_id": "609821",
+        "short_name": "BURNHAM",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735356530",
+        "website": {
+            "url": "https://burnham.cps.edu"
+        }
+    },
+    {
+        "school_id": "610043",
+        "short_name": "LOVETT",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735343130",
+        "website": {
+            "url": "https://lovettelementary.org"
+        }
+    },
+    {
+        "school_id": "610148",
+        "short_name": "CHAVEZ",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735354600",
+        "website": {
+            "url": "https://chavez.cps.edu"
+        }
+    },
+    {
+        "school_id": "610213",
+        "short_name": "WADSWORTH",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735350730",
+        "website": {
+            "url": "https://wadsworthstem.com"
+        }
+    },
+    {
+        "school_id": "400048",
+        "short_name": "LEARN - EXCEL",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "3122437001",
+        "website": {
+            "url": "http://www.learncharter.org"
+        }
+    },
+    {
+        "school_id": "609839",
+        "short_name": "CARROLL",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735359414",
+        "website": {
+            "url": "https://carroll-rosenwald.cps.edu"
+        }
+    },
+    {
+        "school_id": "610216",
+        "short_name": "WALSH",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735347950",
+        "website": {
+            "url": "http://walshschool.cps.edu"
+        }
+    },
+    {
+        "school_id": "610111",
+        "short_name": "PALMER",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735343704",
+        "website": {
+            "url": "https://palmerpride.org"
+        }
+    },
+    {
+        "school_id": "610127",
+        "short_name": "PETERSON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735345070",
+        "website": {
+            "url": "http://www.peterson.cps.edu/"
+        }
+    },
+    {
+        "school_id": "609797",
+        "short_name": "BEIDLER",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735346811",
+        "website": {
+            "url": "https://www.beidlerschool.org/"
+        }
+    },
+    {
+        "school_id": "610251",
+        "short_name": "CATHER",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735346780",
+        "website": {
+            "url": "https://cather.cps.edu"
+        }
+    },
+    {
+        "school_id": "610138",
+        "short_name": "PULASKI",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735344391",
+        "website": {
+            "url": "http://www.pulaskischool.org"
+        }
+    },
+    {
+        "school_id": "400057",
+        "short_name": "NOBLE - UIC HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "3127684858",
+        "website": {
+            "url": "https://nobleschools.org/uic"
+        }
+    },
+    {
+        "school_id": "610019",
+        "short_name": "KERSHAW",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735353050",
+        "website": {
+            "url": "https://kershawmagnet.org"
+        }
+    },
+    {
+        "school_id": "610038",
+        "short_name": "LINCOLN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735345720",
+        "website": {
+            "url": "https://www.lincolnelementary.org"
+        }
+    },
+    {
+        "school_id": "610308",
+        "short_name": "RUDOLPH",
+        "school_type": "Special Education",
+        "primary_category": "ES",
+        "phone": "7735347460",
+        "website": {
+            "url": "https://rudolph.cps.edu"
+        }
+    },
+    {
+        "school_id": "400104",
+        "short_name": "INSTITUTO - HEALTH",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7738908020",
+        "website": {
+            "url": "https://www.ihsca.org/"
+        }
+    },
+    {
+        "school_id": "610124",
+        "short_name": "WASHINGTON H ES",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735356225",
+        "website": {
+            "url": "https://www.hwespacers.org"
+        }
+    },
+    {
+        "school_id": "610587",
+        "short_name": "DYETT ARTS HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735351825",
+        "website": {
+            "url": "https://newdyett.org"
+        }
+    },
+    {
+        "school_id": "609879",
+        "short_name": "DAWES",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352350",
+        "website": {
+            "url": "https://dawes.cps.edu"
+        }
+    },
+    {
+        "school_id": "610068",
+        "short_name": "HANSON PARK",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735343100",
+        "website": {
+            "url": "https://hanson.cps.edu"
+        }
+    },
+    {
+        "school_id": "609895",
+        "short_name": "TURNER-DREW",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735355720",
+        "website": {
+            "url": "https://turner-drew.cps.edu"
+        }
+    },
+    {
+        "school_id": "609977",
+        "short_name": "WOODLAWN",
+        "school_type": "Small",
+        "primary_category": "ES",
+        "phone": "7735350801",
+        "website": {
+            "url": "https://woodlawn.cps.edu"
+        }
+    },
+    {
+        "school_id": "610334",
+        "short_name": "RABY HS",
+        "school_type": "Small",
+        "primary_category": "HS",
+        "phone": "7735346755",
+        "website": {
+            "url": "https://www.alraby.org"
+        }
+    },
+    {
+        "school_id": "609974",
+        "short_name": "HAWTHORNE",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735345550",
+        "website": {
+            "url": "https://www.hawthorneacad.org"
+        },
+        "blue_ribbon_award_year": "2024"
+    },
+    {
+        "school_id": "610129",
+        "short_name": "PICKARD",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735357280",
+        "website": {
+            "url": "http://www.pickard.cps.edu"
+        }
+    },
+    {
+        "school_id": "609740",
+        "short_name": "WELLS HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735347010",
+        "website": {
+            "url": "https://WellsHS.cps.edu"
+        }
+    },
+    {
+        "school_id": "609735",
+        "short_name": "TILDEN HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735351625",
+        "website": {
+            "url": "https://tilden.cps.edu"
+        }
+    },
+    {
+        "school_id": "610547",
+        "short_name": "SOUTH SHORE INTL HS",
+        "school_type": "Selective enrollment",
+        "primary_category": "HS",
+        "phone": "7735358350",
+        "website": {
+            "url": "https://ssicp.org"
+        }
+    },
+    {
+        "school_id": "609986",
+        "short_name": "HENDERSON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735359080",
+        "website": {
+            "url": "http://henderson.cps.edu"
+        }
+    },
+    {
+        "school_id": "610347",
+        "short_name": "CLAREMONT",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735358110",
+        "website": {
+            "url": "https://claremontstem.cps.edu"
+        }
+    },
+    {
+        "school_id": "609985",
+        "short_name": "HEFFERAN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735346192",
+        "website": {
+            "url": "https://hefferan.cps.edu"
+        }
+    },
+    {
+        "school_id": "609924",
+        "short_name": "FORT DEARBORN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352680",
+        "website": {
+            "url": "https://fortdearborn.cps.edu"
+        }
+    },
+    {
+        "school_id": "609827",
+        "short_name": "BURNSIDE",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735353300",
+        "website": {
+            "url": "https://burnsidescholasticacademy.org"
+        }
+    },
+    {
+        "school_id": "610215",
+        "short_name": "MADERO",
+        "school_type": "Neighborhood",
+        "primary_category": "MS",
+        "phone": "7735354466",
+        "website": {
+            "url": "https://madero.cps.edu"
+        }
+    },
+    {
+        "school_id": "609806",
+        "short_name": "BRADWELL",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735356600",
+        "website": {
+            "url": "https://bradwellbruins.org"
+        }
+    },
+    {
+        "school_id": "610534",
+        "short_name": "SKINNER NORTH",
+        "school_type": "Classical",
+        "primary_category": "ES",
+        "phone": "7735348500",
+        "website": {
+            "url": "https://www.skinnernorth.org"
+        },
+        "blue_ribbon_award_year": "2016"
+    },
+    {
+        "school_id": "400118",
+        "short_name": "NOBLE - DRW HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7738934500",
+        "website": {
+            "url": "https://nobleschools.org/drw"
+        }
+    },
+    {
+        "school_id": "609691",
+        "short_name": "NORTH-GRAND HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735348520",
+        "website": {
+            "url": "https://www.northgrandhs.org"
+        }
+    },
+    {
+        "school_id": "609739",
+        "short_name": "WASHINGTON HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735355725",
+        "website": {
+            "url": "https://www.gwashingtonhs.org"
+        }
+    },
+    {
+        "school_id": "609855",
+        "short_name": "CHRISTOPHER",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735359375",
+        "website": {
+            "url": "https://www.christopherschool.org"
+        }
+    },
+    {
+        "school_id": "610287",
+        "short_name": "ASHBURN",
+        "school_type": "Small",
+        "primary_category": "ES",
+        "phone": "7735357860",
+        "website": {
+            "url": "https://ashburnschool.com"
+        }
+    },
+    {
+        "school_id": "400146",
+        "short_name": "KIPP - ACADEMY",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7739388553",
+        "website": {
+            "url": "https://www.kippchicago.org"
+        }
+    },
+    {
+        "school_id": "609746",
+        "short_name": "KENWOOD HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735351350",
+        "website": {
+            "url": "https://kenwoodacademy.org"
+        }
+    },
+    {
+        "school_id": "609859",
+        "short_name": "CLINTON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735342025",
+        "website": {
+            "url": "https://clinton.cps.edu"
+        }
+    },
+    {
+        "school_id": "610596",
+        "short_name": "VIRTUAL ACADEMY ES",
+        "school_type": "Virtual",
+        "primary_category": "ES",
+        "phone": "7735532020",
+        "website": {
+            "url": "https://virtualacademy.cps.edu"
+        }
+    },
+    {
+        "school_id": "400107",
+        "short_name": "LEARN - SOUTH CHICAGO",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7737228577",
+        "website": {
+            "url": "http://www.learncharter.org"
+        }
+    },
+    {
+        "school_id": "610039",
+        "short_name": "VON LINNE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735345262",
+        "website": {
+            "url": "https://www.linneschool.org"
+        }
+    },
+    {
+        "school_id": "400050",
+        "short_name": "NAMASTE",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7737159558",
+        "website": {
+            "url": "http://www.namastecharterschool.org"
+        }
+    },
+    {
+        "school_id": "609954",
+        "short_name": "GREGORY",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735346820",
+        "website": {
+            "url": "https://gregoryacademy.org"
+        }
+    },
+    {
+        "school_id": "610105",
+        "short_name": "ORIOLE PARK",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735341201",
+        "website": {
+            "url": "https://orioleparkschool.com"
+        }
+    },
+    {
+        "school_id": "610352",
+        "short_name": "DURKIN PARK",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352322",
+        "website": {
+            "url": "https://durkinpark.com"
+        }
+    },
+    {
+        "school_id": "609941",
+        "short_name": "RANDOLPH",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735359015",
+        "website": {
+            "url": "http://randolph.cps.edu/"
+        }
+    },
+    {
+        "school_id": "610141",
+        "short_name": "RAVENSWOOD",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735345525",
+        "website": {
+            "url": "https://www.ravenswoodelementary.org"
+        }
+    },
+    {
+        "school_id": "609730",
+        "short_name": "SENN HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735342365",
+        "website": {
+            "url": "https://www.sennhs.org"
+        }
+    },
+    {
+        "school_id": "609695",
+        "short_name": "AMUNDSEN HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735342320",
+        "website": {
+            "url": "http://www.amundsenhs.org"
+        }
+    },
+    {
+        "school_id": "400094",
+        "short_name": "EPIC HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7735357930",
+        "website": {
+            "url": "http://www.epicacademy.org"
+        }
+    },
+    {
+        "school_id": "610317",
+        "short_name": "BRIGHTON PARK",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735357237",
+        "website": {
+            "url": "http://brightonpark.cps.edu/"
+        }
+    },
+    {
+        "school_id": "610093",
+        "short_name": "NEIL",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735353000",
+        "website": {
+            "url": "https://neil.cps.edu"
+        }
+    },
+    {
+        "school_id": "609873",
+        "short_name": "CROWN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735341680",
+        "website": {
+            "url": "https://crown.cps.edu"
+        }
+    },
+    {
+        "school_id": "610192",
+        "short_name": "STOWE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735344175",
+        "website": {
+            "url": "https://stowe.cps.edu"
+        }
+    },
+    {
+        "school_id": "400082",
+        "short_name": "ACERO - FUENTES",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7732799826",
+        "website": {
+            "url": "http://dm.aceroschools.org"
+        }
+    },
+    {
+        "school_id": "610367",
+        "short_name": "DEPRIEST",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735346800",
+        "website": {
+            "url": "https://depriestschool.org"
+        }
+    },
+    {
+        "school_id": "609973",
+        "short_name": "ZAPATA",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735341390",
+        "website": {
+            "url": "http://zapata.cps.edu"
+        }
+    },
+    {
+        "school_id": "400076",
+        "short_name": "U OF C - NKO",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7735362399",
+        "website": {
+            "url": "https://www.uchicagocharter.org"
+        }
+    },
+    {
+        "school_id": "610225",
+        "short_name": "WHISTLER",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735355560",
+        "website": {
+            "url": "https://cps.edu/whistler"
+        }
+    },
+    {
+        "school_id": "610594",
+        "short_name": "PATHWAYS - HUMBOLDT PARK HS",
+        "school_type": "Citywide-Option",
+        "primary_category": "HS",
+        "phone": "7738048866",
+        "website": {
+            "url": "https://pathwaysineducation.org"
+        }
+    },
+    {
+        "school_id": "610588",
+        "short_name": "RICHARDSON",
+        "school_type": "Neighborhood",
+        "primary_category": "MS",
+        "phone": "7735358640",
+        "website": {
+            "url": "http://richardson.cps.edu"
+        }
+    },
+    {
+        "school_id": "609728",
+        "short_name": "ROOSEVELT HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735345000",
+        "website": {
+            "url": "https://rhsroughriders.org"
+        }
+    },
+    {
+        "school_id": "610561",
+        "short_name": "CRANE MEDICAL HS",
+        "school_type": "Magnet",
+        "primary_category": "HS",
+        "phone": "7735347600",
+        "website": {
+            "url": "https://newcranemedicalprep.org"
+        }
+    },
+    {
+        "school_id": "610226",
+        "short_name": "SANDOVAL",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735350457",
+        "website": {
+            "url": "https://sandovalelementary.org"
+        }
+    },
+    {
+        "school_id": "609754",
+        "short_name": "CHICAGO MILITARY HS",
+        "school_type": "Military academy",
+        "primary_category": "HS",
+        "phone": "7735349750",
+        "website": {
+            "url": "https://chicagomilitaryacademy.org"
+        }
+    },
+    {
+        "school_id": "610101",
+        "short_name": "OGDEN ES",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735348110",
+        "website": {
+            "url": "https://ogden.cps.edu"
+        }
+    },
+    {
+        "school_id": "400069",
+        "short_name": "POLARIS",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7735340820",
+        "website": {
+            "url": "https://pcachicago.org"
+        }
+    },
+    {
+        "school_id": "609833",
+        "short_name": "DAISY BATES",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735356300",
+        "website": {
+            "url": "https://daisybatesacademy.org"
+        }
+    },
+    {
+        "school_id": "610157",
+        "short_name": "SAWYER",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735350440",
+        "website": {
+            "url": "https://sawyer.cps.edu"
+        }
+    },
+    {
+        "school_id": "610159",
+        "short_name": "SCAMMON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735343475",
+        "website": {
+            "url": "https://scammon.cps.edu"
+        }
+    },
+    {
+        "school_id": "609900",
+        "short_name": "CURTIS",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735355050",
+        "website": {
+            "url": "https://curtissoe.org/"
+        }
+    },
+    {
+        "school_id": "609918",
+        "short_name": "FIELD",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735342030",
+        "website": {
+            "url": "https://eugenefield.org"
+        }
+    },
+    {
+        "school_id": "610548",
+        "short_name": "STEM",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735347300",
+        "website": {
+            "url": "https://STEMMagnetAcademy.com"
+        }
+    },
+    {
+        "school_id": "609912",
+        "short_name": "FARNSWORTH",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735343535",
+        "website": {
+            "url": "https://sites.google.com/cps.edu/farnsworth"
+        }
+    },
+    {
+        "school_id": "610176",
+        "short_name": "SHOOP",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352715",
+        "website": {
+            "url": "https://shoop.cps.edu"
+        }
+    },
+    {
+        "school_id": "400156",
+        "short_name": "NOBLE - BUTLER HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7735355490",
+        "website": {
+            "url": "https://nobleschools.org/butler"
+        }
+    },
+    {
+        "school_id": "610364",
+        "short_name": "DUBOIS",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735355582",
+        "website": {
+            "url": "https://dubois.cps.edu"
+        }
+    },
+    {
+        "school_id": "609715",
+        "short_name": "KELLY HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735354900",
+        "website": {
+            "url": "https://kellyhighschool.org"
+        }
+    },
+    {
+        "school_id": "609909",
+        "short_name": "EVERETT",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735354550",
+        "website": {
+            "url": "https://everett.cps.edu"
+        }
+    },
+    {
+        "school_id": "610004",
+        "short_name": "CULLEN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735355375",
+        "website": {
+            "url": "https://counteecullenelementary.org"
+        }
+    },
+    {
+        "school_id": "610046",
+        "short_name": "LYON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735343120",
+        "website": {
+            "url": "https://www.marylyonschool.com"
+        }
+    },
+    {
+        "school_id": "610386",
+        "short_name": "PEACE AND EDUCATION HS",
+        "school_type": "Citywide-Option",
+        "primary_category": "HS",
+        "phone": "7735359212",
+        "website": {
+            "url": "https://pechspanthers.org"
+        }
+    },
+    {
+        "school_id": "609694",
+        "short_name": "HANCOCK HS",
+        "school_type": "Selective enrollment",
+        "primary_category": "HS",
+        "phone": "7735352410",
+        "website": {
+            "url": "http://www.hancockhs.org"
+        },
+        "blue_ribbon_award_year": "2020"
+    },
+    {
+        "school_id": "400055",
+        "short_name": "NOBLE - RAUNER HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "3122265345",
+        "website": {
+            "url": "https://nobleschools.org/rauner"
+        }
+    },
+    {
+        "school_id": "609880",
+        "short_name": "DECATUR",
+        "school_type": "Classical",
+        "primary_category": "ES",
+        "phone": "7735342200",
+        "website": {
+            "url": "https://www.decaturclassical.org"
+        },
+        "blue_ribbon_award_year": "2020"
+    },
+    {
+        "school_id": "609722",
+        "short_name": "MANLEY HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735346900",
+        "website": {
+            "url": "https://manleycareeracademy.org"
+        }
+    },
+    {
+        "school_id": "610103",
+        "short_name": "OKEEFFE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735350600",
+        "website": {
+            "url": "https://okeeffesoe.org"
+        }
+    },
+    {
+        "school_id": "609988",
+        "short_name": "HENRY",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735345060",
+        "website": {
+            "url": "http://patrickhenryes.cps.edu"
+        }
+    },
+    {
+        "school_id": "610248",
+        "short_name": "CHICAGO ACADEMY ES",
+        "school_type": "Small",
+        "primary_category": "ES",
+        "phone": "7735343885",
+        "website": {
+            "url": "http://www.chicagoacademy.org"
+        }
+    },
+    {
+        "school_id": "610245",
+        "short_name": "DOUGLASS HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735346176",
+        "website": {
+            "url": "https://douglassacademy.org"
+        }
+    },
+    {
+        "school_id": "610529",
+        "short_name": "OGDEN HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735340866",
+        "website": {
+            "url": "https://ogden.cps.edu"
+        }
+    },
+    {
+        "school_id": "610203",
+        "short_name": "MONARCAS",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735359280",
+        "website": {
+            "url": "https://www.monarcasacademy.org/"
+        }
+    },
+    {
+        "school_id": "609883",
+        "short_name": "DENEEN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735353035",
+        "website": {
+            "url": "https://deneen.cps.edu"
+        }
+    },
+    {
+        "school_id": "610112",
+        "short_name": "PARKER",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735353375",
+        "website": {
+            "url": "https://parker.cps.edu"
+        }
+    },
+    {
+        "school_id": "609809",
+        "short_name": "BRENTANO",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735344100",
+        "website": {
+            "url": "https://brentanomathandscienceacademy.org"
+        }
+    },
+    {
+        "school_id": "609897",
+        "short_name": "EARLE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735359130",
+        "website": {
+            "url": "https://earlestemelementary.org"
+        }
+    },
+    {
+        "school_id": "610094",
+        "short_name": "NETTELHORST",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735345810",
+        "website": {
+            "url": "https://nettelhorst.org"
+        }
+    },
+    {
+        "school_id": "610563",
+        "short_name": "BACK OF THE YARDS HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735357320",
+        "website": {
+            "url": "https://boycp.org/"
+        }
+    },
+    {
+        "school_id": "609791",
+        "short_name": "BASS",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735353275",
+        "website": {
+            "url": "https://perkinsbasselementary.org/"
+        }
+    },
+    {
+        "school_id": "400017",
+        "short_name": "ASPIRA - HAUGAN",
+        "school_type": "Charter",
+        "primary_category": "MS",
+        "phone": "7733033549",
+        "website": {
+            "url": "https://haugan.aspirail.org"
+        }
+    },
+    {
+        "school_id": "610263",
+        "short_name": "DULLES",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735350690",
+        "website": {
+            "url": "https://dullesschoolofexcellence.org"
+        }
+    },
+    {
+        "school_id": "610077",
+        "short_name": "MORRILL",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735359288",
+        "website": {
+            "url": "https://morrilleagles.org"
+        }
+    },
+    {
+        "school_id": "400029",
+        "short_name": "CICS - WASHINGTON PARK",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7733470200",
+        "website": {
+            "url": "https://regenerationschools.org/cics-washington-park"
+        }
+    },
+    {
+        "school_id": "400115",
+        "short_name": "CATALYST - MARIA",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7739931770",
+        "website": {
+            "url": "https://catalystschools.org/maria"
+        }
+    },
+    {
+        "school_id": "609750",
+        "short_name": "SIMPSON HS",
+        "school_type": "Citywide-Option",
+        "primary_category": "HS",
+        "phone": "7735347812",
+        "website": {
+            "url": "https://simpsonacademy.cps.edu"
+        }
+    },
+    {
+        "school_id": "610126",
+        "short_name": "PERSHING",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735349272",
+        "website": {
+            "url": "https://pershingcps.org"
+        }
+    },
+    {
+        "school_id": "400180",
+        "short_name": "KIPP - ONE",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7739388578",
+        "website": {
+            "url": "https://www.kippchicago.org"
+        }
+    },
+    {
+        "school_id": "610196",
+        "short_name": "SWIFT",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735342695",
+        "website": {
+            "url": "https://swift.cps.edu"
+        }
+    },
+    {
+        "school_id": "610055",
+        "short_name": "FARADAY",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735346670",
+        "website": {
+            "url": "https://faradayelementary.org"
+        }
+    },
+    {
+        "school_id": "610231",
+        "short_name": "NATIONAL TEACHERS",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735349970",
+        "website": {
+            "url": "https://ntacourage.org"
+        }
+    },
+    {
+        "school_id": "610015",
+        "short_name": "JUNGMAN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735347375",
+        "website": {
+            "url": "https://www.jungmanstem.org"
+        }
+    },
+    {
+        "school_id": "400046",
+        "short_name": "LEARN - BUTLER",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7737220200",
+        "website": {
+            "url": "http://www.learncharter.org"
+        }
+    },
+    {
+        "school_id": "609729",
+        "short_name": "SCHURZ HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735343420",
+        "website": {
+            "url": "https://schurzhs.org"
+        }
+    },
+    {
+        "school_id": "400114",
+        "short_name": "ACERO - SANTIAGO",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "3124555410",
+        "website": {
+            "url": "http://es.aceroschools.org"
+        }
+    },
+    {
+        "school_id": "610016",
+        "short_name": "KELLOGG",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352590",
+        "website": {
+            "url": "http://kellogg.cps.edu"
+        }
+    },
+    {
+        "school_id": "610040",
+        "short_name": "LLOYD",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735343070",
+        "website": {
+            "url": "https://lloydschool.org"
+        }
+    },
+    {
+        "school_id": "610405",
+        "short_name": "SUDER",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735347685",
+        "website": {
+            "url": "https://sudermontessori.org"
+        }
+    },
+    {
+        "school_id": "400031",
+        "short_name": "CICS - WRIGHTWOOD",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7734344575",
+        "website": {
+            "url": "https://cicswrightwood.org"
+        }
+    },
+    {
+        "school_id": "609708",
+        "short_name": "FOREMAN HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735343400",
+        "website": {
+            "url": "http://www.foremancca.org"
+        }
+    },
+    {
+        "school_id": "609755",
+        "short_name": "YOUNG HS",
+        "school_type": "Selective enrollment",
+        "primary_category": "HS",
+        "phone": "7735347500",
+        "website": {
+            "url": "https://wyoung.org"
+        },
+        "blue_ribbon_award_year": "2020"
+    },
+    {
+        "school_id": "400009",
+        "short_name": "GLOBAL CITIZENSHIP",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7735821100",
+        "website": {
+            "url": "https://agcchicago.org"
+        }
+    },
+    {
+        "school_id": "609850",
+        "short_name": "GREELEY",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735345800",
+        "website": {
+            "url": "https://greeleyelementary.com"
+        },
+        "blue_ribbon_award_year": "2007"
+    },
+    {
+        "school_id": "610185",
+        "short_name": "STEVENSON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352280",
+        "website": {
+            "url": "https://stevenson.cps.edu"
+        }
+    },
+    {
+        "school_id": "609994",
+        "short_name": "HIBBARD",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735345191",
+        "website": {
+            "url": "https://hibbard.cps.edu"
+        }
+    },
+    {
+        "school_id": "610601",
+        "short_name": "SAFE ACHIEVE WEST HS",
+        "school_type": "Citywide-Option",
+        "primary_category": "HS",
+        "phone": "7736574020",
+        "website": {
+            "url": "https://sesischools.com/locations/safe-achieve-academy-of-chicago-west/"
+        }
+    },
+    {
+        "school_id": "609904",
+        "short_name": "ELLINGTON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735346361",
+        "website": {
+            "url": "https://www.ellington.cps.edu/"
+        }
+    },
+    {
+        "school_id": "609794",
+        "short_name": "EDISON",
+        "school_type": "Regional gifted center",
+        "primary_category": "ES",
+        "phone": "7735340540",
+        "website": {
+            "url": "https://edisongifted.com"
+        },
+        "blue_ribbon_award_year": "2018"
+    },
+    {
+        "school_id": "610544",
+        "short_name": "AZUELA",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735357395",
+        "website": {
+            "url": "http://azuela.cps.edu"
+        }
+    },
+    {
+        "school_id": "610543",
+        "short_name": "SOLORIO HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735359070",
+        "website": {
+            "url": "https://solorioacademy.org"
+        }
+    },
+    {
+        "school_id": "610586",
+        "short_name": "SADLOWSKI",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735358040",
+        "website": {
+            "url": "http://sadlowski.cps.edu"
+        }
+    },
+    {
+        "school_id": "610195",
+        "short_name": "SUTHERLAND",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352580",
+        "website": {
+            "url": "https://sutherland.cps.edu"
+        }
+    },
+    {
+        "school_id": "609862",
+        "short_name": "COLES",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735356550",
+        "website": {
+            "url": "https://colesacademy.cps.edu"
+        }
+    },
+    {
+        "school_id": "609966",
+        "short_name": "HAMMOND",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735354580",
+        "website": {
+            "url": "http://hammond.cps.edu"
+        }
+    },
+    {
+        "school_id": "610110",
+        "short_name": "WELLS ES",
+        "school_type": "Small",
+        "primary_category": "ES",
+        "phone": "7735351204",
+        "website": {
+            "url": "http://wellsprepelementary.com"
+        }
+    },
+    {
+        "school_id": "609968",
+        "short_name": "MCAULIFFE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735344400",
+        "website": {
+            "url": "https://mcauliffees.org"
+        }
+    },
+    {
+        "school_id": "609919",
+        "short_name": "FISKE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735350990",
+        "website": {
+            "url": "https://fiskeelementary.org"
+        }
+    },
+    {
+        "school_id": "609844",
+        "short_name": "CARTER",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735350860",
+        "website": {
+            "url": "https://cartersoe.cps.edu"
+        }
+    },
+    {
+        "school_id": "610227",
+        "short_name": "WHITNEY",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735341560",
+        "website": {
+            "url": "http://whitney.cps.edu"
+        }
+    },
+    {
+        "school_id": "400064",
+        "short_name": "PERSPECTIVES - JOSLIN HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "3122257400",
+        "website": {
+            "url": "http://www.pcsedu.org"
+        }
+    },
+    {
+        "school_id": "610132",
+        "short_name": "POE",
+        "school_type": "Classical",
+        "primary_category": "ES",
+        "phone": "7735355525",
+        "website": {
+            "url": "https://poe.cps.edu"
+        },
+        "blue_ribbon_award_year": "2017"
+    },
+    {
+        "school_id": "400168",
+        "short_name": "GREAT LAKES",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7735303040",
+        "website": {
+            "url": "http://www.glachicago.org/"
+        }
+    },
+    {
+        "school_id": "400151",
+        "short_name": "LEARN - 7",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7735844300",
+        "website": {
+            "url": "http://www.learncharter.org"
+        }
+    },
+    {
+        "school_id": "610282",
+        "short_name": "MCNAIR",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735348980",
+        "website": {
+            "url": "https://mcnairschool.org"
+        }
+    },
+    {
+        "school_id": "609866",
+        "short_name": "COONLEY",
+        "school_type": "Regional gifted center",
+        "primary_category": "ES",
+        "phone": "7735345140",
+        "website": {
+            "url": "http://coonley.cps.edu"
+        }
+    },
+    {
+        "school_id": "609748",
+        "short_name": "YORK HS",
+        "school_type": "Citywide-Option",
+        "primary_category": "HS",
+        "phone": "7735357021",
+        "website": {
+            "url": "https://yorkhs.org"
+        }
+    },
+    {
+        "school_id": "610097",
+        "short_name": "NIXON",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735344375",
+        "website": {
+            "url": "http://nixon.cps.edu"
+        }
+    },
+    {
+        "school_id": "610065",
+        "short_name": "TILL",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735350570",
+        "website": {
+            "url": "https://emmetttillelementary.com"
+        }
+    },
+    {
+        "school_id": "609751",
+        "short_name": "KING HS",
+        "school_type": "Selective enrollment",
+        "primary_category": "HS",
+        "phone": "7735351180",
+        "website": {
+            "url": "https://kcp.cps.edu"
+        }
+    },
+    {
+        "school_id": "610165",
+        "short_name": "SCHUBERT",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735343080",
+        "website": {
+            "url": "https://schubertes.org"
+        }
+    },
+    {
+        "school_id": "400181",
+        "short_name": "ART IN MOTION",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7738209426",
+        "website": {
+            "url": "https://www.aimchicago.org"
+        }
+    },
+    {
+        "school_id": "609718",
+        "short_name": "KENNEDY HS",
+        "school_type": "Neighborhood",
+        "primary_category": "HS",
+        "phone": "7735352325",
+        "website": {
+            "url": "http://www.kennedy.cps.edu"
+        }
+    },
+    {
+        "school_id": "610158",
+        "short_name": "SAYRE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735343351",
+        "website": {
+            "url": "https://sayre.cps.edu"
+        }
+    },
+    {
+        "school_id": "400053",
+        "short_name": "NOBLE - GOLDER HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "3122659925",
+        "website": {
+            "url": "https://nobleschools.org/golder"
+        }
+    },
+    {
+        "school_id": "610206",
+        "short_name": "TWAIN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352290",
+        "website": {
+            "url": "https://twain.cps.edu"
+        }
+    },
+    {
+        "school_id": "610024",
+        "short_name": "CARDENAS",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735341465",
+        "website": {
+            "url": "https://cardenas.cps.edu"
+        }
+    },
+    {
+        "school_id": "610034",
+        "short_name": "LAWNDALE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735341635",
+        "website": {
+            "url": "https://lawndalepanthers.org"
+        }
+    },
+    {
+        "school_id": "609910",
+        "short_name": "FALCONER",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735343560",
+        "website": {
+            "url": "https://falconerelementary.com"
+        }
+    },
+    {
+        "school_id": "609871",
+        "short_name": "VICK",
+        "school_type": "Special Education",
+        "primary_category": "ES",
+        "phone": "7735352671",
+        "website": {
+            "url": "http://www.barbaravick.cps.edu"
+        }
+    },
+    {
+        "school_id": "400066",
+        "short_name": "PERSPECTIVES - MATH & SCI HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7733586800",
+        "website": {
+            "url": "https://www.pcsedu.org"
+        }
+    },
+    {
+        "school_id": "609899",
+        "short_name": "EBINGER",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735341070",
+        "website": {
+            "url": "https://ebingerschool.org"
+        }
+    },
+    {
+        "school_id": "609943",
+        "short_name": "OWENS",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735355475",
+        "website": {
+            "url": "https://gompersschool.org"
+        }
+    },
+    {
+        "school_id": "610009",
+        "short_name": "GALILEO",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735347070",
+        "website": {
+            "url": "https://galileoscholasticacademy.org"
+        }
+    },
+    {
+        "school_id": "609676",
+        "short_name": "DUNBAR HS",
+        "school_type": "Career academy",
+        "primary_category": "HS",
+        "phone": "7735349000",
+        "website": {
+            "url": "https://dvca-cps.org"
+        }
+    },
+    {
+        "school_id": "610271",
+        "short_name": "JENSEN",
+        "school_type": "Magnet",
+        "primary_category": "ES",
+        "phone": "7735346840",
+        "website": {
+            "url": "http://jensen.cps.edu"
+        }
+    },
+    {
+        "school_id": "609955",
+        "short_name": "GRESHAM",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735353350",
+        "website": {
+            "url": "http://Greshamschool.org"
+        }
+    },
+    {
+        "school_id": "610384",
+        "short_name": "INFINITY HS",
+        "school_type": "Small",
+        "primary_category": "HS",
+        "phone": "7735354225",
+        "website": {
+            "url": "https://www.infinityhs.org"
+        }
+    },
+    {
+        "school_id": "610533",
+        "short_name": "PRIETO",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735340210",
+        "website": {
+            "url": "http://prieto.cps.edu"
+        }
+    },
+    {
+        "school_id": "400178",
+        "short_name": "MOVING EVEREST",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "3126839695",
+        "website": {
+            "url": "https://www.movingeverest.org"
+        }
+    },
+    {
+        "school_id": "400136",
+        "short_name": "YCCS - OLIVE HARVEY",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7732916517",
+        "website": {
+            "url": "https://yccs.us/campuses"
+        }
+    },
+    {
+        "school_id": "609693",
+        "short_name": "WESTINGHOUSE HS",
+        "school_type": "Selective enrollment",
+        "primary_category": "HS",
+        "phone": "7735346400",
+        "website": {
+            "url": "https://newwestinghouse.org"
+        }
+    },
+    {
+        "school_id": "609925",
+        "short_name": "KELLMAN",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735346602",
+        "website": {
+            "url": "http://www.kellman.cps.edu/"
+        }
+    },
+    {
+        "school_id": "609960",
+        "short_name": "HALE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352265",
+        "website": {
+            "url": "https://haleschool.org"
+        }
+    },
+    {
+        "school_id": "610006",
+        "short_name": "HURLEY",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352068",
+        "website": {
+            "url": "http://hurley.cps.edu"
+        }
+    },
+    {
+        "school_id": "610252",
+        "short_name": "DETT",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735347160",
+        "website": {
+            "url": "http://dett.cps.edu"
+        }
+    },
+    {
+        "school_id": "400170",
+        "short_name": "NOBLE - ACADEMY HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "3125741527",
+        "website": {
+            "url": "https://nobleschools.org/nobleacademy"
+        }
+    },
+    {
+        "school_id": "609956",
+        "short_name": "GRIMES",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735352364",
+        "website": {
+            "url": "https://grimes.cps.edu/"
+        }
+    },
+    {
+        "school_id": "610234",
+        "short_name": "YATES",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735344550",
+        "website": {
+            "url": "https://www.yateselementary.org"
+        }
+    },
+    {
+        "school_id": "609939",
+        "short_name": "GILLESPIE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735355065",
+        "website": {
+            "url": "https://gillespietech.org"
+        }
+    },
+    {
+        "school_id": "609779",
+        "short_name": "ARMSTRONG G",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735342150",
+        "website": {
+            "url": "https://georgearmstrongelementary.org"
+        }
+    },
+    {
+        "school_id": "400049",
+        "short_name": "LEGACY",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7735421640",
+        "website": {
+            "url": "https://legacycharterchicago.org"
+        }
+    },
+    {
+        "school_id": "400052",
+        "short_name": "NOBLE - COMER",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7737293969",
+        "website": {
+            "url": "https://nobleschools.org/comer"
+        }
+    },
+    {
+        "school_id": "400164",
+        "short_name": "INSTITUTO - JUSTICE HS",
+        "school_type": "Charter",
+        "primary_category": "HS",
+        "phone": "7738908060",
+        "website": {
+            "url": "https://ijla.org"
+        }
+    },
+    {
+        "school_id": "400024",
+        "short_name": "CICS - BASIL",
+        "school_type": "Charter",
+        "primary_category": "ES",
+        "phone": "7737789455",
+        "website": {
+            "url": "http://www.regenerationschools.org/cics-basil/"
+        }
+    },
+    {
+        "school_id": "610130",
+        "short_name": "PIRIE",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735353435",
+        "website": {
+            "url": "https://pirie.cps.edu"
+        }
+    },
+    {
+        "school_id": "610144",
+        "short_name": "REILLY",
+        "school_type": "Neighborhood",
+        "primary_category": "ES",
+        "phone": "7735345250",
+        "website": {
+            "url": "http://www.reillyschool.com"
+        }
+    }
+]

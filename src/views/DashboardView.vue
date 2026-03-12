@@ -1,17 +1,17 @@
 <script setup lang="ts">
-import DashCardComponent from "@/components/DashCardComponent.vue";
+import DashCardComponent from "@/components/cards/DashCardComponent.vue";
 import PieChart from "@/components/charts/PieChart.vue";
 import BarChart from "@/components/charts/BarChart.vue";
 import IconSchool from "@/components/icons/IconSchool.vue";
 import IconPersonRaiseHand from "@/components/icons/IconPersonRaiseHand.vue";
 import IconTrendingUp from "@/components/icons/IconTrendingUp.vue";
 import IconTrendingDown from "@/components/icons/IconTrendingDown.vue";
-import DashCardChart from "@/components/DashCardChart.vue";
-import DashCardBigIcon from "@/components/DashCardBigIcon.vue";
+import DashCardChart from "@/components/cards/DashCardChart.vue";
+import DashCardBigIcon from "@/components/cards/DashCardBigIcon.vue";
 import BlueRibbonSrc from "@/assets/blue-ribbon.png";
 import IconPersonTransfer from "@/components/icons/IconPersonTransfer.vue";
 import IconPersonOut from "@/components/icons/IconPersonOut.vue";
-import ModalComponent from "@/components/ModalComponent.vue";
+import ModalComponent from "@/components/modals/ModalComponent.vue";
 
 import { useDashboardView } from "@/composables/useDashboardView";
 import { useDashboardModal } from "@/composables/useDashboardModal";
