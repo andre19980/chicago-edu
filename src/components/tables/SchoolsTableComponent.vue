@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref, h } from "vue";
 import {
   useVueTable,
   FlexRender,
@@ -20,7 +20,6 @@ import IconDesc from "@/components/icons/IconDesc.vue";
 import { type SchoolTable } from "@/types/Schools";
 
 import { formatUSPhoneNumber } from "@/utils/formatters/formatters";
-import { SchoolTypesLabels } from "@/utils/mappers/schools";
 
 const props = defineProps<{
   data: SchoolTable[]
@@ -31,36 +30,43 @@ const columnHelper = createColumnHelper<SchoolTable>();
 
 const columns = [
   columnHelper.accessor("schoolId", {
-    header: () => "ID",
-    footer: props => props.column.id,
+    header: "ID",
     enableSorting: false,
   }),
   columnHelper.accessor("shortName", {
-    header: () => "Nome",
-    footer: props => props.column.id,
+    header: "Nome",
   }),
   columnHelper.accessor("phone", {
-    header: () => "Contato",
-    footer: props => props.column.id,
+    header: "Contato",
     enableSorting: false,
     cell: data => formatUSPhoneNumber(data.getValue()) 
   }),
   columnHelper.accessor("schoolType", {
-    header: () => "Tipo de Escola",
-    footer: props => props.column.id,
+    header: "Tipo de Escola",
     enableSorting: false,
-    cell: data => SchoolTypesLabels[data.getValue()]
   }),
   columnHelper.accessor("primaryCategory", {
-    header: () => "Categoria",
-    footer: props => props.column.id,
+    header: "Categoria",
     enableSorting: false,
   }),
   columnHelper.accessor("website.url", {
-    header: () => "Site",
-    footer: props => props.column.id,
+    header: "Site",
     enableSorting: false,
+    cell: data => h('a', { href: data.getValue(), target: '_blank' }, data.getValue())
   }),
+  columnHelper.display({
+    id: "action",
+    cell: ({ row }) => {
+        return h(
+          'button',
+          {
+            onClick: () => console.log('Ver escola', row.original),
+            class: 'text-sm uppercase border-b opacity-80 font-semibold text-primary hover:cursor-pointer hover:opacity-100 hover:font-bold'
+          },
+          'Ver escola'
+        )
+      },
+  })
 ]
 
 const data = ref(props.data)
