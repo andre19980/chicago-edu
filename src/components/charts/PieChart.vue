@@ -16,7 +16,7 @@ const { data } = defineProps<{
 
 const options = {
   responsive: true,
-  maintainAspectRatio: true
+  maintainAspectRatio: false
 }
 </script>
 

@@ -46,6 +46,7 @@ const {
       <h1 class="text-3xl font-bold text-primary">Escolas de Chicago 2023-2024</h1>
     </div>
 
+    <!-- First Row -->
     <div class="flex flex-col gap-6 md:flex-row">
       <DashCardComponent :value="numberOfSchools" label="Total de escolas" :icon="IconSchool" />
       <DashCardComponent :value="studentAttendanceAvgPct" label="Frequência Média de Alunos" :icon="IconPersonRaiseHand" />
@@ -53,7 +54,8 @@ const {
       <DashCardComponent :value="oneYearDropoutRateAvg" label="Taxa média de evasão" :icon="IconTrendingDown" />
     </div>
 
-    <div class="flex flex-col gap-6 md:flex-row">
+    <!-- Second Row -->
+    <div class="flex flex-col gap-6 lg:flex-row overflow-auto">
       <DashCardChart
         label="Distribuição de Categorias Escolares"
         :cardKey="DashboardCardKeys.schoolCategories"
@@ -75,6 +77,7 @@ const {
       </DashCardChart>
     </div>
 
+    <!-- Third Row -->
     <div class="flex flex-col gap-6 md:flex-row">
       <DashCardBigIcon
         :value="blueRibbonAwardCount" 

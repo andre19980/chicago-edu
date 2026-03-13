@@ -101,12 +101,12 @@ const table = useVueTable({
 <template>
   <div class="bg-white rounded-sm shadow-sm">
     <div>
-      <div>
+      <div class="overflow-auto">
         <!-- Search input -->
         <div class="p-6">
           <input
             type="text"
-            class="border border-gray-400 rounded px-2 py-2 w-96"
+            class="border border-gray-400 rounded px-2 py-2 w-64 sm:w-96"
             placeholder="Pesquisar"
             v-model="filter"
           />
@@ -163,14 +163,14 @@ const table = useVueTable({
         </table>
 
         <!-- Pagination -->
-        <div class="relative flex">
+        <div class="relative flex flex-col md:flex-row">
           <div class="flex flex-1 text-gray-500 p-6 text-sm justify-center">
             Página {{ table.getState().pagination.pageIndex + 1 }} de
             {{ table.getPageCount() }} -
             {{ table.getFilteredRowModel().rows.length }} resultados
           </div>
 
-          <div class="absolute top-6 left-6 text-sm">
+          <div class="text-sm flex justify-center static md:absolute md:top-6 md:left-6">
             <select
               v-model="selected"
               @change="table.setPageSize(parseInt(selected))"
