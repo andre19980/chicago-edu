@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref, h } from "vue";
+import { useRouter } from "vue-router";
 import {
   useVueTable,
   FlexRender,
@@ -24,6 +25,8 @@ import { formatUSPhoneNumber } from "@/utils/formatters/formatters";
 const props = defineProps<{
   data: SchoolTable[]
 }>()
+
+const { push } = useRouter();
 
 const selected = ref("10");
 const columnHelper = createColumnHelper<SchoolTable>();
@@ -60,7 +63,7 @@ const columns = [
         return h(
           'button',
           {
-            onClick: () => console.log('Ver escola', row.original),
+            onClick: () => push(`/schools/${row.original.schoolId}`),
             class: 'text-sm uppercase border-b opacity-80 font-semibold text-primary hover:cursor-pointer hover:opacity-100 hover:font-bold'
           },
           'Ver escola'
@@ -73,7 +76,6 @@ const data = ref(props.data)
 
 const sorting = ref<SortingState>([])
 const filter = ref('')
-
 const table = useVueTable({
   data: data.value,
   columns: columns,

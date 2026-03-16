@@ -3,5 +3,10 @@ export enum DashboardCardKeys {
   schoolTypes = "schoolTypes",
   blueRibbonAward = "blueRibbonAward",
   chronicTruancy = "chronicTruancy",
-  mobilityRate = "mobilityRate"
+  mobilityRate = "mobilityRate",
+  schoolSurveys = "schoolSurveys",
+  supportiveSchoolAward = "supportiveSchoolAward",
+  studentAttainmentRating = "studentAttainmentRating",
+  cultureClimateRating = "cultureClimateRating",
+  creativeSchoolCertification = "creativeSchoolCertification"
 }

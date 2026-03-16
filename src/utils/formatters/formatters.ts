@@ -1,3 +1,7 @@
+export const formatDisplayedPercentage = (value: number) => {
+  return isNaN(value) ? '-' : `${value.toFixed(2)}%`;
+}
+
 export const formatUSPhoneNumber = (phone: string) => {
   const digits = phone.toString().replace(/\D/g, "");
 

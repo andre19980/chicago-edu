@@ -1,6 +1,6 @@
 import { ref, computed, onMounted } from "vue";
 import { querySchools } from "@/api/schools/schools";
-import { type ApiSchoolsParams, type SchoolData } from "@/api/schools/schools.types";
+import { type ApiSchoolsParams, type SchoolData } from "@/types/Schools";
 import { SchoolCategoriesLabels, SchoolTypesLabels } from "@/utils/mappers/schools";
 
 export function useDashboardView() {

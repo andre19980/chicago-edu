@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Component } from "vue";
+import { type Component } from "vue";
 import IconInfo from "@/components/icons/IconInfo.vue";
 
 const { value, label, icon, hasInfo = false } = defineProps<{
