@@ -1,75 +1,93 @@
 # ChicagoEdu
 
-Aplicação para visualização de dados educacionais baseada no dataset Chicago Public Schools – School Progress Reports, com foco em indicadores como desempenho acadêmico, frequência, evasão e percepções do ambiente escolar.
+Aplicação para visualização de dados educacionais baseada no dataset [Chicago Public Schools - School Progress Reports SY2425](https://data.cityofchicago.org/Education/Chicago-Public-Schools-School-Progress-Reports-SY2/twrw-chuq/about_data), com foco em indicadores como desempenho acadêmico, frequência, evasão e percepções do ambiente escolar.
 
-This template should help get you started developing with Vue 3 in Vite.
+## Requerimentos
+- Node: `^20.19.0 || >=22.12.0`
 
-## Recommended IDE Setup
+## Instalação e Execução
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+```bash
+# Clone o repositório
+git clone https://github.com/andre19980/chicago-edu.git
 
-## Recommended Browser Setup
-
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+# Instale as dependências
 npm install
+
+# Rode o projeto
+npm run dev
 ```
 
-### Compile and Hot-Reload for Development
+A aplicação estará disponível em:
+
+```
+http://localhost:5173
+```
+
+### Variáveis de ambiente
+Para o projeto se conectar com a API do Portal de Chicado, é necessário criar um arquivo `.env` na raiz do projeto e inseir as seguintes variáveis
+
+```sh
+VITE_API_URL=https://data.cityofchicago.org/api/v3/views/twrw-chuq/query.json
+VITE_API_TOKEN=<seu-token>
+```
+
+Confira [nesse link o passo-a-passo para gerar um api token](https://support.socrata.com/hc/en-us/articles/210138558-Generating-App-Tokens-and-API-Keys)
+
+### Compilar e Hot-Reload para Desenvolvimento
 
 ```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+### Verificar Tipos, Compilar e Minificar para Produção
 
 ```sh
 npm run build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+### Rodar em modo Produção
+Após ter executado o `build`:
+```sh
+npm run preview
+```
+
+A aplicação estará disponível em:
+
+```
+http://localhost:4173
+```
+
+### Rodar Testes Unitários com [Vitest](https://vitest.dev/)
 
 ```sh
 npm run test:unit
 ```
 
-### Run End-to-End Tests with [Playwright](https://playwright.dev)
+### Rodar Testes End-to-End com [Playwright](https://playwright.dev)
 
 ```sh
-# Install browsers for the first run
+# Instale os navegadores na primeira execução
 npx playwright install
 
-# When testing on CI, must build the project first
+# Ao testar em CI, é necessário buildar o projeto antes
 npm run build
 
-# Runs the end-to-end tests
+# Executa os testes end-to-end
 npm run test:e2e
-# Runs the tests only on Chromium
+# Executa os testes apenas no Chromium
 npm run test:e2e -- --project=chromium
-# Runs the tests of a specific file
+# Executa os testes de um arquivo específico
 npm run test:e2e -- tests/example.spec.ts
-# Runs the tests in debug mode
+# Executa os testes em modo debug
 npm run test:e2e -- --debug
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Lint com [ESLint](https://eslint.org/)
 
 ```sh
 npm run lint
 ```
+
+## Considerações Técnicas
+- A paginação da listagem das escolas foi feita exclusivamente no lado do cliente, ainda que a API do Portal de Chicago (construída com [SODA3 API](https://support.socrata.com/hc/en-us/articles/34730618169623-SODA3-API)) disponha dos recursos para paginação via servidor. Tal decisão foi baseada no número de escolas da base e da [capacidade de processamento das tabelas TanStack](https://tanstack.com/table/latest/docs/guide/data#how-much-data-can-tanstack-table-handle) empregadas na aplicação, visando, portanto, um menor número de requisições e uma experiência mais rápida para o usuário durante a nevagação da tabela.
