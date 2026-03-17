@@ -10,6 +10,8 @@ import {
   getFilteredRowModel,
   createColumnHelper,
   type SortingState,
+  type Row,
+  type Table,
 } from "@tanstack/vue-table";
 import IconArrowLeft from "@/components/icons/IconArrowLeft.vue";
 import IconDoubleArrowLeft from "@/components/icons/IconDoubleArrowLeft.vue";
@@ -17,6 +19,8 @@ import IconArrowRight from "@/components/icons/IconArrowRight.vue";
 import IconDoubleArrowRight from "@/components/icons/IconDoubleArrowRight.vue";
 import IconAsc from "@/components/icons/IconAsc.vue";
 import IconDesc from "@/components/icons/IconDesc.vue";
+
+import { useSessionStorage } from "@/composables/useSessionStorage";
 
 import { type SchoolTable } from "@/types/Schools";
 
@@ -27,8 +31,16 @@ const props = defineProps<{
 }>()
 
 const { push } = useRouter();
+const {
+  data: pageIndexData,
+  setValue: setPageIndexData
+} = useSessionStorage<number>('currentPageIndex', 0);
+const {
+  data: pageSizeData,
+  setValue: setPageSizeData
+} = useSessionStorage<number>('currentPageSize', 10);
 
-const selected = ref("10");
+const selected = ref(pageSizeData.value.toString());
 const columnHelper = createColumnHelper<SchoolTable>();
 
 const columns = [
@@ -59,11 +71,11 @@ const columns = [
   }),
   columnHelper.display({
     id: "action",
-    cell: ({ row }) => {
+    cell: ({ row, table }) => {
         return h(
           'button',
           {
-            onClick: () => push(`/schools/${row.original.schoolId}`),
+            onClick: () => handleSchoolClick(row, table),
             class: 'text-sm uppercase border-b opacity-80 font-semibold text-primary hover:cursor-pointer hover:opacity-100 hover:font-bold'
           },
           'Ver escola'
@@ -96,8 +108,25 @@ const table = useVueTable({
       typeof updaterOrValue === 'function'
         ? updaterOrValue(sorting.value)
         : updaterOrValue
-  },  
+  },
+  initialState: {
+    pagination: {
+      pageIndex: pageIndexData.value,
+      pageSize: pageSizeData.value,
+    }
+  }
 })
+
+function handleSchoolClick(row: Row<SchoolTable>, table: Table<SchoolTable>) {
+  const currentPage = table.getState().pagination.pageIndex;
+  const currentSize = table.getState().pagination.pageSize;
+
+  setPageIndexData(currentPage);
+  setPageSizeData(currentSize);
+  push(`/schools/${row.original.schoolId}`);
+
+  return;
+}
 </script>
 
 <template>
