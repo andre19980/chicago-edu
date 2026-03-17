@@ -1,20 +1,19 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
   --color-primary-lightest: #768988;
   --color-primary-light: #486260;
   --color-primary: #1a3b38;
-  --color-primary-dark: #152F2D;
+  --color-primary-dark: #152f2d;
   --color-primary-darkest: #102322;
 }
-
 
 :root {
   --sidebar-width: 300px;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #app {

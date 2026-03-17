@@ -1,20 +1,24 @@
-import type { SchoolTable, School, SchoolData } from "@/types/Schools";
-import { SchoolTypesLabels, SchoolCategoriesLabels, SchoolSurveysScores } from "@/utils/mappers/schools";
-import { formatUSPhoneNumber } from "@/utils/formatters/formatters";
+import type { SchoolTable, School, SchoolData } from '@/types/Schools'
+import {
+  SchoolTypesLabels,
+  SchoolCategoriesLabels,
+  SchoolSurveysScores,
+} from '@/utils/mappers/schools'
+import { formatUSPhoneNumber } from '@/utils/formatters/formatters'
 
 export function schoolsTableParser(schools: SchoolData[]): SchoolTable[] {
-  const parsedSchools = schools.map(school => ({
+  const parsedSchools = schools.map((school) => ({
     schoolId: school.schoolId,
     shortName: school.shortName,
-    schoolType: SchoolTypesLabels[school.schoolType] ?? "",
-    primaryCategory: SchoolCategoriesLabels[school.primaryCategory] ?? "",
+    schoolType: SchoolTypesLabels[school.schoolType] ?? '',
+    primaryCategory: SchoolCategoriesLabels[school.primaryCategory] ?? '',
     phone: school.phone,
     website: {
-      url: school.website.url
-    }
+      url: school.website.url,
+    },
   }))
 
-  return parsedSchools;
+  return parsedSchools
 }
 
 export function schoolParser(school: SchoolData): School {
@@ -27,8 +31,8 @@ export function schoolParser(school: SchoolData): School {
     state: school.state,
     zip: school.zip,
     phone: formatUSPhoneNumber(school?.phone),
-    schoolType: SchoolTypesLabels[school.schoolType] ?? "",
-    primaryCategory: SchoolCategoriesLabels[school.primaryCategory] ?? "",
+    schoolType: SchoolTypesLabels[school.schoolType] ?? '',
+    primaryCategory: SchoolCategoriesLabels[school.primaryCategory] ?? '',
     cpsSchoolProfile: school.cpsSchoolProfile?.url,
     website: school.website?.url,
     // awards
@@ -49,11 +53,16 @@ export function schoolParser(school: SchoolData): School {
     creativeSchoolCertification: school.creativeSchoolCertification,
     creativeSchoolCertificationDescription: school.creativeSchoolCertification1,
     // surveys
-    schoolSurveyInvolvedFamilies: SchoolSurveysScores[school.schoolSurveyInvolved?.toLowerCase()] ?? 0,
-    schoolSurveySupportiveEnvironment: SchoolSurveysScores[school.schoolSurveySupportive?.toLowerCase()] ?? 0,
-    schoolSurveyAmbitiousInstruction: SchoolSurveysScores[school.schoolSurveyAmbitious?.toLowerCase()] ?? 0,
-    schoolSurveyEffectiveLeaders: SchoolSurveysScores[school.schoolSurveyEffective?.toLowerCase()] ?? 0,
-    schoolSurveyCollaborativeTeachers: SchoolSurveysScores[school.schoolSurveyCollaborative?.toLowerCase()] ?? 0,
+    schoolSurveyInvolvedFamilies:
+      SchoolSurveysScores[school.schoolSurveyInvolved?.toLowerCase()] ?? 0,
+    schoolSurveySupportiveEnvironment:
+      SchoolSurveysScores[school.schoolSurveySupportive?.toLowerCase()] ?? 0,
+    schoolSurveyAmbitiousInstruction:
+      SchoolSurveysScores[school.schoolSurveyAmbitious?.toLowerCase()] ?? 0,
+    schoolSurveyEffectiveLeaders:
+      SchoolSurveysScores[school.schoolSurveyEffective?.toLowerCase()] ?? 0,
+    schoolSurveyCollaborativeTeachers:
+      SchoolSurveysScores[school.schoolSurveyCollaborative?.toLowerCase()] ?? 0,
     schoolSurveySafety: SchoolSurveysScores[school.schoolSurveySafety?.toLowerCase()] ?? 0,
     // metrics
     suspensionsPer100StudentsYear1Pct: parseFloat(school.suspensionsPer100Students),
@@ -73,5 +82,5 @@ export function schoolParser(school: SchoolData): School {
     satGrade11ScoreSchoolAvg: parseFloat(school.satGrade11ScoreSchool),
   }
 
-  return parsedSchool;
+  return parsedSchool
 }

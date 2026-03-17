@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ref, h } from "vue";
-import { useRouter } from "vue-router";
+import { ref, h } from 'vue'
+import { useRouter } from 'vue-router'
 import {
   useVueTable,
   FlexRender,
@@ -12,76 +12,77 @@ import {
   type SortingState,
   type Row,
   type Table,
-} from "@tanstack/vue-table";
-import IconArrowLeft from "@/components/icons/IconArrowLeft.vue";
-import IconDoubleArrowLeft from "@/components/icons/IconDoubleArrowLeft.vue";
-import IconArrowRight from "@/components/icons/IconArrowRight.vue";
-import IconDoubleArrowRight from "@/components/icons/IconDoubleArrowRight.vue";
-import IconAsc from "@/components/icons/IconAsc.vue";
-import IconDesc from "@/components/icons/IconDesc.vue";
+} from '@tanstack/vue-table'
+import IconArrowLeft from '@/components/icons/IconArrowLeft.vue'
+import IconDoubleArrowLeft from '@/components/icons/IconDoubleArrowLeft.vue'
+import IconArrowRight from '@/components/icons/IconArrowRight.vue'
+import IconDoubleArrowRight from '@/components/icons/IconDoubleArrowRight.vue'
+import IconAsc from '@/components/icons/IconAsc.vue'
+import IconDesc from '@/components/icons/IconDesc.vue'
 
-import { useSessionStorage } from "@/composables/useSessionStorage";
+import { useSessionStorage } from '@/composables/useSessionStorage'
 
-import { type SchoolTable } from "@/types/Schools";
+import { type SchoolTable } from '@/types/Schools'
 
-import { formatUSPhoneNumber } from "@/utils/formatters/formatters";
+import { formatUSPhoneNumber } from '@/utils/formatters/formatters'
 
 const props = defineProps<{
   data: SchoolTable[]
 }>()
 
-const { push } = useRouter();
-const {
-  data: pageIndexData,
-  setValue: setPageIndexData
-} = useSessionStorage<number>('currentPageIndex', 0);
-const {
-  data: pageSizeData,
-  setValue: setPageSizeData
-} = useSessionStorage<number>('currentPageSize', 10);
+const { push } = useRouter()
+const { data: pageIndexData, setValue: setPageIndexData } = useSessionStorage<number>(
+  'currentPageIndex',
+  0,
+)
+const { data: pageSizeData, setValue: setPageSizeData } = useSessionStorage<number>(
+  'currentPageSize',
+  10,
+)
 
-const selected = ref(pageSizeData.value.toString());
-const columnHelper = createColumnHelper<SchoolTable>();
+const selected = ref(pageSizeData.value.toString())
+const columnHelper = createColumnHelper<SchoolTable>()
 
 const columns = [
-  columnHelper.accessor("schoolId", {
-    header: "ID",
+  columnHelper.accessor('schoolId', {
+    header: 'ID',
     enableSorting: false,
   }),
-  columnHelper.accessor("shortName", {
-    header: "Nome",
+  columnHelper.accessor('shortName', {
+    header: 'Nome',
   }),
-  columnHelper.accessor("phone", {
-    header: "Contato",
+  columnHelper.accessor('phone', {
+    header: 'Contato',
     enableSorting: false,
-    cell: data => formatUSPhoneNumber(data.getValue()) 
+    cell: (data) => formatUSPhoneNumber(data.getValue()),
   }),
-  columnHelper.accessor("schoolType", {
-    header: "Tipo de Escola",
-    enableSorting: false,
-  }),
-  columnHelper.accessor("primaryCategory", {
-    header: "Categoria",
+  columnHelper.accessor('schoolType', {
+    header: 'Tipo de Escola',
     enableSorting: false,
   }),
-  columnHelper.accessor("website.url", {
-    header: "Site",
+  columnHelper.accessor('primaryCategory', {
+    header: 'Categoria',
     enableSorting: false,
-    cell: data => h('a', { href: data.getValue(), target: '_blank' }, data.getValue())
+  }),
+  columnHelper.accessor('website.url', {
+    header: 'Site',
+    enableSorting: false,
+    cell: (data) => h('a', { href: data.getValue(), target: '_blank' }, data.getValue()),
   }),
   columnHelper.display({
-    id: "action",
+    id: 'action',
     cell: ({ row, table }) => {
-        return h(
-          'button',
-          {
-            onClick: () => handleSchoolClick(row, table),
-            class: 'text-sm uppercase border-b opacity-80 font-semibold text-primary hover:cursor-pointer hover:opacity-100 hover:font-bold'
-          },
-          'Ver escola'
-        )
-      },
-  })
+      return h(
+        'button',
+        {
+          onClick: () => handleSchoolClick(row, table),
+          class:
+            'text-sm uppercase border-b opacity-80 font-semibold text-primary hover:cursor-pointer hover:opacity-100 hover:font-bold',
+        },
+        'Ver escola',
+      )
+    },
+  }),
 ]
 
 const data = ref(props.data)
@@ -103,29 +104,27 @@ const table = useVueTable({
       return filter.value
     },
   },
-  onSortingChange: updaterOrValue => {
+  onSortingChange: (updaterOrValue) => {
     sorting.value =
-      typeof updaterOrValue === 'function'
-        ? updaterOrValue(sorting.value)
-        : updaterOrValue
+      typeof updaterOrValue === 'function' ? updaterOrValue(sorting.value) : updaterOrValue
   },
   initialState: {
     pagination: {
       pageIndex: pageIndexData.value,
       pageSize: pageSizeData.value,
-    }
-  }
+    },
+  },
 })
 
 function handleSchoolClick(row: Row<SchoolTable>, table: Table<SchoolTable>) {
-  const currentPage = table.getState().pagination.pageIndex;
-  const currentSize = table.getState().pagination.pageSize;
+  const currentPage = table.getState().pagination.pageIndex
+  const currentSize = table.getState().pagination.pageSize
 
-  setPageIndexData(currentPage);
-  setPageSizeData(currentSize);
-  push(`/schools/${row.original.schoolId}`);
+  setPageIndexData(currentPage)
+  setPageSizeData(currentSize)
+  push(`/schools/${row.original.schoolId}`)
 
-  return;
+  return
 }
 </script>
 
@@ -146,10 +145,7 @@ function handleSchoolClick(row: Row<SchoolTable>, table: Table<SchoolTable>) {
         <!-- Table -->
         <table class="min-w-full divide-y divide-gray-300">
           <thead>
-            <tr
-              v-for="headerGroup in table.getHeaderGroups()"
-              :key="headerGroup.id"
-            >
+            <tr v-for="headerGroup in table.getHeaderGroups()" :key="headerGroup.id">
               <th
                 v-for="header in headerGroup.headers"
                 :key="header.id"
@@ -165,9 +161,18 @@ function handleSchoolClick(row: Row<SchoolTable>, table: Table<SchoolTable>) {
                     :render="header.column.columnDef.header"
                     :props="header.getContext()"
                   />
-                  <IconAsc v-if="header.column.getCanSort() && header.column.getIsSorted() == 'asc'" class="w-3 h-3 ml-2 text-green-500"/>
-                  <IconDesc v-else-if="header.column.getCanSort() && header.column.getIsSorted() == 'desc'" class="w-3 h-3 ml-2 text-green-500"/>
-                  <IconDesc v-else-if="header.column.getCanSort()" class="w-3 h-3 ml-2 text-gray-400"/>
+                  <IconAsc
+                    v-if="header.column.getCanSort() && header.column.getIsSorted() == 'asc'"
+                    class="w-3 h-3 ml-2 text-green-500"
+                  />
+                  <IconDesc
+                    v-else-if="header.column.getCanSort() && header.column.getIsSorted() == 'desc'"
+                    class="w-3 h-3 ml-2 text-green-500"
+                  />
+                  <IconDesc
+                    v-else-if="header.column.getCanSort()"
+                    class="w-3 h-3 ml-2 text-gray-400"
+                  />
                 </span>
               </th>
             </tr>
@@ -184,10 +189,7 @@ function handleSchoolClick(row: Row<SchoolTable>, table: Table<SchoolTable>) {
                 :key="cell.id"
                 class="whitespace-nowrap text-md px-6 py-4"
               >
-                <FlexRender
-                  :render="cell.column.columnDef.cell"
-                  :props="cell.getContext()"
-                />
+                <FlexRender :render="cell.column.columnDef.cell" :props="cell.getContext()" />
               </td>
             </tr>
           </tbody>
@@ -196,8 +198,7 @@ function handleSchoolClick(row: Row<SchoolTable>, table: Table<SchoolTable>) {
         <!-- Pagination -->
         <div class="relative flex flex-col md:flex-row">
           <div class="flex flex-1 text-gray-500 p-6 text-sm justify-center">
-            Página {{ table.getState().pagination.pageIndex + 1 }} de
-            {{ table.getPageCount() }} -
+            Página {{ table.getState().pagination.pageIndex + 1 }} de {{ table.getPageCount() }} -
             {{ table.getFilteredRowModel().rows.length }} resultados
           </div>
 

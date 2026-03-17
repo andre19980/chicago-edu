@@ -19,8 +19,8 @@ const router = createRouter({
     {
       path: '/schools/:schoolId',
       name: 'school',
-      component: SchoolView
-    }
+      component: SchoolView,
+    },
   ],
   linkActiveClass: 'bg-primary-dark',
   linkExactActiveClass: 'bg-primary-dark border-r-5 border-green-600 hover:bg-primary-dark!',

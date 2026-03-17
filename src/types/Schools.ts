@@ -1,7 +1,7 @@
 export interface ApiSchoolsParams {
-  fields: string[];
-  pageNumber: number;
-  pageSize: number;
+  fields: string[]
+  pageNumber: number
+  pageSize: number
 }
 
 export interface SchoolData {
@@ -195,104 +195,104 @@ export interface SchoolData {
 }
 
 export type SchoolTable = {
-  schoolId: string,
-  shortName: string,
-  schoolType: string,
-  primaryCategory: string,
-  phone: string,
+  schoolId: string
+  shortName: string
+  schoolType: string
+  primaryCategory: string
+  phone: string
   website: {
     url: string
   }
 }
 
 export type School = {
-  schoolId: string;
-  shortName: string;
-  longName: string;
-  address: string;
-  city: string;
-  state: string;
-  zip: string;
-  phone: string;
-  schoolType: string;
-  primaryCategory: string;
-  cpsSchoolProfile: string;
-  website: string;
-  blueRibbonAwardYear: number;
-  excelerateAwardGoldYear: number;
-  spotLightAwardYear: number;
-  improvementAwardYear: number;
-  excellenceAwardYear: number;
-  studentAttainmentRating: string;
-  studentAttainmentDescription: string;
-  cultureClimateRating: string;
-  cultureClimateDescription: string;
-  healthySchoolCertification: string;
-  healthySchoolCertificationDescription: string;
-  creativeSchoolCertification: string;
-  creativeSchoolCertificationDescription: string;
-  supportiveSchoolAward: string;
-  supportiveSchoolAwardDescription: string;
-  schoolSurveyInvolvedFamilies: number;
-  schoolSurveySupportiveEnvironment: number;
-  schoolSurveyAmbitiousInstruction: number;
-  schoolSurveyEffectiveLeaders: number;
-  schoolSurveyCollaborativeTeachers: number;
-  schoolSurveySafety: number;
-  suspensionsPer100StudentsYear1Pct: number;
-  suspensionsPer100StudentsYear2Pct: number;
-  studentAttendanceYear1: number;
-  studentAttendanceYear2: number;
-  teacherAttendanceYear1: number;
-  teacherAttendanceYear2: number;
-  graduation4YearSchoolPctYear1: number;
-  graduation4YearSchoolPctYear2: number;
-  graduation5YearSchoolPctYear1: number;
-  graduation5YearSchoolPctYear2: number;
-  oneYearDropoutRateYear1Pct: number;
-  oneYearDropoutRateYear2Pct: number;
-  mobilityRatePct: number;
-  chronicTruancyPct: number;
-  satGrade11ScoreSchoolAvg: number;
+  schoolId: string
+  shortName: string
+  longName: string
+  address: string
+  city: string
+  state: string
+  zip: string
+  phone: string
+  schoolType: string
+  primaryCategory: string
+  cpsSchoolProfile: string
+  website: string
+  blueRibbonAwardYear: number
+  excelerateAwardGoldYear: number
+  spotLightAwardYear: number
+  improvementAwardYear: number
+  excellenceAwardYear: number
+  studentAttainmentRating: string
+  studentAttainmentDescription: string
+  cultureClimateRating: string
+  cultureClimateDescription: string
+  healthySchoolCertification: string
+  healthySchoolCertificationDescription: string
+  creativeSchoolCertification: string
+  creativeSchoolCertificationDescription: string
+  supportiveSchoolAward: string
+  supportiveSchoolAwardDescription: string
+  schoolSurveyInvolvedFamilies: number
+  schoolSurveySupportiveEnvironment: number
+  schoolSurveyAmbitiousInstruction: number
+  schoolSurveyEffectiveLeaders: number
+  schoolSurveyCollaborativeTeachers: number
+  schoolSurveySafety: number
+  suspensionsPer100StudentsYear1Pct: number
+  suspensionsPer100StudentsYear2Pct: number
+  studentAttendanceYear1: number
+  studentAttendanceYear2: number
+  teacherAttendanceYear1: number
+  teacherAttendanceYear2: number
+  graduation4YearSchoolPctYear1: number
+  graduation4YearSchoolPctYear2: number
+  graduation5YearSchoolPctYear1: number
+  graduation5YearSchoolPctYear2: number
+  oneYearDropoutRateYear1Pct: number
+  oneYearDropoutRateYear2Pct: number
+  mobilityRatePct: number
+  chronicTruancyPct: number
+  satGrade11ScoreSchoolAvg: number
 }
 
 export type SchoolAward = {
-  name: string;
-  year: number;
+  name: string
+  year: number
 }
 
 export enum SupportiveSchoolAwardKeys {
-  notRated = "NOT RATED",
-  emerging = "EMERGING",
-  established = "ESTABLISHED",
-  exemplary = "EXEMPLARY",
+  notRated = 'NOT RATED',
+  emerging = 'EMERGING',
+  established = 'ESTABLISHED',
+  exemplary = 'EXEMPLARY',
 }
 
 export enum CreativeSchoolCertificationKeys {
-  incompleteData = "INCOMPLETE DATA",
-  developing = "DEVELOPING",
-  emerging = "EMERGING",
-  strong = "STRONG",
-  excelling = "EXCELLING",
-};
+  incompleteData = 'INCOMPLETE DATA',
+  developing = 'DEVELOPING',
+  emerging = 'EMERGING',
+  strong = 'STRONG',
+  excelling = 'EXCELLING',
+}
 
 export enum StudentAttainmentRatingKeys {
-  noDataAvailable = "NO DATA AVAILABLE",
-  farBelowExpectations = "FAR BELOW EXPECTATIONS",
-  belowExpectations = "BELOW EXPECTATIONS",
-  metExpectations = "MET EXPECTATIONS",
-};
+  noDataAvailable = 'NO DATA AVAILABLE',
+  farBelowExpectations = 'FAR BELOW EXPECTATIONS',
+  belowExpectations = 'BELOW EXPECTATIONS',
+  metExpectations = 'MET EXPECTATIONS',
+}
 
 export enum CultureClimateRatingKeys {
-  notEnoughData = "Not Enough Data",
-  notYetOrganized = "Not Yet Organized",
-  partiallyOrganized = "Partially Organized",
-  moderatelyOrganized = "Moderately Organized",
-  organized = "Organized",
-  wellOrganized = "Well Organized",
-};
+  notEnoughData = 'Not Enough Data',
+  notYetOrganized = 'Not Yet Organized',
+  partiallyOrganized = 'Partially Organized',
+  moderatelyOrganized = 'Moderately Organized',
+  organized = 'Organized',
+  wellOrganized = 'Well Organized',
+}
 
 export enum HealthySchoolCertificationKeys {
-  notAchieved = "Not Achieved",
-  achieved = "Achieved",
+  notAchieved = 'Not Achieved',
+  achieved = 'Achieved',
 }

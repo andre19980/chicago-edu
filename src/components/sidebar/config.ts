@@ -1,5 +1,5 @@
-import IconDashboard from "@/components/icons/IconDashboard.vue";
-import IconTable from "@/components/icons/IconTable.vue";
+import IconDashboard from '@/components/icons/IconDashboard.vue'
+import IconTable from '@/components/icons/IconTable.vue'
 
 const sidebarConfig = [
   {
@@ -12,6 +12,6 @@ const sidebarConfig = [
     iconComponent: IconTable,
     route: '/schools',
   },
-];
+]
 
-export default sidebarConfig;
+export default sidebarConfig

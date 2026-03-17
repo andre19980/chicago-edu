@@ -1,25 +1,25 @@
 <script setup lang="ts">
-import { VueSpinner } from "vue3-spinners";
+import { VueSpinner } from 'vue3-spinners'
 
-import DashCardComponent from "@/components/cards/DashCardComponent.vue";
-import PieChart from "@/components/charts/PieChart.vue";
-import BarChart from "@/components/charts/BarChart.vue";
-import IconSchool from "@/components/icons/IconSchool.vue";
-import IconPersonRaiseHand from "@/components/icons/IconPersonRaiseHand.vue";
-import IconTrendingUp from "@/components/icons/IconTrendingUp.vue";
-import IconTrendingDown from "@/components/icons/IconTrendingDown.vue";
-import DashCardChart from "@/components/cards/DashCardChart.vue";
-import DashCardBigIcon from "@/components/cards/DashCardBigIcon.vue";
-import IconPersonTransfer from "@/components/icons/IconPersonTransfer.vue";
-import IconPersonOut from "@/components/icons/IconPersonOut.vue";
-import ModalComponent from "@/components/modals/ModalComponent.vue";
+import DashCardComponent from '@/components/cards/DashCardComponent.vue'
+import PieChart from '@/components/charts/PieChart.vue'
+import BarChart from '@/components/charts/BarChart.vue'
+import IconSchool from '@/components/icons/IconSchool.vue'
+import IconPersonRaiseHand from '@/components/icons/IconPersonRaiseHand.vue'
+import IconTrendingUp from '@/components/icons/IconTrendingUp.vue'
+import IconTrendingDown from '@/components/icons/IconTrendingDown.vue'
+import DashCardChart from '@/components/cards/DashCardChart.vue'
+import DashCardBigIcon from '@/components/cards/DashCardBigIcon.vue'
+import IconPersonTransfer from '@/components/icons/IconPersonTransfer.vue'
+import IconPersonOut from '@/components/icons/IconPersonOut.vue'
+import ModalComponent from '@/components/modals/ModalComponent.vue'
 
-import { useDashboardView } from "@/composables/useDashboardView";
-import { useDashboardModal } from "@/composables/useDashboardModal";
+import { useDashboardView } from '@/composables/useDashboardView'
+import { useDashboardModal } from '@/composables/useDashboardModal'
 
-import { DashboardCardKeys } from "@/types/DashboardCardKeys";
+import { DashboardCardKeys } from '@/types/DashboardCardKeys'
 
-import BlueRibbonSrc from "@/assets/blue-ribbon.png";
+import BlueRibbonSrc from '@/assets/blue-ribbon.png'
 
 const {
   isLoading,
@@ -32,15 +32,9 @@ const {
   blueRibbonAwardCount,
   mobilityRateAvg,
   chronicTruancyAvg,
-} = useDashboardView();
+} = useDashboardView()
 
-const {
-  isModalOpen,
-  closeModal,
-  openModal,
-  modalText,
-  modalTitle,
-} = useDashboardModal();
+const { isModalOpen, closeModal, openModal, modalText, modalTitle } = useDashboardModal()
 </script>
 
 <template>
@@ -51,10 +45,30 @@ const {
 
     <!-- First Row -->
     <div class="flex flex-col gap-6 md:flex-row">
-      <DashCardComponent :value="numberOfSchools" label="Total de escolas" :icon="IconSchool" :loading="isLoading" />
-      <DashCardComponent :value="studentAttendanceAvgPct" label="Frequência Média de Alunos" :icon="IconPersonRaiseHand" :loading="isLoading" />
-      <DashCardComponent :value="graduation4YearAvg" label="Taxa média de graduação" :icon="IconTrendingUp" :loading="isLoading" />
-      <DashCardComponent :value="oneYearDropoutRateAvg" label="Taxa média de evasão" :icon="IconTrendingDown" :loading="isLoading" />
+      <DashCardComponent
+        :value="numberOfSchools"
+        label="Total de escolas"
+        :icon="IconSchool"
+        :loading="isLoading"
+      />
+      <DashCardComponent
+        :value="studentAttendanceAvgPct"
+        label="Frequência Média de Alunos"
+        :icon="IconPersonRaiseHand"
+        :loading="isLoading"
+      />
+      <DashCardComponent
+        :value="graduation4YearAvg"
+        label="Taxa média de graduação"
+        :icon="IconTrendingUp"
+        :loading="isLoading"
+      />
+      <DashCardComponent
+        :value="oneYearDropoutRateAvg"
+        label="Taxa média de evasão"
+        :icon="IconTrendingDown"
+        :loading="isLoading"
+      />
     </div>
 
     <!-- Second Row -->
@@ -85,8 +99,8 @@ const {
     <!-- Third Row -->
     <div class="flex flex-col gap-6 md:flex-row">
       <DashCardBigIcon
-        :value="blueRibbonAwardCount" 
-        label="Número de escolas vencedoras do Blue Ribbon" 
+        :value="blueRibbonAwardCount"
+        label="Número de escolas vencedoras do Blue Ribbon"
         :icon="BlueRibbonSrc"
         :cardKey="DashboardCardKeys.blueRibbonAward"
         :loading="isLoading"

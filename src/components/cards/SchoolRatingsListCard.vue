@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import RatingCardComponent from './RatingCardComponent.vue';
+import RatingCardComponent from './RatingCardComponent.vue'
 const { list } = defineProps<{
   list: Array<{
-    title: string;
-    ratingScale: string[];
-    rate: string;
+    title: string
+    ratingScale: string[]
+    rate: string
   }>
-}>();
+}>()
 </script>
 
 <template>

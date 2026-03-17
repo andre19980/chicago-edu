@@ -1,25 +1,25 @@
 <script setup lang="ts">
-import { onMounted } from "vue";
-import SchoolsTableComponent from "@/components/tables/SchoolsTableComponent.vue";
-import { useSchools } from "@/composables/useSchools";
-import { VueSpinner } from "vue3-spinners";
+import { onMounted } from 'vue'
+import SchoolsTableComponent from '@/components/tables/SchoolsTableComponent.vue'
+import { useSchools } from '@/composables/useSchools'
+import { VueSpinner } from 'vue3-spinners'
 
 const { schools, isLoading, getSchools } = useSchools()
 
 onMounted(async () => {
   await getSchools({
     fields: [
-      "school_id",
-      "short_name",
-      "school_type",
-      "primary_category",
-      "phone",
-      "website",
-      "blue_ribbon_award_year",
+      'school_id',
+      'short_name',
+      'school_type',
+      'primary_category',
+      'phone',
+      'website',
+      'blue_ribbon_award_year',
     ],
     pageSize: 1000,
-    pageNumber: 1
-  });
+    pageNumber: 1,
+  })
 })
 </script>
 
@@ -36,6 +36,5 @@ onMounted(async () => {
 
       <SchoolsTableComponent v-else-if="schools && !isLoading" :data="schools" />
     </div>
-
   </div>
 </template>

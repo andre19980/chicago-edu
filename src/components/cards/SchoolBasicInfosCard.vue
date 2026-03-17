@@ -1,74 +1,74 @@
 <script setup lang="ts">
-import { computed } from "vue";
-import { VueSpinner } from "vue3-spinners";
+import { computed } from 'vue'
+import { VueSpinner } from 'vue3-spinners'
 
-const { data } =  defineProps<{
+const { data } = defineProps<{
   data: {
-    id?: string;
-    shortName?: string;
-    longName?: string;
-    address?: string;
-    city?: string;
-    state?: string;
-    zip?: string;
-    phone?: string;
-    type?: string;
-    primaryCategory?: string;
-    cpsProfileUrl?: string;
-    website?: string;
-  };
-  loading?: boolean;
-}>();
+    id?: string
+    shortName?: string
+    longName?: string
+    address?: string
+    city?: string
+    state?: string
+    zip?: string
+    phone?: string
+    type?: string
+    primaryCategory?: string
+    cpsProfileUrl?: string
+    website?: string
+  }
+  loading?: boolean
+}>()
 
 const generalInfo = computed(() => [
   {
-    label: "# Id",
+    label: '# Id',
     value: data.id,
   },
   {
-    label: "Nome completo",
+    label: 'Nome completo',
     value: data.longName,
   },
   {
-    label: "Contato",
+    label: 'Contato',
     value: data.phone,
   },
   {
-    label: "Tipo de escola",
+    label: 'Tipo de escola',
     value: data.type,
   },
   {
-    label: "Categoria escolar",
+    label: 'Categoria escolar',
     value: data.primaryCategory,
   },
-]);
+])
 
 const addressInfo = computed(() => [
   {
-    label: "Endereço",
+    label: 'Endereço',
     value: data.address,
   },
   {
-    label: "Cidade",
+    label: 'Cidade',
     value: data.city,
   },
   {
-    label: "Estado",
+    label: 'Estado',
     value: data.state,
   },
   {
-    label: "CEP",
+    label: 'CEP',
     value: data.zip,
-  }
+  },
 ])
 
 const urlsInfo = computed(() => [
   {
-    label: "Perfil CPS",
+    label: 'Perfil CPS',
     value: data.cpsProfileUrl,
   },
   {
-    label: "Website",
+    label: 'Website',
     value: data.website,
   },
 ])
@@ -94,11 +94,16 @@ const urlsInfo = computed(() => [
       </div>
     </div>
 
-     <div class="flex flex-col gap-4 md:flex-row md:gap-10">
+    <div class="flex flex-col gap-4 md:flex-row md:gap-10">
       <div v-for="(info, index) in urlsInfo" :key="index" class="flex flex-col gap-2">
         <p class="text-sm font-bold uppercase text-primary">{{ info.label }}</p>
-        <a :href="info.value" target="_blank" class="text-md text-gray-700 overflow-auto hover:text-primary hover:underline">{{ info.value }}</a>
+        <a
+          :href="info.value"
+          target="_blank"
+          class="text-md text-gray-700 overflow-auto hover:text-primary hover:underline"
+          >{{ info.value }}</a
+        >
       </div>
     </div>
-  </div>   
+  </div>
 </template>

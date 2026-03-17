@@ -1,15 +1,15 @@
 <script setup lang="ts">
-import type { Component } from "vue";
-import IconInfo from "@/components/icons/IconInfo.vue";
-import { VueSpinner } from "vue3-spinners";
+import type { Component } from 'vue'
+import IconInfo from '@/components/icons/IconInfo.vue'
+import { VueSpinner } from 'vue3-spinners'
 
 const { value, label, icon, cardKey, loading } = defineProps<{
-  label: string;
-  value: number | string;
-  icon: Component | string;
-  cardKey?: string;
-  loading?: boolean;
-}>();
+  label: string
+  value: number | string
+  icon: Component | string
+  cardKey?: string
+  loading?: boolean
+}>()
 
 const emit = defineEmits<{
   (e: 'clickInfo', key?: string): void
@@ -23,7 +23,7 @@ const emit = defineEmits<{
       <component v-else :is="icon" class="h-18 w-fit text-primary" />
     </div>
     <div class="flex flex-col flex-1">
-      <div class="flex  flex-row justify-between items-center">
+      <div class="flex flex-row justify-between items-center">
         <p class="text-sm uppercase text-gray-700">{{ label }}</p>
 
         <button class="ml-auto hover:cursor-pointer" @click="emit('clickInfo', cardKey)">

@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import IconInfo from "@/components/icons/IconInfo.vue";
+import IconInfo from '@/components/icons/IconInfo.vue'
 
 const { label, cardKey } = defineProps<{
-  label: string;
-  cardKey?: string;
-  loading?: boolean;
-}>();
+  label: string
+  cardKey?: string
+  loading?: boolean
+}>()
 
 const emit = defineEmits<{
   (e: 'clickInfo', key?: string): void

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref } from "vue";
+import { computed, ref } from 'vue'
 import {
   useVueTable,
   FlexRender,
@@ -8,24 +8,24 @@ import {
   getSortedRowModel,
   createColumnHelper,
   type SortingState,
-} from "@tanstack/vue-table";
-import IconAsc from "@/components/icons/IconAsc.vue";
-import IconDesc from "@/components/icons/IconDesc.vue";
+} from '@tanstack/vue-table'
+import IconAsc from '@/components/icons/IconAsc.vue'
+import IconDesc from '@/components/icons/IconDesc.vue'
 
-import { type SchoolAward } from "@/types/Schools";
+import { type SchoolAward } from '@/types/Schools'
 
 const props = defineProps<{
   data: SchoolAward[]
-}>();
+}>()
 
-const columnHelper = createColumnHelper<SchoolAward>();
+const columnHelper = createColumnHelper<SchoolAward>()
 
 const columns = [
-  columnHelper.accessor("name", {
-    header: "Prêmio recebido",
+  columnHelper.accessor('name', {
+    header: 'Prêmio recebido',
   }),
-  columnHelper.accessor("year", {
-    header: "Ano",
+  columnHelper.accessor('year', {
+    header: 'Ano',
   }),
 ]
 
@@ -44,12 +44,10 @@ const table = useVueTable({
       return sorting.value
     },
   },
-  onSortingChange: updaterOrValue => {
+  onSortingChange: (updaterOrValue) => {
     sorting.value =
-      typeof updaterOrValue === 'function'
-        ? updaterOrValue(sorting.value)
-        : updaterOrValue
-  },  
+      typeof updaterOrValue === 'function' ? updaterOrValue(sorting.value) : updaterOrValue
+  },
 })
 </script>
 
@@ -60,10 +58,7 @@ const table = useVueTable({
         <!-- Table -->
         <table class="min-w-full divide-y divide-gray-300">
           <thead>
-            <tr
-              v-for="headerGroup in table.getHeaderGroups()"
-              :key="headerGroup.id"
-            >
+            <tr v-for="headerGroup in table.getHeaderGroups()" :key="headerGroup.id">
               <th
                 v-for="header in headerGroup.headers"
                 :key="header.id"
@@ -79,9 +74,18 @@ const table = useVueTable({
                     :render="header.column.columnDef.header"
                     :props="header.getContext()"
                   />
-                  <IconAsc v-if="header.column.getCanSort() && header.column.getIsSorted() == 'asc'" class="w-3 h-3 ml-2 text-green-500"/>
-                  <IconDesc v-else-if="header.column.getCanSort() && header.column.getIsSorted() == 'desc'" class="w-3 h-3 ml-2 text-green-500"/>
-                  <IconDesc v-else-if="header.column.getCanSort()" class="w-3 h-3 ml-2 text-gray-400"/>
+                  <IconAsc
+                    v-if="header.column.getCanSort() && header.column.getIsSorted() == 'asc'"
+                    class="w-3 h-3 ml-2 text-green-500"
+                  />
+                  <IconDesc
+                    v-else-if="header.column.getCanSort() && header.column.getIsSorted() == 'desc'"
+                    class="w-3 h-3 ml-2 text-green-500"
+                  />
+                  <IconDesc
+                    v-else-if="header.column.getCanSort()"
+                    class="w-3 h-3 ml-2 text-gray-400"
+                  />
                 </span>
               </th>
             </tr>
@@ -98,10 +102,7 @@ const table = useVueTable({
                 :key="cell.id"
                 class="whitespace-nowrap text-md px-6 py-4"
               >
-                <FlexRender
-                  :render="cell.column.columnDef.cell"
-                  :props="cell.getContext()"
-                />
+                <FlexRender :render="cell.column.columnDef.cell" :props="cell.getContext()" />
               </td>
             </tr>
           </tbody>

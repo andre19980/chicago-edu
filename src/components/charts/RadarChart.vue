@@ -7,21 +7,14 @@ import {
   Filler,
   Tooltip,
   Legend,
-  type ChartData
-} from "chart.js";
-import { Radar } from "vue-chartjs";
+  type ChartData,
+} from 'chart.js'
+import { Radar } from 'vue-chartjs'
 
-ChartJS.register(
-  RadialLinearScale,
-  PointElement,
-  LineElement,
-  Filler,
-  Tooltip,
-  Legend
-)
+ChartJS.register(RadialLinearScale, PointElement, LineElement, Filler, Tooltip, Legend)
 
 const { data } = defineProps<{
-  data: ChartData<"radar", (number | null)[], unknown> | null
+  data: ChartData<'radar', (number | null)[], unknown> | null
 }>()
 
 const options = {
@@ -30,7 +23,7 @@ const options = {
   plugins: {
     legend: {
       display: false,
-    }
+    },
   },
   scales: {
     r: {

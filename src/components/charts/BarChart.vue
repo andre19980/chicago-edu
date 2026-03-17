@@ -8,14 +8,14 @@ import {
   CategoryScale,
   LinearScale,
   type ChartData,
-} from "chart.js";
-import { Bar } from "vue-chartjs";
+} from 'chart.js'
+import { Bar } from 'vue-chartjs'
 
-ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
+ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend)
 
 const { data } = defineProps<{
-  data: ChartData<"bar", (number | [number, number] | null)[], unknown>;
-}>();
+  data: ChartData<'bar', (number | [number, number] | null)[], unknown>
+}>()
 
 const options = {
   responsive: true,
@@ -23,7 +23,7 @@ const options = {
   plugins: {
     legend: {
       display: false,
-    }
+    },
   },
 }
 </script>
