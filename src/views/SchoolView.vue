@@ -122,7 +122,7 @@ onMounted(async () => {
         />
       </div>
 
-      <div class="flex flex-1">
+      <div class="flex flex-1 overflow-auto">
         <DashCardChart
           label="Pesquisa 5Essentials (+ Segurança)"
           :cardKey="DashboardCardKeys.schoolSurveys"
