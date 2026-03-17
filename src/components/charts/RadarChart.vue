@@ -21,7 +21,7 @@ ChartJS.register(
 )
 
 const { data } = defineProps<{
-  data: ChartData<"radar", (number | null)[], unknown>
+  data: ChartData<"radar", (number | null)[], unknown> | null
 }>()
 
 const options = {
@@ -43,5 +43,5 @@ const options = {
 </script>
 
 <template>
-  <Radar :data="data" :options="options" />
+  <Radar v-if="data" :data="data" :options="options" />
 </template>

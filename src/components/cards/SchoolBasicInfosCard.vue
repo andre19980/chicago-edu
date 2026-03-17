@@ -1,4 +1,7 @@
 <script setup lang="ts">
+import { computed } from "vue";
+import { VueSpinner } from "vue3-spinners";
+
 const { data } =  defineProps<{
   data: {
     id?: string;
@@ -13,10 +16,11 @@ const { data } =  defineProps<{
     primaryCategory?: string;
     cpsProfileUrl?: string;
     website?: string;
-  }
+  };
+  loading?: boolean;
 }>();
 
-const generalInfo = [
+const generalInfo = computed(() => [
   {
     label: "# Id",
     value: data.id,
@@ -37,9 +41,9 @@ const generalInfo = [
     label: "Categoria escolar",
     value: data.primaryCategory,
   },
-];
+]);
 
-const addressInfo = [
+const addressInfo = computed(() => [
   {
     label: "Endereço",
     value: data.address,
@@ -56,9 +60,9 @@ const addressInfo = [
     label: "CEP",
     value: data.zip,
   }
-]
+])
 
-const urlsInfo = [
+const urlsInfo = computed(() => [
   {
     label: "Perfil CPS",
     value: data.cpsProfileUrl,
@@ -67,12 +71,15 @@ const urlsInfo = [
     label: "Website",
     value: data.website,
   },
-]
+])
 </script>
 
 <template>
   <!-- Basic Info Section -->
-  <div class="bg-white flex flex-col w-full rounded shadow-sm p-6 gap-10 justify-between">
+  <div v-if="loading" class="bg-white flex w-full rounded shadow-sm p-6 gap-10 justify-center">
+    <VueSpinner class="w-8 h-8 text-primary" />
+  </div>
+  <div v-else class="bg-white flex flex-col w-full rounded shadow-sm p-6 gap-10 justify-between">
     <div class="flex flex-col gap-4 md:flex-row md:gap-10">
       <div v-for="(info, index) in generalInfo" :key="index" class="flex flex-col gap-2 w-72">
         <p class="text-sm font-bold uppercase text-primary">{{ info.label }}</p>

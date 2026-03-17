@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { computed, ref } from "vue";
 import {
   useVueTable,
   FlexRender,
@@ -16,7 +16,7 @@ import { type SchoolAward } from "@/types/Schools";
 
 const props = defineProps<{
   data: SchoolAward[]
-}>()
+}>();
 
 const columnHelper = createColumnHelper<SchoolAward>();
 
@@ -29,11 +29,12 @@ const columns = [
   }),
 ]
 
-const data = ref(props.data)
+const dataTable = computed(() => props.data)
 
 const sorting = ref<SortingState>([])
+
 const table = useVueTable({
-  data: data.value,
+  data: dataTable,
   columns: columns,
   getCoreRowModel: getCoreRowModel(),
   getPaginationRowModel: getPaginationRowModel(),
@@ -105,6 +106,9 @@ const table = useVueTable({
             </tr>
           </tbody>
         </table>
+        <div v-if="dataTable.length === 0">
+          <p class="text-sm text-gray-700 p-2 text-center">Esta escola não possui prêmios</p>
+        </div>
       </div>
     </div>
   </div>

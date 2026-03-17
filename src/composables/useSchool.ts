@@ -10,8 +10,6 @@ import type {
   SupportiveSchoolAwardKeys
 } from "@/types/Schools";
 import { schoolParser } from "@/utils/parsers/schools";
-import schoolJsonObj from "@/assets/school.json";
-import camelcaseKeys from "camelcase-keys";
 import { evalAverage } from "@/utils/evaluators/mathEvaluators";
 import { formatDisplayedPercentage } from "@/utils/formatters/formatters";
 import {
@@ -25,7 +23,7 @@ import {
 import { DashboardCardKeys } from "@/types/DashboardCardKeys";
 
 export function useSchool() {
-  const school = ref<School>(schoolParser(camelcaseKeys(schoolJsonObj)));
+  const school = ref<School>();
   const isLoading = ref(false);
   const error = ref<unknown>(null);
 
@@ -34,9 +32,10 @@ export function useSchool() {
     error.value = null;
 
     try {
-      // const data = await querySchool(id, params);
-      // school.value = schoolParser(data);
+      const data: SchoolData = await querySchool(id, params);
+      school.value = schoolParser(data);
     } catch (err) {
+      console.log(err)
       error.value = err;
     } finally {
       isLoading.value = false;
@@ -61,6 +60,8 @@ export function useSchool() {
   })
 
   const suspensionsPer100StudentsAvg = computed(() => {
+    if (!school.value) return '-';
+  
     const evaluatedAvg = evalAverage([
       school.value?.suspensionsPer100StudentsYear1Pct,
       school.value?.suspensionsPer100StudentsYear2Pct,
@@ -70,6 +71,8 @@ export function useSchool() {
   })
 
   const studentAttendanceYearAvg = computed(() => {
+    if (!school.value) return '-';
+
     const evaluatedAvg = evalAverage([
       school.value?.studentAttendanceYear1,
       school.value?.studentAttendanceYear2,
@@ -79,6 +82,8 @@ export function useSchool() {
   })
 
   const teacherAttendanceYearAvg = computed(() => {
+    if (!school.value) return '-';
+
     const evaluatedAvg = evalAverage([
       school.value?.teacherAttendanceYear1,
       school.value?.teacherAttendanceYear2,
@@ -88,6 +93,8 @@ export function useSchool() {
   })
 
   const graduation4YearSchoolPctAvg = computed(() => {
+    if (!school.value) return '-';
+
     const evaluatedAvg = evalAverage([
       school.value?.graduation4YearSchoolPctYear1,
       school.value?.graduation4YearSchoolPctYear2,
@@ -97,6 +104,8 @@ export function useSchool() {
   })
 
   const graduation5YearSchoolPctAvg = computed(() => {
+    if (!school.value) return '-';
+
     const evaluatedAvg = evalAverage([
       school.value?.graduation5YearSchoolPctYear1,
       school.value?.graduation5YearSchoolPctYear2,
@@ -106,6 +115,8 @@ export function useSchool() {
   })
 
   const oneYearDropoutRatePctAvg = computed(() => {
+    if (!school.value) return '-';
+
     const evaluatedAvg = evalAverage([
       school.value?.oneYearDropoutRateYear1Pct,
       school.value?.oneYearDropoutRateYear2Pct,
@@ -114,46 +125,50 @@ export function useSchool() {
     return formatDisplayedPercentage(evaluatedAvg);
   })
 
-  const schoolNumericalMetricsInfos = computed(() => [
-    {
-      label: "Média de suspensões por 100 alunos",
-      value: suspensionsPer100StudentsAvg.value,
-    },
-    {
-      label: "Média anual de frequência dos alunos",
-      value: studentAttendanceYearAvg.value,
-    },
-    {
-      label: "Média anual de frequência dos professores",
-      value: teacherAttendanceYearAvg.value,
-    },
-    {
-      label: "Taxa de mobilidade escolar",
-      value: formatDisplayedPercentage(school.value?.mobilityRatePct),
-    },
-    {
-      label: "Percentual de faltas crônicas",
-      value: formatDisplayedPercentage(school.value?.chronicTruancyPct),
-    },
-    {
-      label: "Média da pontuação no SAT (11º ano)",
-      value: school.value?.satGrade11ScoreSchoolAvg,
-    },
-    {
-      label: "Taxa média de conclusão em 4 anos",
-      value: graduation4YearSchoolPctAvg.value,
-    },
-    {
-      label: "Taxa média de conclusão em 5 anos",
-      value: graduation5YearSchoolPctAvg.value,
-    },
-    {
-      label: "Taxa média de evasão escolar em um ano",
-      value: oneYearDropoutRatePctAvg.value,
-    },
-  ]);
+  const schoolNumericalMetricsInfos = computed(() => {
+    return [
+      {
+        label: "Média de suspensões por 100 alunos",
+        value: suspensionsPer100StudentsAvg.value,
+      },
+      {
+        label: "Média anual de frequência dos alunos",
+        value: studentAttendanceYearAvg.value,
+      },
+      {
+        label: "Média anual de frequência dos professores",
+        value: teacherAttendanceYearAvg.value,
+      },
+      {
+        label: "Taxa de mobilidade escolar",
+        value: formatDisplayedPercentage(school.value?.mobilityRatePct ?? NaN),
+      },
+      {
+        label: "Percentual de faltas crônicas",
+        value: formatDisplayedPercentage(school.value?.chronicTruancyPct ?? NaN),
+      },
+      {
+        label: "Média da pontuação no SAT (11º ano)",
+        value: school.value?.satGrade11ScoreSchoolAvg ?? '-',
+      },
+      {
+        label: "Taxa média de conclusão em 4 anos",
+        value: graduation4YearSchoolPctAvg.value,
+      },
+      {
+        label: "Taxa média de conclusão em 5 anos",
+        value: graduation5YearSchoolPctAvg.value,
+      },
+      {
+        label: "Taxa média de evasão escolar em um ano",
+        value: oneYearDropoutRatePctAvg.value,
+      },
+    ]
+  });
 
   const radarChartData = computed(() => {
+    if (!school.value) return null;
+
     const scores = [
       school.value.schoolSurveyInvolvedFamilies,
       school.value.schoolSurveySupportiveEnvironment,
@@ -162,6 +177,7 @@ export function useSchool() {
       school.value.schoolSurveyCollaborativeTeachers,
       school.value.schoolSurveySafety
     ]
+
     const data = {
       labels: Object.values(SchoolSurveysLabels),
       datasets: [
@@ -181,6 +197,8 @@ export function useSchool() {
   });
 
   const schoolAwardsData = computed(() => {
+    if (!school.value) return [];
+
     return [
       {
         name: SchoolAwardsLabels.excelerateAwardGoldYear,
@@ -206,6 +224,8 @@ export function useSchool() {
   });
 
   const supportiveSchoolAward = computed(() => {
+    if (!school.value) return null;
+
     return {
       title: "Prêmio de Escola Acolhedora",
       ratingScale: Object.values(SupportiveSchoolAward),
@@ -215,6 +235,8 @@ export function useSchool() {
   })
 
   const studentAttainmentRating = computed(() => {
+    if (!school.value) return null;
+
     return {
       title: "Avaliação de Desempenho do Estudantes",
       ratingScale: Object.values(StudentAttainmentRating),
@@ -224,6 +246,8 @@ export function useSchool() {
   })
 
   const cultureClimateRating = computed(() => {
+    if (!school.value) return null;
+
     return {
       title: "Avaliação de Cultura e Clima Escolar",
       ratingScale: Object.values(CultureClimateRating),
@@ -233,6 +257,8 @@ export function useSchool() {
   })
 
   const creativeSchoolCertification = computed(() => {
+    if (!school.value) return null;
+
     return {
       title: "Certificação de Escola Criativa",
       ratingScale: Object.values(CreativeSchoolCertification),
@@ -241,12 +267,14 @@ export function useSchool() {
     }
   })
 
-  const ratingsList = computed(() => [
-    creativeSchoolCertification.value,
-    supportiveSchoolAward.value,
-    studentAttainmentRating.value,
-    cultureClimateRating.value,
-  ])
+  const ratingsList = computed(() => {
+    return [
+      creativeSchoolCertification.value,
+      supportiveSchoolAward.value,
+      studentAttainmentRating.value,
+      cultureClimateRating.value,
+    ].filter(item => item !== null);
+  });
 
   return {
     school,

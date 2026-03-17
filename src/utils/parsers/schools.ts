@@ -17,8 +17,7 @@ export function schoolsTableParser(schools: SchoolData[]): SchoolTable[] {
   return parsedSchools;
 }
 
-// export function schoolParser(school: SchoolData): School {
-export function schoolParser(school: any): School {
+export function schoolParser(school: SchoolData): School {
   const parsedSchool = {
     schoolId: school.schoolId,
     shortName: school.shortName,
@@ -27,17 +26,17 @@ export function schoolParser(school: any): School {
     city: school.city,
     state: school.state,
     zip: school.zip,
-    phone: formatUSPhoneNumber(school.phone),
+    phone: formatUSPhoneNumber(school?.phone),
     schoolType: SchoolTypesLabels[school.schoolType] ?? "",
     primaryCategory: SchoolCategoriesLabels[school.primaryCategory] ?? "",
     cpsSchoolProfile: school.cpsSchoolProfile?.url,
     website: school.website?.url,
     // awards
     excelerateAwardGoldYear: parseInt(school.excelerateAwardGoldYear),
-    blueRibbonAwardYear: parseInt(school.blue_ribbon_award_year),
-    spotLightAwardYear: parseInt(school.spot_light_award_year),
-    improvementAwardYear: parseInt(school.improvement_award_year),
-    excellenceAwardYear: parseInt(school.excellence_award_year),
+    blueRibbonAwardYear: parseInt(school.blueRibbonAwardYear),
+    spotLightAwardYear: parseInt(school.spotLightAwardYear),
+    improvementAwardYear: parseInt(school.improvementAwardYear),
+    excellenceAwardYear: parseInt(school.excellenceAwardYear),
     // qualitatives
     supportiveSchoolAward: school.supportiveSchoolAward,
     supportiveSchoolAwardDescription: school.supportiveSchoolAwardDesc,
@@ -50,12 +49,12 @@ export function schoolParser(school: any): School {
     creativeSchoolCertification: school.creativeSchoolCertification,
     creativeSchoolCertificationDescription: school.creativeSchoolCertification1,
     // surveys
-    schoolSurveyInvolvedFamilies: SchoolSurveysScores[school.schoolSurveyInvolved.toLowerCase()] ?? 0,
-    schoolSurveySupportiveEnvironment: SchoolSurveysScores[school.schoolSurveySupportive.toLowerCase()] ?? 0,
-    schoolSurveyAmbitiousInstruction: SchoolSurveysScores[school.schoolSurveyAmbitious.toLowerCase()] ?? 0,
-    schoolSurveyEffectiveLeaders: SchoolSurveysScores[school.schoolSurveyEffective.toLowerCase()] ?? 0,
-    schoolSurveyCollaborativeTeachers: SchoolSurveysScores[school.schoolSurveyCollaborative.toLowerCase()] ?? 0,
-    schoolSurveySafety: SchoolSurveysScores[school.schoolSurveySafety.toLowerCase()] ?? 0,
+    schoolSurveyInvolvedFamilies: SchoolSurveysScores[school.schoolSurveyInvolved?.toLowerCase()] ?? 0,
+    schoolSurveySupportiveEnvironment: SchoolSurveysScores[school.schoolSurveySupportive?.toLowerCase()] ?? 0,
+    schoolSurveyAmbitiousInstruction: SchoolSurveysScores[school.schoolSurveyAmbitious?.toLowerCase()] ?? 0,
+    schoolSurveyEffectiveLeaders: SchoolSurveysScores[school.schoolSurveyEffective?.toLowerCase()] ?? 0,
+    schoolSurveyCollaborativeTeachers: SchoolSurveysScores[school.schoolSurveyCollaborative?.toLowerCase()] ?? 0,
+    schoolSurveySafety: SchoolSurveysScores[school.schoolSurveySafety?.toLowerCase()] ?? 0,
     // metrics
     suspensionsPer100StudentsYear1Pct: parseFloat(school.suspensionsPer100Students),
     suspensionsPer100StudentsYear2Pct: parseFloat(school.suspensionsPer100Students1),

@@ -1,12 +1,14 @@
 <script setup lang="ts">
 import type { Component } from "vue";
 import IconInfo from "@/components/icons/IconInfo.vue";
+import { VueSpinner } from "vue3-spinners";
 
-const { value, label, icon, cardKey } = defineProps<{
+const { value, label, icon, cardKey, loading } = defineProps<{
   label: string;
   value: number | string;
   icon: Component | string;
   cardKey?: string;
+  loading?: boolean;
 }>();
 
 const emit = defineEmits<{
@@ -29,7 +31,8 @@ const emit = defineEmits<{
         </button>
       </div>
       <div class="flex h-full justify-center items-center">
-        <p class="text-3xl font-bold text-primary">{{ value }}</p>
+        <VueSpinner v-if="loading" class="w-8 h-8 text-primary" />
+        <p v-else class="text-3xl font-bold text-primary">{{ value }}</p>
       </div>
     </div>
   </div>

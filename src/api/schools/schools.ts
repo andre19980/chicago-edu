@@ -55,5 +55,5 @@ export const querySchool = async (id: string, params: ApiSchoolsParams = schoolP
     }
   });
 
-  return response.data;
+  return response.data?.[0];
 }

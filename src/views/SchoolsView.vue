@@ -2,8 +2,9 @@
 import { onMounted } from "vue";
 import SchoolsTableComponent from "@/components/tables/SchoolsTableComponent.vue";
 import { useSchools } from "@/composables/useSchools";
+import { VueSpinner } from "vue3-spinners";
 
-const { schools, getSchools } = useSchools()
+const { schools, isLoading, getSchools } = useSchools()
 
 onMounted(async () => {
   await getSchools({
@@ -16,7 +17,7 @@ onMounted(async () => {
       "website",
       "blue_ribbon_award_year",
     ],
-    pageSize: 5000,
+    pageSize: 1000,
     pageNumber: 1
   });
 })
@@ -28,8 +29,13 @@ onMounted(async () => {
       <h1 class="text-3xl font-bold text-primary">Escolas de Chicago 2023-2024</h1>
     </div>
 
-    <div class="w-full">
-      <SchoolsTableComponent :data="schools" />
+    <div class="w-full h-full">
+      <div v-if="isLoading" role="status" class="w-full h-full flex items-center justify-center">
+        <VueSpinner class="w-10 h-10 text-primary" />
+      </div>
+
+      <SchoolsTableComponent v-else-if="schools && !isLoading" :data="schools" />
     </div>
+
   </div>
 </template>

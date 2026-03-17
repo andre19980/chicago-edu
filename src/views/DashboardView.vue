@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { VueSpinner } from "vue3-spinners";
+
 import DashCardComponent from "@/components/cards/DashCardComponent.vue";
 import PieChart from "@/components/charts/PieChart.vue";
 import BarChart from "@/components/charts/BarChart.vue";
@@ -20,6 +22,7 @@ import { DashboardCardKeys } from "@/types/DashboardCardKeys";
 import BlueRibbonSrc from "@/assets/blue-ribbon.png";
 
 const {
+  isLoading,
   numberOfSchools,
   studentAttendanceAvgPct,
   oneYearDropoutRateAvg,
@@ -48,10 +51,10 @@ const {
 
     <!-- First Row -->
     <div class="flex flex-col gap-6 md:flex-row">
-      <DashCardComponent :value="numberOfSchools" label="Total de escolas" :icon="IconSchool" />
-      <DashCardComponent :value="studentAttendanceAvgPct" label="Frequência Média de Alunos" :icon="IconPersonRaiseHand" />
-      <DashCardComponent :value="graduation4YearAvg" label="Taxa média de graduação" :icon="IconTrendingUp" />
-      <DashCardComponent :value="oneYearDropoutRateAvg" label="Taxa média de evasão" :icon="IconTrendingDown" />
+      <DashCardComponent :value="numberOfSchools" label="Total de escolas" :icon="IconSchool" :loading="isLoading" />
+      <DashCardComponent :value="studentAttendanceAvgPct" label="Frequência Média de Alunos" :icon="IconPersonRaiseHand" :loading="isLoading" />
+      <DashCardComponent :value="graduation4YearAvg" label="Taxa média de graduação" :icon="IconTrendingUp" :loading="isLoading" />
+      <DashCardComponent :value="oneYearDropoutRateAvg" label="Taxa média de evasão" :icon="IconTrendingDown" :loading="isLoading" />
     </div>
 
     <!-- Second Row -->
@@ -61,8 +64,9 @@ const {
         :cardKey="DashboardCardKeys.schoolCategories"
         @click-info="openModal"
       >
-        <div class="h-96 w-full flex justify-center">
-          <PieChart :data="schoolCategoriesDistribution" />
+        <div class="h-96 w-full flex justify-center items-center">
+          <VueSpinner v-if="isLoading" class="w-10 h-10 text-primary" />
+          <PieChart v-else :data="schoolCategoriesDistribution" />
         </div>
       </DashCardChart>
 
@@ -71,8 +75,9 @@ const {
         :cardKey="DashboardCardKeys.schoolTypes"
         @click-info="openModal"
       >
-        <div class="h-96 w-full flex justify-center">
-          <BarChart :data="schoolTypesDistribution" />
+        <div class="h-96 w-full flex justify-center items-center">
+          <VueSpinner v-if="isLoading" class="w-10 h-10 text-primary" />
+          <BarChart v-else :data="schoolTypesDistribution" />
         </div>
       </DashCardChart>
     </div>
@@ -84,6 +89,7 @@ const {
         label="Número de escolas vencedoras do Blue Ribbon" 
         :icon="BlueRibbonSrc"
         :cardKey="DashboardCardKeys.blueRibbonAward"
+        :loading="isLoading"
         @click-info="openModal"
       />
       <DashCardBigIcon
@@ -91,6 +97,7 @@ const {
         label="Taxa de faltas crônicas"
         :icon="IconPersonOut"
         :cardKey="DashboardCardKeys.chronicTruancy"
+        :loading="isLoading"
         @click-info="openModal"
       />
       <DashCardBigIcon
@@ -98,6 +105,7 @@ const {
         label="Taxa de mobilidade"
         :icon="IconPersonTransfer"
         :cardKey="DashboardCardKeys.mobilityRate"
+        :loading="isLoading"
         @click-info="openModal"
       />
     </div>

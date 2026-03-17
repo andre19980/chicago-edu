@@ -143,9 +143,9 @@ export interface SchoolData {
   graduation4YearCpsPct: number
   graduation4YearSchool1: string
   graduation4YearCpsPct1: number
-  graduation5YearSchool: number
+  graduation5YearSchool: string
   graduation5YearCpsPct: number
-  graduation5YearSchool1: number
+  graduation5YearSchool1: string
   graduation5YearCpsPct1: number
   collegeEnrollmentSchool: number
   collegeEnrollmentCpsPct: number

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { onMounted } from "vue";
 import { useRoute } from "vue-router";
+import { useRouter } from "vue-router";
 
 import SchoolBasicInfosCard from "@/components/cards/SchoolBasicInfosCard.vue";
 import DashCardComponent from "@/components/cards/DashCardComponent.vue";
@@ -9,6 +10,7 @@ import DashCardChart from "@/components/cards/DashCardChart.vue";
 import SchoolAwardsTableComponent from "@/components/tables/SchoolAwardsTableComponent.vue";
 import SchoolRatingsListCard from "@/components/cards/SchoolRatingsListCard.vue";
 import ModalComponent from "@/components/modals/ModalComponent.vue";
+import IconArrowLeft from "@/components/icons/IconArrowLeft.vue";
 
 import { useSchool } from "@/composables/useSchool";
 import { useDashboardModal } from "@/composables/useDashboardModal";
@@ -16,7 +18,9 @@ import { useDashboardModal } from "@/composables/useDashboardModal";
 import { DashboardCardKeys } from "@/types/DashboardCardKeys";
 
 const { params } = useRoute();
+const { back } = useRouter();
 const {
+  isLoading,
   getSchool,
   schoolBasicInfos,
   schoolNumericalMetricsInfos,
@@ -94,11 +98,18 @@ onMounted(async () => {
 
 <template>
   <div class="flex flex-col w-full h-full gap-6">
+    <button
+      class="w-fit text-sm flex items-center hover:underline hover:cursor-pointer text-primary"
+      @click="back"
+    >
+      <IconArrowLeft class="h-5 w-5" />
+      Voltar
+    </button>
     <div>
       <h1 class="text-3xl font-bold text-primary">{{ schoolBasicInfos.shortName }}</h1>
     </div>
 
-    <SchoolBasicInfosCard :data="schoolBasicInfos" />
+    <SchoolBasicInfosCard :data="schoolBasicInfos" :loading="isLoading" />
     
     <div class="flex flex-col gap-6 md:flex-row md:gap-10">
       <div class="grid sm:grid-cols-3 md:gap-6">
@@ -107,6 +118,7 @@ onMounted(async () => {
           :key="index"
           :label="info.label"
           :value="info.value"
+          :loading="isLoading"
         />
       </div>
 
