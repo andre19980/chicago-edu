@@ -12,7 +12,7 @@ describe('`DashCardBigIcon` component', () => {
         icon: './image',
         cardKey: 'card key',
         loading: false,
-      }
+      },
     })
 
     const image = wrapper.find('img')
@@ -28,7 +28,7 @@ describe('`DashCardBigIcon` component', () => {
         icon: markRaw(IconDashboard),
         cardKey: 'card key',
         loading: false,
-      }
+      },
     })
 
     const icon = wrapper.find('[data-test="big-icon"]')
@@ -44,7 +44,7 @@ describe('`DashCardBigIcon` component', () => {
         icon: markRaw(IconDashboard),
         cardKey: 'card key',
         loading: false,
-      }
+      },
     })
 
     const value = wrapper.find('[data-test="card-value"]')
@@ -60,7 +60,7 @@ describe('`DashCardBigIcon` component', () => {
         icon: markRaw(IconDashboard),
         cardKey: 'card key',
         loading: false,
-      }
+      },
     })
 
     const label = wrapper.find('[data-test="label"]')
@@ -75,7 +75,7 @@ describe('`DashCardBigIcon` component', () => {
         icon: markRaw(IconDashboard),
         cardKey: 'card key',
         loading: true,
-      }
+      },
     })
 
     const value = wrapper.find('[data-test="card-value"]')

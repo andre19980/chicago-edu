@@ -20,7 +20,7 @@ const emit = defineEmits<{
   <div class="bg-white rounded-sm shadow-sm flex flex-row p-4 gap-4 w-full">
     <div class="flex items-center">
       <img v-if="typeof icon === 'string'" :src="icon" alt="Icon" class="h-24 w-fit" />
-      <component v-else :is="icon" class="h-18 w-fit text-primary" data-test="big-icon"/>
+      <component v-else :is="icon" class="h-18 w-fit text-primary" data-test="big-icon" />
     </div>
     <div class="flex flex-col flex-1">
       <div class="flex flex-row justify-between items-center">

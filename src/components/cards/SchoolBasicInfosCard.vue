@@ -77,7 +77,7 @@ const urlsInfo = computed(() => [
 <template>
   <!-- Basic Info Section -->
   <div v-if="loading" class="bg-white flex w-full rounded shadow-sm p-6 gap-10 justify-center">
-    <VueSpinner class="w-8 h-8 text-primary" data-test="spinner"/>
+    <VueSpinner class="w-8 h-8 text-primary" data-test="spinner" />
   </div>
   <div v-else class="bg-white flex flex-col w-full rounded shadow-sm p-6 gap-10 justify-between">
     <div class="flex flex-col gap-4 md:flex-row md:gap-10">

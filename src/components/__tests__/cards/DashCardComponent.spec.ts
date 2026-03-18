@@ -11,7 +11,7 @@ describe('`DashCardComponent` component', () => {
         value: 'value',
         icon: markRaw(IconDashboard),
         loading: false,
-      }
+      },
     })
 
     const icon = wrapper.find('[data-test="card-icon"]')
@@ -26,7 +26,7 @@ describe('`DashCardComponent` component', () => {
         value: 'value',
         icon: markRaw(IconDashboard),
         loading: false,
-      }
+      },
     })
 
     const value = wrapper.find('[data-test="card-value"]')
@@ -41,7 +41,7 @@ describe('`DashCardComponent` component', () => {
         value: 'value',
         icon: markRaw(IconDashboard),
         loading: false,
-      }
+      },
     })
 
     const label = wrapper.find('[data-test="card-label"]')
@@ -55,7 +55,7 @@ describe('`DashCardComponent` component', () => {
         value: 'value',
         icon: markRaw(IconDashboard),
         loading: true,
-      }
+      },
     })
 
     const spinner = wrapper.find('[data-test="spinner"]')

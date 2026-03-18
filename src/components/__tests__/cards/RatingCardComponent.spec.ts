@@ -7,8 +7,8 @@ describe('`RatingCardComponent` component', () => {
       props: {
         title: 'card title',
         ratings: ['bad', 'neutral', 'good'],
-        rate: 'good'
-      }
+        rate: 'good',
+      },
     })
 
     const title = wrapper.find('[data-test="card-title"]')
@@ -21,8 +21,8 @@ describe('`RatingCardComponent` component', () => {
       props: {
         title: 'card title',
         ratings: ['bad', 'neutral', 'good'],
-        rate: 'good'
-      }
+        rate: 'good',
+      },
     })
 
     const rates = wrapper.findAll('[data-test="rate"]')
@@ -37,22 +37,21 @@ describe('`RatingCardComponent` component', () => {
       props: {
         title: 'card title',
         ratings: ['bad', 'neutral', 'good'],
-        rate: 'good'
-      }
+        rate: 'good',
+      },
     })
 
     const boxes = wrapper.findAll('[data-test="rate-box"]')
     expect(boxes.length).toBe(3)
   })
 
-
   it('should highlight rate', () => {
     const wrapper = mount(RatingCardComponent, {
       props: {
         title: 'card title',
         ratings: ['bad', 'neutral', 'good'],
-        rate: 'good'
-      }
+        rate: 'good',
+      },
     })
 
     const boxes = wrapper.findAll('[data-test="rate-box"]')

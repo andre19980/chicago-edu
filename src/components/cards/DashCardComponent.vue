@@ -19,7 +19,7 @@ const { value, label, icon, loading } = defineProps<{
 
     <div class="flex h-full justify-center items-center">
       <VueSpinner v-if="loading" class="w-8 h-8 text-primary" data-test="spinner" />
-      <p v-else class="text-3xl font-bold text-primary" data-test="card-value" >{{ value }}</p>
+      <p v-else class="text-3xl font-bold text-primary" data-test="card-value">{{ value }}</p>
     </div>
   </div>
 </template>

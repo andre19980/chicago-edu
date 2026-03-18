@@ -1,6 +1,6 @@
-import { mount } from "@vue/test-utils"
+import { mount } from '@vue/test-utils'
 
-import SchoolBasicInfosCard from "@/components/cards/SchoolBasicInfosCard.vue"
+import SchoolBasicInfosCard from '@/components/cards/SchoolBasicInfosCard.vue'
 
 describe('`SchoolBasicInfosCard`', () => {
   it('should render fields if all data is provided', () => {
@@ -19,8 +19,8 @@ describe('`SchoolBasicInfosCard`', () => {
           primaryCategory: 'X',
           cpsProfileUrl: 'www.cps.com',
           website: 'www.website.com',
-        }
-      }
+        },
+      },
     })
 
     expect(wrapper.html()).toMatchSnapshot()
@@ -29,8 +29,8 @@ describe('`SchoolBasicInfosCard`', () => {
   it('should render empty fields if all data is undefined', () => {
     const wrapper = mount(SchoolBasicInfosCard, {
       props: {
-        data: {}
-      }
+        data: {},
+      },
     })
 
     expect(wrapper.html()).toMatchSnapshot()
@@ -41,9 +41,9 @@ describe('`SchoolBasicInfosCard`', () => {
       props: {
         data: {},
         loading: true,
-      }
+      },
     })
-    
+
     const spinner = wrapper.find('[data-test="spinner"]')
 
     expect(spinner.exists()).toBe(true)

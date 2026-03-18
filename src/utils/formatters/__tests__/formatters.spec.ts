@@ -4,7 +4,7 @@ describe('formatters', () => {
   describe('`formatDisplayedPercentage`', () => {
     it('should return formatted value if number is valid', () => {
       const someValue = 23.18292229
-      
+
       expect(formatDisplayedPercentage(someValue)).toBe('23.18%')
     })
 

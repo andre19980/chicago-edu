@@ -16,9 +16,9 @@ describe('`SchoolRatingsList`', () => {
             title: 'List B',
             ratingScale: ['low', 'neutral', 'high'],
             rate: 'high',
-          }
-        ]
-      }
+          },
+        ],
+      },
     })
 
     expect(wrapper.html()).toMatchSnapshot()
