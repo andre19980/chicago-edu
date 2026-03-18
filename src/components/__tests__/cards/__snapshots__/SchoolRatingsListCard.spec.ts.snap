@@ -1,0 +1,52 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`\`SchoolRatingsList\` > should render list 1`] = `
+"<div class="bg-white rounded-sm shadow-sm flex flex-col p-6 gap-12 w-full">
+  <div class="flex flex-col gap-3">
+    <p class="text-md text-primary uppercase" data-test="card-title">List A</p>
+    <div class="flex flex-row gap-4 overflow-auto">
+      <div class="w-full min-w-fit">
+        <div class="flex flex-col gap-2">
+          <p class="h-4 w-full text-primary-lightest" data-test="rate">bad</p>
+          <div class="h-4 w-full bg-primary-lightest" data-test="rate-box"></div>
+        </div>
+      </div>
+      <div class="w-full min-w-fit">
+        <div class="flex flex-col gap-2">
+          <p class="h-4 w-full text-primary font-semibold" data-test="rate">neutral</p>
+          <div class="h-4 w-full bg-primary" data-test="rate-box"></div>
+        </div>
+      </div>
+      <div class="w-full min-w-fit">
+        <div class="flex flex-col gap-2">
+          <p class="h-4 w-full text-primary-lightest" data-test="rate">good</p>
+          <div class="h-4 w-full bg-primary-lightest" data-test="rate-box"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-col gap-3">
+    <p class="text-md text-primary uppercase" data-test="card-title">List B</p>
+    <div class="flex flex-row gap-4 overflow-auto">
+      <div class="w-full min-w-fit">
+        <div class="flex flex-col gap-2">
+          <p class="h-4 w-full text-primary-lightest" data-test="rate">low</p>
+          <div class="h-4 w-full bg-primary-lightest" data-test="rate-box"></div>
+        </div>
+      </div>
+      <div class="w-full min-w-fit">
+        <div class="flex flex-col gap-2">
+          <p class="h-4 w-full text-primary-lightest" data-test="rate">neutral</p>
+          <div class="h-4 w-full bg-primary-lightest" data-test="rate-box"></div>
+        </div>
+      </div>
+      <div class="w-full min-w-fit">
+        <div class="flex flex-col gap-2">
+          <p class="h-4 w-full text-primary font-semibold" data-test="rate">high</p>
+          <div class="h-4 w-full bg-primary" data-test="rate-box"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>"
+`;

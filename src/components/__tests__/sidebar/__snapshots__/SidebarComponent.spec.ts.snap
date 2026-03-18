@@ -1,0 +1,31 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`\`SidebarComponent\` > should expand sidebar if is open 1`] = `
+"<aside class="flex flex-col min-h-full overflow-hidden bg-primary text-white transition-all delay-150 duration-300 ease-in fixed z-50 md:static md:z-0 min-w-(--sidebar-width) w-(--sidebar-width)">
+  <!-- Logo -->
+  <div class="flex w-fit p-4"><span class="text-2xl font-bold bg-amber-500 p-2 rounded-full w-fit">CE</span></div><!-- Toggle Button -->
+  <div class="flex relative justify-end transition-all delay-150 duration-300 ease-in -top-16 right-4"><button class="w-fit p-1 rounded transition-transform delay-150 duration-300 ease-in hover:cursor-pointer hover:bg-primary-light -rotate-180" data-test="toggle-button"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor">
+        <path d="M383-480 200-664l56-56 240 240-240 240-56-56 183-184Zm264 0L464-664l56-56 240 240-240 240-56-56 183-184Z"></path>
+      </svg></button></div><!-- Navigation Links -->
+  <h3 class="text-sm transition-opacity delay-150 duration-300 px-4 mb-2 font-bold uppercase opacity-60"> Menu </h3>
+  <nav>
+    <router-link-stub to="/" replace="false" custom="false" ariacurrentvalue="page" viewtransition="false" class="flex items-center px-6 py-4 hover:bg-primary-light active:bg-primary-light" data-test="menu-item"></router-link-stub>
+    <router-link-stub to="/schools" replace="false" custom="false" ariacurrentvalue="page" viewtransition="false" class="flex items-center px-6 py-4 hover:bg-primary-light active:bg-primary-light" data-test="menu-item"></router-link-stub>
+  </nav>
+</aside>"
+`;
+
+exports[`\`SidebarComponent\` > should shrink sidebar if is closed 1`] = `
+"<aside class="flex flex-col min-h-full overflow-hidden bg-primary text-white transition-all delay-150 duration-300 ease-in fixed z-50 md:static md:z-0 min-w-20 w-20">
+  <!-- Logo -->
+  <div class="flex w-fit p-4"><span class="text-2xl font-bold bg-amber-500 p-2 rounded-full w-fit">CE</span></div><!-- Toggle Button -->
+  <div class="flex relative justify-end transition-all delay-150 duration-300 ease-in top-0 right-6"><button class="w-fit p-1 rounded transition-transform delay-150 duration-300 ease-in hover:cursor-pointer hover:bg-primary-light rotate-0" data-test="toggle-button"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor">
+        <path d="M383-480 200-664l56-56 240 240-240 240-56-56 183-184Zm264 0L464-664l56-56 240 240-240 240-56-56 183-184Z"></path>
+      </svg></button></div><!-- Navigation Links -->
+  <h3 class="text-sm transition-opacity delay-150 duration-300 px-4 mb-2 font-bold uppercase opacity-0"> Menu </h3>
+  <nav>
+    <router-link-stub to="/" replace="false" custom="false" ariacurrentvalue="page" viewtransition="false" class="flex items-center px-6 py-4 hover:bg-primary-light active:bg-primary-light" data-test="menu-item"></router-link-stub>
+    <router-link-stub to="/schools" replace="false" custom="false" ariacurrentvalue="page" viewtransition="false" class="flex items-center px-6 py-4 hover:bg-primary-light active:bg-primary-light" data-test="menu-item"></router-link-stub>
+  </nav>
+</aside>"
+`;

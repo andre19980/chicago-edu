@@ -23,6 +23,7 @@
           isOpen ? '-rotate-180' : 'rotate-0',
         ]"
         @click="onToggleSidebar"
+        data-test="toggle-button"
       >
         <IconDoubleArrowRight />
       </button>
@@ -46,6 +47,7 @@
         :name="item.name"
         :to="item.route"
         :iconComponent="item.iconComponent"
+        data-test="menu-item"
       />
     </nav>
   </aside>

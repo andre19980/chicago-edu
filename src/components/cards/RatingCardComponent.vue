@@ -14,7 +14,7 @@ const rateIndex = computed(() => {
 
 <template>
   <div class="flex flex-col gap-3">
-    <p class="text-md text-primary uppercase">{{ title }}</p>
+    <p class="text-md text-primary uppercase" data-test="card-title">{{ title }}</p>
 
     <div class="flex flex-row gap-4 overflow-auto">
       <div v-for="(rateData, index) in ratings" :key="index" class="w-full min-w-fit">
@@ -24,12 +24,14 @@ const rateIndex = computed(() => {
               'h-4 w-full',
               index === rateIndex ? 'text-primary font-semibold' : 'text-primary-lightest',
             ]"
+            data-test="rate"
           >
             {{ rateData }}
           </p>
 
           <div
             :class="['h-4 w-full', index === rateIndex ? 'bg-primary' : 'bg-primary-lightest']"
+            data-test="rate-box"
           ></div>
         </div>
       </div>
